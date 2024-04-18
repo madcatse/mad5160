@@ -1,0 +1,27 @@
+CHIP MEMV2 GAL16V8
+
+;       GAL programming for PCXT U44 Memory expansion.
+;       Only the first and third tables of the HIMEMV2 ROM are implemented.
+
+gnd=10 A6=1 A5=2 A4=3 A3=4 A2=7 A1=6 A0=5 A7=19
+Vcc=20 Q2=14 Q1=15 Q0=16
+
+@UES Sydex
+
+EQUATIONS
+
+/Q2 =
+        /A3
+
+/Q1 =
+        A7*A3*A2*A1*/A0 +
+        /A3*/A2 + /A2*/A1 + /A7*/A2
+
+/Q0 =
+        /A7*A5*/A4*A3*A2*/A1 +
+        /A7*A5*A4*A3*A2*/A0 +
+        A4*A3*A2*/A1*/A0 +
+        A7*A5*A3*/A2*A1 +
+        A7*A3*A1*A0 +
+        A3*A2*A1*A0
+

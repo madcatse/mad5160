@@ -1,0 +1,472 @@
+
+                                  928K HOW2-V10
+                                     27DEC89
+
+
+             HOW TO INSTALL UP TO 1 MEG ON THE IBM PC XT MOTHERBOARD
+
+                                       OR
+
+           WHAT IS HIGH MEMORY, WHY DO I CARE, AND HOW CAN I USE IT?
+
+       It is surprisingly easy to install up to 1 Meg on the IBM PC XT
+    motherboard, of which a maximum of 896K can be addressable storage.  All
+    that is required is the replacement of chips which IBM has considerately
+    placed in sockets... so no soldering is necessary.  On my XT, I have run
+    a 360k ramdisk, a 96k ramdisk, a 30K print spooler, and still had 410K
+    left for DOS and applications.  A friend runs 192K of ramdisk, print
+    spoolers, and DOS extensions, and still has a 704K DOS address space.
+    This extra storage (the excess above 640K) is called HIGH MEMORY.
+
+    WHAT IS HIGH MEMORY:
+
+       The 8088 chip, the engine in the IBM PC and XT, can address one meg
+    in 16 64K segments numbered 0 thru F.  IBM designed the hardware of the
+    PC and XT to make the first 640K available to PCDOS and the user, and
+    reserved the upper 360K for various hardware functions such as ROM and
+    screen buffers, etc.  This upper portion of the 1 meg address capability
+    is referred to as HIGH MEMORY, and it is available for the user in 64K
+    segments IF THE SPECIFIC HARDWARE WHICH USES THAT SEGMENT IS NOT
+    INSTALLED.
+
+       The six 64K segments above 640K are reserved as follows:
+
+    * Segment A is reserved for the fully expanded Enhanced Graphics
+      Adapter.
+
+    * Segment B is reserved for the Mono and Color graphics adapters, and is
+      never completely available.  However, it is sometimes possible to
+      reclaim most of the space which is not actually occupied by the screen
+      buffers.
+
+    * Segment C is reserved for the EGA ROM, Hard Disk Adapter, and the 3270
+      card.
+
+    * Segments D and E are reserved for expanded memory (EMS, etc.), and
+      several miscellaneous adapters including the voice adapter card.  In
+      the PCJr, this space is used for the rom cartridges.)
+
+    * Segment F is reserved for BIOS and Basic Rom, and is never available.
+
+    HOW CAN I INSTALL IT:
+
+       To install HIGH MEMORY (any combination of segments A C D E) on an
+    IBM PC XT which already has 640K on the motherboard, all you have to do
+    is:
+      1. Replace the original U44 decoder ROM with a HIMEMV2 custom decoder
+         chip. (See below for full details on the HIMEM chip).
+      2. Replace the 64K chips in the appropriate banks with 256K chips.
+      3. Set SW2 positions 3 and 4, to select the desired memory
+         configuration (for the most commonly used configurations, no change
+         is required to the jumpers at E2).
+
+       Yes, It really is just that easy!  And although the price of memory
+    chips isn't what it was when this article was originally written, adding
+    additional storage directly to the motherboard is still the most
+    economical way to upgrade your IBM PC-XT.
+
+       NOTE 1: If your machine does not already contain any 256K chips, you
+    will also have to insert a 74LS158 chip in the empty chip socket U84,
+    and you may have to install a jumper at E2.
+       NOTE 2: There is only one switch block on the IBM PC XT motherboard.
+    On most machines, it is labeled SW2, but on some, it is labeled SW1.
+    We will follow convention and refer to this switch block as SW2.
+
+    HOW CAN I USE IT:
+
+       With the exception of the area from 640 to 704K (the eleventh 64K
+    segment, and hence segment "A"), and the area from 704K to 736K (the
+    bottom half of segment "B"), HIGH MEMORY can not be directly addressed
+    by DOS.  But it can be used by various special programs such as HIRAMDSK
+    which can use any or all of HIGH MEMORY as a vdisk, and can also combine
+    HIGH MEMORY and normal (low) memory to create a ramdisk of up to 500K.
+
+       Another type of HIGH MEMORY program is the "lid lifter" such as
+    SET704K and SET736K.  These programs change the maximum size of the DOS
+    region from 640K to 704K or 736K, and are useful when working with very
+    large spreadsheets, etc.  SET704K and SET736K are non-resident device
+    drivers, which do their job, then remove themselves from storage.
+
+    HOW DOES IT WORK:
+
+        =================================================================
+                (WARNING -- NERD STUFF, SKIP IF YOU DON'T CARE)
+        =================================================================
+
+       The key to the whole thing is a 16-pin chip that plugs into a socket
+    at U44.  U44 is a 256 X 4 bit Schottky PROM.  That is, it has 256
+    addresses, each of which contains a single hex digit (four bits) of
+    data.  This data is arranged into sixteen decoding tables, each of which
+    has sixteen entries.  These tables are what tell the machine whether a
+    particular 64K segment of storage exists, and in which bank of chips it
+    is located.
+
+       Which table is to be used is determined by the E2 jumpers and SW2 pos
+    3 & 4.  These comprise the four high order input bits to U44 (A7-A4).
+    The two jumpers (A7 & A6) select one of four sets of tables, and the
+    switches (A5 & A4) select the specific table within a given set.
+
+       Which entry in the selected table will be used to decode a specific
+    storage address is determined by the four high order bits of that
+    storage address (CA19-CA16 of the PC address bus), which are directed to
+    the four low order input bits to U44 (A3-A0).
+
+       Each entry in U44's decoding tables contains one of five hexidecimal
+    values: x'9' (select bank 0), x'B' (select bank 1), x'D' (select bank
+    2), x'F' (select bank 3), or x'E' (segment not addressable).  BY
+    BUILDING A TABLE WITH THE APPROPRIATE VALUES, IT IS POSSIBLE TO DECODE
+    ANY COMBINATION OF 64K AND/OR 256K STORAGE CHIPS UP TO ONE MEG -- SO
+    LONG AS IT DOES NOT CONFLICT WITH INSTALLED ADAPTERS, AND SO LONG AS
+    NO TWO 64K SEGMENTS ARE MAPPED INTO THE SAME AREA OF A 256K CHIP!
+
+       That last sentence requires some elaboration.  In addition to the
+    decoding done by U44, PC address bus bits A17 and A16 are multiplexed to
+    each bank of chips.  These two bits determine which of four areas in a
+    256K chip a given segment will be mapped into.  Without going into too
+    many details, this means that no bank of chips may contain more than one
+    segment from each of the following four groups:  0-4-8-C, 1-5-9-D,
+    2-6-A-E, and 3-7-B-F.
+
+       Let's take a look at the program in the U44 chip supplied by IBM.
+    In the chart that follows, the numbers across the top are the segment
+    numbers (the first, or high order character of the address), and the
+    numbers down the left side represent the E2 jumpers and SW2 POS 3 & 4.
+
+                  IBM STANDARD U44 STORAGE DECODER PROM PROGRAM
+
+    WITH BOTH JUMPERS INSTALLED
+                      =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
+      Seg# >>>=====>  0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F
+                      =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
+     (Up to 4     0 = 9  9  E  E  E  E  E  E  E  E  E  E  E  E  E  E  = 128K
+     banks of     1 = 9  9  B  B  E  E  E  E  E  E  E  E  E  E  E  E  = 256K
+     128K chips)  2 = 9  9  B  B  D  D  E  E  E  E  E  E  E  E  E  E  = 384K
+                  3 = 9  9  B  B  D  D  F  F  E  E  E  E  E  E  E  E  = 512K
+
+     E2 JUMPER 3 to 4 ONLY
+                      =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
+      Seg# >>>=====>  0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F
+                      =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
+     (1 bank of   4 = F  E  E  E  E  E  E  E  E  E  E  E  E  E  E  E  = 64K
+     64K chips    5 = F  E  E  E  E  E  E  E  E  E  E  E  E  E  E  E  = 64K
+     in bank 3)   6 = F  E  E  E  E  E  E  E  E  E  E  E  E  E  E  E  = 64K
+                  7 = F  E  E  E  E  E  E  E  E  E  E  E  E  E  E  E  = 64K
+
+     E2 JUMPER 1 to 2 ONLY
+                      =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
+      Seg# >>>=====>  0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F
+                      =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
+     (Up to 2     8 = 9  9  9  9  E  E  E  E  E  E  E  E  E  E  E  E  = 256K
+     banks of     9 = 9  9  9  9  B  B  B  B  E  E  E  E  E  E  E  E  = 512K
+     256K and     A = 9  9  9  9  B  B  B  B  D  E  E  E  E  E  E  E  = 576K
+     2 of 64K)    B = 9  9  9  9  B  B  B  B  D  F  E  E  E  E  E  E  = 640K
+
+     NO JUMPERS INSTALLED
+                      =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
+      Seg# >>>=====>  0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F
+                      =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
+     (Up to 4     C = 9  E  E  E  E  E  E  E  E  E  E  E  E  E  E  E  = 64K
+     banks of     D = 9  B  E  E  E  E  E  E  E  E  E  E  E  E  E  E  = 128K
+     64K chips)   E = 9  B  D  E  E  E  E  E  E  E  E  E  E  E  E  E  = 192K
+                  F = 9  B  D  F  E  E  E  E  E  E  E  E  E  E  E  E  = 256K
+
+       (Examples:  02 in => E out, 34 in => D out, B9 in => F out, etc.)
+
+       As you can see, of the four sets of tables, only one -- U44 inputs
+    80 thru BF, is really useful in today's environment.  By the way, 128K
+    chips used in the PC AT cannot be used in the PC XT.  The 128K chips for
+    which the table above was created were never commercially available.
+
+       Now, let's examine the program for the HIMEMV2 decoder prom.  This
+    chip provides switch selectable storage configurations to accommodate
+    the most common hardware configurations:
+
+                        HIMEMV2 U44 DECODER PROM PROGRAM
+
+     BOTH JUMPERS INSTALLED
+                      =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
+      Seg# >>>=====>  0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F
+                      =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
+     (4 banks of  0 = 9  9  9  9  B  B  B  B  D  D  D  D  F  F  F  E  = 928K
+     256K chips)  1 = 9  9  9  9  B  B  B  B  D  D  D  D  E  F  F  E  = 864K
+                  2 = 9  9  9  9  B  B  B  B  D  D  D  D  E  E  F  E  = 800K
+                  3 = 9  9  9  9  B  B  B  B  D  D  D  D  E  F  E  E  = 800K
+
+     E2 JUMPER 3 to 4 ONLY
+                      =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
+      Seg# >>>=====>  0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F
+                      =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
+     (Misc.       4 = F  F  F  F  D  D  D  D  B  B  B  E  9  9  9  E  = 896K
+     arrangements)5 = F  F  F  F  D  D  D  D  B  B  B  E  E  E  E  E  = 704K
+                  6 = 9  9  9  9  B  B  B  B  D  F  E  E  E  E  E  E  = 640K
+                  7 = 9  B  D  F  E  E  E  E  E  E  E  E  E  E  E  E  = 256K
+
+     E2 JUMPER 1 to 2 ONLY
+                      =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
+      Seg# >>>=====>  0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F
+                      =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
+     (Up to 4     8 = 9  9  9  9  B  B  B  B  D  D  F  E  F  F  D  E  = 896K
+     banks of     9 = 9  9  9  9  B  B  B  B  D  D  F  E  E  F  D  E  = 832K
+     256K chips)  A = 9  9  9  9  B  B  B  B  D  D  E  E  F  F  D  E  = 832K
+                  B = 9  9  9  9  B  B  B  B  D  D  E  E  E  F  D  E  = 768K
+
+     NO JUMPERS INSTALLED
+                      =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
+      Seg# >>>=====>  0  1  2  3  4  5  6  7  8  9  A  B  C  D  E  F
+                      =  =  =  =  =  =  =  =  =  =  =  =  =  =  =  =
+     (Up to 3     C = B  B  B  B  D  D  D  D  F  F  E  E  E  9  F  E  = 768K
+     banks of     D = B  B  B  B  D  D  D  D  F  F  F  E  E  9  E  E  = 768K
+     256K and     E = 9  B  B  B  B  D  D  D  D  F  E  E  E  E  E  E  = 640K
+     1 of 64K)    F = 9  B  B  B  B  D  F  E  E  E  E  E  E  E  E  E  = 448K
+
+       Again, with the HIMEMV2 decoder prom, the third set of tables is the
+    most universally useful.  It allows the use of three banks of 256K chips
+    and one bank of 64K chips to address 640K of LOW MEMORY plus 128K HIGH
+    MEMORY.  Further, if you already have 640k installed on your mother
+    board, it is not necessary to change the E2 jumpers.  Just plug in the
+    HIMEMV2 chip and the additional storage, set SW2 POS 3 & 4. and you're
+    done!!  For 640K plus 192K or 256K of HIGH MEMORY it is necessary to
+    install four banks of 256K chips.
+
+    #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+    *                                                                      #
+    #    The fourth set of tables represents a major breakthrough for      *
+    *  owners of very old XT's, which have 64K chips soldered into bank 0  #
+    #  (no sockets).  It enables them to upgrade to 448K or 640K by        *
+    *  installing 256K chips in bank 1 or in banks 1 and 2, while leaving  #
+    #  the 64K chips in bank 0.                                            *
+    *    Or, they may install 256K chips into banks 1, 2, and 3, and access#
+    #  640K plus 128K of HIGH MEMORY in either of two different configura- *
+    *  tions; one with 704K contiguous plus 64K in segment D, and one with #
+    #  640K contiguous plus 128K in segments D and E.  Here also, it is    *
+    *  unnecessary to make any changes at the E2 jumper block, since this  #
+    #  set of tables is available when no jumpers are installed.           *
+    *                                                                      #
+    #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*
+
+       The second set contains tables which are most likely to be useful
+    only for testing purposes... that is, for testing storage itself, or for
+    testing the compatibility of various storage configurations with various
+    hardware and software.
+
+       The first set of tables is for the more adventurous souls.  It can be
+    used only on machines which have an MDA or CGA (but not both) installed,
+    and it maps addressable motherboard storage into Segment B.  A portion
+    of this storage overlays addresses used by the display adapter screen
+    buffers, but for reasons I don't fully understand, the machine doesn't
+    seem to mind.  Using these tables in conjunction with the appropriate
+    software, it is possible to reclaim portions of segment B which are not
+    actually used by the display adapter.  For instance, in my machine, with
+    CGA and hard disk, I have selected the second table in this set (number
+    1 in the left margin).  This gives me 640K in segments 0 thru 9, plus
+    all of segment A and the lower half of segment B (an additional 96K),
+    for a total DOS region of 736K.  Theoretically, one could also recover
+    the unused portion of segment B above the CGA buffer, but that would
+    require special software which is not (to my knowledge) available.  I
+    believe that there are two factors which allow this dual storage
+    situation to function.  First, storage on the display adapters is not
+    parity checked.  And second, the machine operation is such that the
+    screen buffers are ALWAYS written to before any attempt is made to read
+    from them.
+
+          One caution when considering this option:  Some software will
+       find storage located in the bottom half of segment B, assume that
+       a mono display adapter is installed, and write to it --- overlaying
+       itself and/or the transient portion of COMMAND.COM.  The results
+       are not pretty.  This option should be used with caution, and each
+       application should be tested to make certain that it will function
+       correctly in this non-standard environment.
+
+
+    HOW DO I SET SW2:
+
+       With a HIMEMV2 decoder chip installed at U44, and a jumper installed
+    at E2 1 - 2, four new memory configurations are switch selectable:
+
+    NOTE: In the tables which follow, "Closed" = ON and "Open" = OFF.
+
+       SW2 4 & 3 = 00 (both closed)========> 640K plus Segs A, C, D, and E
+                                              (no EGA and no Hard Disk)
+       SW2 4 & 3 = 01 (4 closed, 3 open)===> 640K plus Segments A, D, and E
+                                              (OK with Hard Disk but no EGA)
+       SW2 4 & 3 = 10 (4 open, 3 closed)===> 640K plus Segments C, D, and E
+                                              (no EGA and no Hard Disk)
+       SW2 4 & 3 = 11 (both open)==========> 640K plus segments D and E
+                                              (OK with EGA and Hard Disk)
+
+       With the HIMEMV2 chip installed, and NO jumpers at E2, storage will
+    decode this way:
+
+       SW2 4 & 3 = 00 (both closed)========> 640K plus Segments D and E
+                                              (OK with EGA and HD)
+       SW2 4 & 3 = 01 (4 closed, 3 open)===> 640K plus Segments A and E
+                                              (OK with no EGA)
+       SW2 4 & 3 = 10 (4 open, 3 closed)===> 640K (NO HIGH MEMORY)
+
+       SW2 4 & 3 = 11 (both open)==========> 448K (NO HIGH MEMORY)
+
+
+       With the HIMEMV2 installed and a jumper at E2 3 - 4 only, storage
+    decodes as:
+
+       SW2 4 & 3 = 00 (both closed)========> 640K plus Segs A, C, D, and E
+                                              (Segment assignments reversed)
+       SW2 4 & 3 = 01 (4 closed, 3 open)===> 640K plus Segment A (segs rev.
+                                              and bank 0 not used at all)
+       SW2 4 & 3 = 10 (4 open, 3 closed)===> "Normal" 640K arrangement
+
+       SW2 4 & 3 = 11 (both open)==========> "Normal" 256K arrangement
+                                              (using 64K from each bank)
+
+       And finally, with the HIMEMV2 installed and jumpers at both E2 1 - 2
+    and 3 - 4, the decode is:
+
+       SW2 4 & 3 = 00 (both closed)========> 640K plus Segs A, B, C, D, & E
+                                           (No EGA & NO HD -- Seg B overlap)
+       SW2 4 & 3 = 01 (4 closed, 3 open)===> 640K plus Segs A, B, D, & E
+                                           (OK w/HD, NO EGA - Seg B overlap)
+       SW2 4 & 3 = 10 (4 open, 3 closed)===> 640K plus Segs A, B, & E
+                                           (OK w/HD, NO EGA - Seg B overlap)
+       SW2 4 & 3 = 11 (both open)==========> 640K plus Segs A, B, & D
+                                           (OK w/HD, NO EGA - Seg B overlap)
+
+    CIRCUIT DETAILS:
+
+       Each of the two E2 jumper positions and SW2 POS 3 & 4 is connected to
+    one of the high order bits of the input to U44 with a circuit similar to
+    the one pictured below:
+
+                +5v ----\/\/\/\/\/\/\/\/\/-------+------> U44 input (A7-A0)
+                        (pull-up resistor)       |
+                                                 +->   |
+         When this circuit is open, the input          |-- SW (shown open)
+             to U44 for that bit is high (1).    +->   |
+         If the circuit is closed, the input     |
+             for that bit is low (0).            V
+                                            (to ground)
+
+    This means that the U44 inputs A7-A4 decode like this:
+
+       Jumper   E2  3 to 4 :   Installed --> A7 = 0    Removed --> A7 = 1
+       Jumper   E2  1 to 2 :   Installed --> A6 = 0    Removed --> A6 = 1
+       Switch2  Position 4 :   Closed -----> A5 = 0    Open -----> A5 = 1
+       Switch2  Position 3 :   Closed -----> A4 = 0    Open -----> A4 = 1
+
+    Therefore, we develop the numbers at the left edge of the U44 program
+    charts as follows:
+
+       E2  3 to 4 (input bit A7) >>>====> 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1
+       E2  1 to 2 (input bit A6) >>>====> 0 0 0 0 1 1 1 1 0 0 0 0 1 1 1 1
+       SW2  Pos 4 (input bit A5) >>>====> 0 0 1 1 0 0 1 1 0 0 1 1 0 0 1 1
+       SW2  Pos 3 (input bit A4) >>>====> 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1
+                                          = = = = = = = = = = = = = = = =
+       Chart Numbers (left edge) >>>====> 0 1 2 3 4 5 6 7 8 9 A B C D E F
+
+    The U44 outputs (Q3-Q0) decode this way:
+
+                Q3 is the high order bit, and is not used.
+                Q2 is "Bank Select 2", and has a value of 2.
+                Q1 is "Bank Select 1", and has a value of 1.
+                Q0 is "Segment Enable".  If it is off, there is
+                      no addressable memory in this 64K segment.
+
+    The values of Q2 and Q1 are added to determine the bank in which the
+    addressed storage is to be found.
+
+    Therefore:               Q Q Q Q
+                             3 2 1 0
+                Output 9  (b'1 0 0 1')  ==>  select Bank 0
+                Output B  (b'1 0 1 1')  ==>  select Bank 1
+                Output D  (b'1 1 0 1')  ==>  select Bank 2
+                Output F  (b'1 1 1 1')  ==>  select Bank 3
+                Output E  (b'1 1 1 0')  ==>  segment not addressable
+
+    Finally, this is the pin layout of the U44 prom:
+
+          Pin  1  input A6 ------ E2 pad 2
+          Pin  2  input A5 ------ SW2 pos 4
+          Pin  3  input A4 ------ S7W2 pos 3
+          Pin  4  input A3 ------ CA 19
+          Pin  5  input A0 ------ CA 16
+          Pin  6  input A1 ------ CA 17
+          Pin  7  input A2 ------ CA 18
+          Pin  8  ground
+          Pin  9  output Q3 ----- not connected
+          Pin 10  output Q2 ----- E3 pad 1 (Bank Select 2)
+          Pin 11  output Q1 ----- E3 pad 7 (Bank Select 1)
+          Pin 12  output Q0 ----- U24 pin 4
+          Pin 13  ground
+          Pin 14  ground
+          Pin 15  input A7 ------ E2 pad 4
+          Pin 16  VCC ----------- +5V
+
+
+
+                           16_15_14_13_12_11_10__9
+                          |                       |
+                          |                       |
+                          >                       |
+                          |                       |
+                          |_______________________|
+                            1  2  3  4  5  6  7  8
+
+
+       ==================================================================
+                   (END OF NERD STUFF -- RESUME READING)
+       ==================================================================
+
+    WHAT ABOUT CLONES?:
+
+    This modification was developed for and tested on only the IBM PC-XT.
+    It is based on design details which are likely to be unique to the IBM
+    XT motherboard.  Since manufacturing techniques and board layouts vary
+    considerably among the compatible boards, attempting to install a
+    decoder chip which was created for an IBM board into a compatible is
+    likely to damage either or both the chip and the motherboard.  If a
+    complete schematic and readout of the factory-installed decoder PROM
+    were available, it would be possible to design a similar modification
+    for most compatibles, but I have neither the resources nor the
+    inclination to do so.
+
+    HOW CAN I GET A HIMEMV2 DECODER PROM:
+
+    We are offering the HIMEMV2 chip, programmed according to the listing in
+    this article for $9.00 (based on current local prices for the blanks).
+
+    HOW CAN I GET THE SPECIAL SOFTWARE NECESSARY TO UTILIZE HIGH MEMORY:
+
+    Three of the most useful programs, SET704K, SET736K, and HIRAMDSK, were
+    briefly discussed above.  If you include a request for them with your
+    order, we will send (for an additional $5.00) a diskette containing all
+    three programs with documentation, and a SHAREWARE dynamically
+    adjustable ramdisk named ADJRAM.
+
+    HERES HOW TO ORDER:
+
+    1.  If you live in the U.S., please mail your order to:
+
+                        Cy Atkinson (CHIPS)
+                        5218 Running Bear Drive
+                        San Jose, CA  95136
+
+        Please include a check in the amount of $9.00 for each chip ordered,
+        PLUS an additional $3.00 for postage and handling for 1 to 10 chips,
+        $6.00 for 11 to 20, etc.
+
+    2.  If you live outside the U.S., mail your order to the same address,
+        but please include $9.00 for each chip, PLUS an additional $5.00 for
+        1 to 10 chips, etc.
+
+    3.  If you are requesting the a diskette containing SET704K, SET736K,
+        HIRAMDSK,and ADJRAM, all with documentation in machine readable
+        form, please add an additional $5.00.
+
+
+    4.  Please don't forget to clearly indicate YOUR mailing address in your
+        order.  We will  handle all orders as promptly as possible.
+
+    Happy Computing!!
+
+                                  >>>>>>>>>================>> Cy Atkinson
+
+

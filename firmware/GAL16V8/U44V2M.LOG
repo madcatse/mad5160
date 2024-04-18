@@ -1,0 +1,59 @@
+EQN2JED - Boolean Equations to JEDEC file assembler (Version V101)
+Copyright (c) National Semiconductor Corporation 1990-1993
+
+Log file for u44v2m.eqn
+Device: 16V8
+
+Pin   Label               Type
+---   -----               ----
+1     A6                  unused
+2     A5                  pos,com input
+3     A4                  pos,com input
+4     A3                  pos,com input
+5     A0                  pos,com input
+6     A1                  pos,com input
+7     A2                  pos,com input
+10    gnd                 ground pin
+14    Q2                  neg,com output
+15    Q1                  neg,com output
+16    Q0                  neg,com output
+19    A7                  pos,com input
+20    Vcc                 power pin
+
+EQN2JED - Boolean Equations to JEDEC file assembler (Version V101)
+Copyright (c) National Semiconductor Corporation 1990-1993
+
+Device Utilization:
+
+No of dedicated inputs used               :  7/10 (70.0%)
+No of dedicated outputs used              :  2/2  (100.0%)
+No of feedbacks used as dedicated outputs :  1/6  (16.7%)
+
+		------------------------------------------
+		Pin   Label                 Terms Usage
+		------------------------------------------
+		16    Q0                    6/8   (75.0%)
+		15    Q1                    4/8   (50.0%)
+		14    Q2                    1/8   (12.5%)
+		------------------------------------------
+		Total Terms                11/64  (17.2%)
+		------------------------------------------
+
+EQN2JED - Boolean Equations to JEDEC file assembler (Version V101)
+Copyright (c) National Semiconductor Corporation 1990-1993
+
+                            Chip diagram (DIP)
+
+                             ._____    _____.
+                             |     \__/     |
+                          A6 |  1        20 | Vcc
+                          A5 |  2        19 | A7
+                          A4 |  3        18 | 
+                          A3 |  4        17 | 
+                          A0 |  5        16 | Q0
+                          A1 |  6        15 | Q1
+                          A2 |  7        14 | Q2
+                             |  8        13 | 
+                             |  9        12 | 
+                         gnd | 10        11 | 
+                             |______________|
