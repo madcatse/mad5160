@@ -593,7 +593,7 @@
       )
     )
   )
-  (symbol "8828" (in_bom yes) (on_board yes)
+  (symbol "8288" (in_bom yes) (on_board yes)
     (property "Reference" "U" (at 0 5.08 0)
       (effects (font (size 1.27 1.27)))
     )
@@ -606,7 +606,7 @@
     (property "Datasheet" "" (at 30.48 19.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (symbol "8828_0_0"
+    (symbol "8288_0_0"
       (pin input line (at -13.97 -6.35 0) (length 5.08)
         (name "IOB" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
@@ -688,7 +688,7 @@
         (number "9" (effects (font (size 1.27 1.27))))
       )
     )
-    (symbol "8828_1_1"
+    (symbol "8288_1_1"
       (rectangle (start -8.89 11.43) (end 8.89 -17.78)
         (stroke (width 0) (type default))
         (fill (type background))
