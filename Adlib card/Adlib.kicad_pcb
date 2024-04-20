@@ -1617,6 +1617,11 @@
       (net 2 "VCC") (tstamp 86750085-6206-4520-bd32-149b4112751a))
     (pad "16" thru_hole circle (at 0 -7.62) (size 1.5748 1.5748) (drill 0.889) (layers "*.Cu" "*.Mask" "F.SilkS")
       (net 2 "VCC") (tstamp 9218a637-98df-4d82-af22-c0d42211b701))
+    (model "${KICAD7_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
+    )
   )
 
   (footprint "adlib:DIP300_16N" (layer "F.Cu")
@@ -1676,6 +1681,11 @@
       (net 53 "Net-(U2-Pad15)") (tstamp 2ee5a8b7-83d0-4ede-a3aa-408e46b05d87))
     (pad "16" thru_hole circle (at 0 -7.62) (size 1.5748 1.5748) (drill 0.889) (layers "*.Cu" "*.Mask" "F.SilkS")
       (net 2 "VCC") (tstamp 3a33ab0a-dab9-424e-bca5-22ad1b5e6835))
+    (model "${KICAD7_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 -90))
+    )
   )
 
   (footprint "adlib:DIP300_16N" (layer "F.Cu")
