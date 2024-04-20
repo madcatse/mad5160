@@ -29,10 +29,10 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 921209e9-21b1-4dfe-a217-0f57a16b1ecc)
-    (property "Sheetname" "List1" (at 24.765 19.6084 0)
+    (property "Sheetname" "Sheet 1" (at 24.765 19.6084 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "list1.kicad_sch" (at 24.765 50.7496 0)
+    (property "Sheetfile" "sheet1.kicad_sch" (at 24.765 50.7496 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
