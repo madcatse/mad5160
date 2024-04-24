@@ -453,7 +453,12 @@
       "+5V": "POWER",
       "GND": "POWER"
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "/Sheet_5/<NO NET>"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -528,6 +533,10 @@
     [
       "23463333-f7f3-4f23-8555-bd7f68b20556",
       "Sheet_4"
+    ],
+    [
+      "c44b5552-e284-433f-baff-8fd8b9b71db6",
+      "Sheet_5"
     ]
   ],
   "text_variables": {}

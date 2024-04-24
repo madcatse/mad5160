@@ -76,6 +76,23 @@
     )
   )
 
+  (sheet (at 202.565 20.32) (size 42.545 29.845) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c44b5552-e284-433f-baff-8fd8b9b71db6)
+    (property "Sheetname" "Sheet_5" (at 202.565 19.6084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "sheet5.kicad_sch" (at 202.565 50.7496 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Mad5160"
+        (path "/ac3c86ab-084e-42f6-87ca-c4b0142d8ff2" (page "6"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )
