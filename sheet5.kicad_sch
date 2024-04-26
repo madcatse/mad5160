@@ -5047,7 +5047,7 @@
   (symbol (lib_id "Mad5150_early:LS244_U17") (at 62.865 34.925 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5cc10827-7427-4c6a-8efe-71552d4ec81e)
-    (property "Reference" "U9" (at 62.865 19.685 0)
+    (property "Reference" "U17" (at 62.865 19.685 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LS244" (at 62.865 22.225 0)
@@ -5082,7 +5082,7 @@
     (instances
       (project "Mad5160"
         (path "/ac3c86ab-084e-42f6-87ca-c4b0142d8ff2/c44b5552-e284-433f-baff-8fd8b9b71db6"
-          (reference "U9") (unit 1)
+          (reference "U17") (unit 1)
         )
       )
     )
@@ -5175,44 +5175,6 @@
       (project "Mad5160"
         (path "/ac3c86ab-084e-42f6-87ca-c4b0142d8ff2/c44b5552-e284-433f-baff-8fd8b9b71db6"
           (reference "RN1") (unit 2)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Mad5150_early:LS27_U23") (at 453.39 62.865 0) (unit 3)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7a7dcb25-40fe-4557-a9fc-e604f21a19db)
-    (property "Reference" "U23" (at 453.39 53.975 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "LS27_U23" (at 453.39 56.515 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (at 452.12 73.025 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS27" (at 453.39 70.485 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "7" (uuid 97cdbf44-7040-446c-bdca-f5e665ba4e61))
-    (pin "11" (uuid 8a4b69f7-0ea1-424c-9b02-a53b0dfa6f63))
-    (pin "8" (uuid 803231a7-db87-4cbf-b124-1edd551ddae8))
-    (pin "4" (uuid 6b448b99-67da-4917-b9cb-6fab9f66ed5d))
-    (pin "3" (uuid 638b584e-e300-4d5f-93b7-e539aaaa4d9e))
-    (pin "10" (uuid 2a96d8d1-d1ec-4126-b04c-240e18440481))
-    (pin "13" (uuid eae0394f-2d09-4c30-a020-ebc490ff4375))
-    (pin "9" (uuid 290b5645-8e58-405b-b775-c4db81cf4e32))
-    (pin "1" (uuid 3cffee66-515a-48fc-a95e-5c4078ca7e3e))
-    (pin "6" (uuid 12109de6-1c8d-45fd-9d4f-3fad2fabf9c7))
-    (pin "14" (uuid b6d4067e-2c88-4e30-937c-9e103c0a9cc8))
-    (pin "12" (uuid d54008eb-d60a-4c7c-be24-dfc245850e9a))
-    (pin "5" (uuid b7e2c112-5cbc-4b93-9752-21fd1c5729a0))
-    (pin "2" (uuid 554c8864-590f-4370-8d87-2b8d23fae44c))
-    (instances
-      (project "Mad5160"
-        (path "/ac3c86ab-084e-42f6-87ca-c4b0142d8ff2/c44b5552-e284-433f-baff-8fd8b9b71db6"
-          (reference "U23") (unit 3)
         )
       )
     )
