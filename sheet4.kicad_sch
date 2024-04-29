@@ -861,11 +861,11 @@
         )
       )
     )
-    (symbol "Mad5150_early:Resistor_Network" (in_bom yes) (on_board yes)
+    (symbol "Mad5150_early:Resistor_Network_1" (in_bom yes) (on_board yes)
       (property "Reference" "RN" (at 0.635 0.635 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "4.7K" (at 0.635 0.635 0)
+      (property "Value" "30" (at 0.635 0.635 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "Package_DIP:DIP-16_W7.62mm" (at 0 0 0)
@@ -877,7 +877,7 @@
       (property "ki_locked" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)))
       )
-      (symbol "Resistor_Network_1_1"
+      (symbol "Resistor_Network_1_1_1"
         (rectangle (start -1.27 3.175) (end 1.27 -3.175)
           (stroke (width 0) (type default))
           (fill (type none))
@@ -891,7 +891,7 @@
           (number "16" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "Resistor_Network_2_0"
+      (symbol "Resistor_Network_1_2_0"
         (pin passive line (at 0 -5.715 90) (length 2.54)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "16" (effects (font (size 1.27 1.27))))
@@ -901,13 +901,13 @@
           (number "2" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "Resistor_Network_2_1"
+      (symbol "Resistor_Network_1_2_1"
         (rectangle (start -1.27 3.175) (end 1.27 -3.175)
           (stroke (width 0) (type default))
           (fill (type none))
         )
       )
-      (symbol "Resistor_Network_3_0"
+      (symbol "Resistor_Network_1_3_0"
         (pin passive line (at 0 -5.715 90) (length 2.54)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "16" (effects (font (size 1.27 1.27))))
@@ -917,13 +917,13 @@
           (number "3" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "Resistor_Network_3_1"
+      (symbol "Resistor_Network_1_3_1"
         (rectangle (start -1.27 3.175) (end 1.27 -3.175)
           (stroke (width 0) (type default))
           (fill (type none))
         )
       )
-      (symbol "Resistor_Network_4_0"
+      (symbol "Resistor_Network_1_4_0"
         (pin passive line (at 0 -5.715 90) (length 2.54)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "16" (effects (font (size 1.27 1.27))))
@@ -933,13 +933,13 @@
           (number "4" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "Resistor_Network_4_1"
+      (symbol "Resistor_Network_1_4_1"
         (rectangle (start -1.27 3.175) (end 1.27 -3.175)
           (stroke (width 0) (type default))
           (fill (type none))
         )
       )
-      (symbol "Resistor_Network_5_0"
+      (symbol "Resistor_Network_1_5_0"
         (pin passive line (at 0 -5.715 90) (length 2.54)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "16" (effects (font (size 1.27 1.27))))
@@ -949,13 +949,13 @@
           (number "5" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "Resistor_Network_5_1"
+      (symbol "Resistor_Network_1_5_1"
         (rectangle (start -1.27 3.175) (end 1.27 -3.175)
           (stroke (width 0) (type default))
           (fill (type none))
         )
       )
-      (symbol "Resistor_Network_6_0"
+      (symbol "Resistor_Network_1_6_0"
         (pin passive line (at 0 -5.715 90) (length 2.54)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "16" (effects (font (size 1.27 1.27))))
@@ -965,13 +965,13 @@
           (number "6" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "Resistor_Network_6_1"
+      (symbol "Resistor_Network_1_6_1"
         (rectangle (start -1.27 3.175) (end 1.27 -3.175)
           (stroke (width 0) (type default))
           (fill (type none))
         )
       )
-      (symbol "Resistor_Network_7_0"
+      (symbol "Resistor_Network_1_7_0"
         (pin passive line (at 0 -5.715 90) (length 2.54)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "16" (effects (font (size 1.27 1.27))))
@@ -981,13 +981,13 @@
           (number "7" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "Resistor_Network_7_1"
+      (symbol "Resistor_Network_1_7_1"
         (rectangle (start -1.27 3.175) (end 1.27 -3.175)
           (stroke (width 0) (type default))
           (fill (type none))
         )
       )
-      (symbol "Resistor_Network_8_0"
+      (symbol "Resistor_Network_1_8_0"
         (pin passive line (at 0 -5.715 90) (length 2.54)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "16" (effects (font (size 1.27 1.27))))
@@ -997,13 +997,13 @@
           (number "8" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "Resistor_Network_8_1"
+      (symbol "Resistor_Network_1_8_1"
         (rectangle (start -1.27 3.175) (end 1.27 -3.175)
           (stroke (width 0) (type default))
           (fill (type none))
         )
       )
-      (symbol "Resistor_Network_9_1"
+      (symbol "Resistor_Network_1_9_1"
         (rectangle (start -1.27 3.175) (end 1.27 -3.175)
           (stroke (width 0) (type default))
           (fill (type none))
@@ -1017,7 +1017,7 @@
           (number "9" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "Resistor_Network_10_1"
+      (symbol "Resistor_Network_1_10_1"
         (rectangle (start -1.27 3.175) (end 1.27 -3.175)
           (stroke (width 0) (type default))
           (fill (type none))
@@ -1031,7 +1031,7 @@
           (number "16" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "Resistor_Network_11_1"
+      (symbol "Resistor_Network_1_11_1"
         (rectangle (start -1.27 3.175) (end 1.27 -3.175)
           (stroke (width 0) (type default))
           (fill (type none))
@@ -1045,7 +1045,7 @@
           (number "16" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "Resistor_Network_12_1"
+      (symbol "Resistor_Network_1_12_1"
         (rectangle (start -1.27 3.175) (end 1.27 -3.175)
           (stroke (width 0) (type default))
           (fill (type none))
@@ -1059,7 +1059,7 @@
           (number "16" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "Resistor_Network_13_1"
+      (symbol "Resistor_Network_1_13_1"
         (rectangle (start -1.27 3.175) (end 1.27 -3.175)
           (stroke (width 0) (type default))
           (fill (type none))
@@ -1073,7 +1073,7 @@
           (number "16" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "Resistor_Network_14_1"
+      (symbol "Resistor_Network_1_14_1"
         (rectangle (start -1.27 3.175) (end 1.27 -3.175)
           (stroke (width 0) (type default))
           (fill (type none))
@@ -1087,7 +1087,7 @@
           (number "16" (effects (font (size 1.27 1.27))))
         )
       )
-      (symbol "Resistor_Network_15_1"
+      (symbol "Resistor_Network_1_15_1"
         (rectangle (start -1.27 3.175) (end 1.27 -3.175)
           (stroke (width 0) (type default))
           (fill (type none))
@@ -3686,7 +3686,7 @@
     )
   )
 
-  (symbol (lib_id "Mad5150_early:Resistor_Network") (at 176.53 68.58 270) (unit 5)
+  (symbol (lib_id "Mad5150_early:Resistor_Network_1") (at 176.53 68.58 270) (unit 5)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 69bab257-a2b7-43cf-895a-a62ee72e4e3e)
     (property "Reference" "RN5" (at 176.53 66.04 90)
@@ -3698,7 +3698,7 @@
     (property "Footprint" "Package_DIP:DIP-16_W7.62mm" (at 176.53 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 176.53 68.58 0)
+    (property "Datasheet" "" (at 177.165 69.215 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4cd6b090-3e7c-41b3-8ed6-028766aed37b))
