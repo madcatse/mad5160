@@ -2092,7 +2092,7 @@
           (name "1A" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
-        (pin output inverted (at 10.795 2.54 180) (length 5.08)
+        (pin bidirectional inverted (at 10.795 2.54 180) (length 5.08)
           (name "1Y" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
