@@ -30,13 +30,13 @@
   (pad "11" thru_hole circle (at 39.6 0 180) (size 3.2 3.2) (drill 1.91) (layers "*.Cu" "*.Mask") (tstamp 8f7fd1bb-9ebb-4706-928d-12ec50de7c7f))
   (pad "12" thru_hole circle (at 43.56 0 180) (size 3.2 3.2) (drill 1.91) (layers "*.Cu" "*.Mask") (tstamp 81e222c4-ece0-45a1-a7f6-45d71e293960))
   (model "${KIPRJMOD}/Libs/3d/WF-6-gold.step"
-    (offset (xyz 0 0 0))
+    (offset (xyz 19.8 0 0))
     (scale (xyz 1.55 1.55 1.55))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 -180))
   )
   (model "${KIPRJMOD}/Libs/3d/WF-6-gold.step"
-    (offset (xyz 23.8 0 0))
+    (offset (xyz 43.3 0 0))
     (scale (xyz 1.55 1.55 1.55))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 0 -180))
   )
 )
