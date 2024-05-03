@@ -41,8 +41,8 @@
     (solder_mask_margin 0.15) (clearance 0.3) (tstamp 120a5a1e-d658-47d2-9340-0cfe9183f7cd))
   (pad "5" thru_hole circle (at 5 2.5) (size 2.2 2.2) (drill 1.3) (layers "*.Cu" "*.Mask")
     (solder_mask_margin 0.15) (clearance 0.3) (tstamp 8e59e0fe-f656-47ea-8e02-b3ca04166d52))
-  (model "${KIPRJMOD}/libs/din_5_correct.stp"
-    (offset (xyz 94.5 -78 -175.5))
+  (model "${KIPRJMOD}/Libs/3d/din-5.wrl"
+    (offset (xyz 0 3 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
   )

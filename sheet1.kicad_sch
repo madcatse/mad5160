@@ -7357,7 +7357,7 @@
     (property "Value" "8087" (at 178.435 148.59 0)
       (effects (font (size 1.27 1.27) bold))
     )
-    (property "Footprint" "Package_DIP:DIP-40_W15.24mm_Socket_LongPads" (at 179.705 208.28 0)
+    (property "Footprint" "Package_DIP:DIP-40_W15.24mm_Socket" (at 179.705 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 167.005 152.4 0)
