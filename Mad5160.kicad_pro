@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 4.4958,
-          "height": 5.08,
-          "width": 5.08
+          "drill": 4.5,
+          "height": 6.0,
+          "width": 6.0
         },
         "silk_line_width": 0.09999999999999999,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.09999999999999999,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -170,9 +170,7 @@
         }
       ],
       "track_widths": [
-        0.0,
-        0.25,
-        1.0
+        0.0
       ],
       "via_dimensions": [
         {
@@ -183,7 +181,22 @@
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
-    "viewports": []
+    "viewports": [
+      {
+        "h": 336882000.00000036,
+        "name": "полный",
+        "w": 566627014.9253738,
+        "x": -98567564.17910208,
+        "y": -41852247.76119519
+      },
+      {
+        "h": 336882000.00000036,
+        "name": "удаление",
+        "w": 566627014.9253738,
+        "x": -98567564.17910208,
+        "y": -41852247.76119519
+      }
+    ]
   },
   "boards": [],
   "cvpcb": {
@@ -422,26 +435,60 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "track_width": 0.6,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.3,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "POWER",
+        "name": "nets",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.8,
+        "track_width": 0.25,
         "via_diameter": 0.8,
-        "via_drill": 0.3,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "thinpower",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6
       }
     ],
@@ -455,8 +502,28 @@
     },
     "netclass_patterns": [
       {
-        "netclass": "Default",
-        "pattern": "/Sheet_5/<NO NET>"
+        "netclass": "power",
+        "pattern": "+12V"
+      },
+      {
+        "netclass": "thinpower",
+        "pattern": "-12V"
+      },
+      {
+        "netclass": "power",
+        "pattern": "GND"
+      },
+      {
+        "netclass": "thinpower",
+        "pattern": "-5V"
+      },
+      {
+        "netclass": "power",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "nets",
+        "pattern": "*"
       }
     ]
   },
@@ -465,7 +532,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "Mad5160.net",
-      "specctra_dsn": "",
+      "specctra_dsn": "../../../AppData/Local/freerouting/Mad5160_cl2.dsn",
       "step": "",
       "vrml": ""
     },

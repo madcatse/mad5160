@@ -1664,7 +1664,7 @@
     (property "Value" "10nF" (at 180.975 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "madXT_early:cap_unipolar" (at 178.1302 66.04 0)
+    (property "Footprint" "madXT_early:CP8" (at 178.1302 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 177.165 62.23 0)
