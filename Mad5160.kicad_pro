@@ -533,7 +533,7 @@
       "idf": "",
       "netlist": "Mad5160.net",
       "specctra_dsn": "../../../AppData/Local/freerouting/Mad5160_cl2.dsn",
-      "step": "",
+      "step": "Mad5160.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
