@@ -26,8 +26,8 @@
   (fp_arc (start 3.707898 1.669398) (mid -3.7 -0.010723) (end 3.717044 -1.65)
     (stroke (width 0.15) (type default)) (layer "F.SilkS") (tstamp 99db7d23-c026-4133-813b-49c7a5f69084))
   (pad "1" thru_hole circle (at -3.81 -3.81) (size 2.99974 2.99974) (drill 1.99898) (layers "*.Cu" "*.Mask") (tstamp 117d07b6-dccd-4cbd-bd75-2f43ddc74eb0))
+  (pad "1" thru_hole circle (at -3.81 3.81) (size 2.99974 2.99974) (drill 1.99898) (layers "*.Cu" "*.Mask") (tstamp 88226ce1-0d81-4472-bc31-3334410941ca))
   (pad "2" thru_hole circle (at 3.81 0) (size 2.99974 2.99974) (drill 1.99898) (layers "*.Cu" "*.Mask") (tstamp 0c1d60f7-b293-4e0a-bf07-5b81350d52c3))
-  (pad "3" thru_hole circle (at -3.81 3.81) (size 2.99974 2.99974) (drill 1.99898) (layers "*.Cu" "*.Mask") (tstamp 88226ce1-0d81-4472-bc31-3334410941ca))
   (model "${KIPRJMOD}/Libs/3d/Trimmer variable capacitor.step"
     (offset (xyz -1.5 0 0))
     (scale (xyz 1 1 1))
