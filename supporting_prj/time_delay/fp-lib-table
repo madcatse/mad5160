@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "time_delay_footprints")(type "KiCad")(uri "${KIPRJMOD}/libs/time_delay_footprints.pretty")(options "")(descr ""))
+)
