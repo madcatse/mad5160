@@ -1,0 +1,15 @@
+{
+    "name": "pyreport viewer",
+    "version": "0.0.1",
+    "main": "report_data/index.html",
+    "single-instance": false,
+    "chromium-args": "--password-store=basic",
+    "window": {
+        "icon": "icon.png",
+        "toolbar": false,
+        "frame": true,
+        "width": 1024,
+        "height": 768,
+        "position": "mouse"
+    }
+}

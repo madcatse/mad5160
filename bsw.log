@@ -1,0 +1,1320 @@
+2024-05-22 11:27:28 13820     [INFO] ****** HyperLynx v2.6 build 14488140 
+2024-05-22 11:27:28 13820     [INFO]        C:\MentorGraphics\HLVX.2.6\SDD_HOME\hyperlynx64\bsw.exe 
+2024-05-22 11:31:24 13820     [INFO] Opening Project C:\Users\MadCat\Documents\GitHub\mad5160\Mad5160.hyp
+2024-05-22 11:31:26 13820     [INFO] Opened Board: Mad5160.hyp <C:\Users\MadCat\Documents\GitHub\mad5160\>
+2024-05-22 11:32:09 13820    [ERROR] Open file: File "C:\Users\MadCat\Documents\GitHub\mad5160\Mad5160.ref" cannot be opened Starting with new file
+2024-05-22 11:46:27 13820  [WARNING] No driver on selected net. Choose a driver now? - The "No" button was selected
+2024-05-22 11:47:27 13820     [INFO] REF-File Editor: Save changes to REF file before continue?  YES: save changes NO: discard changes - The "Yes" button was selected
+2024-05-22 11:47:45 13820  [WARNING] Close Thermal Session: Save thermal data (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
+2024-05-22 11:48:08 13820  [WARNING] No driver on selected net. Choose a driver now? - The "No" button was selected
+2024-05-22 11:48:23 13820  [WARNING] No driver on selected net. Choose a driver now? - The "No" button was selected
+2024-05-22 11:48:49 13820  [WARNING] No driver on selected net. Choose a driver now? - The "No" button was selected
+2024-05-22 11:48:57 13820  [WARNING] No driver on selected net. Choose a driver now? - The "No" button was selected
+2024-05-22 11:50:54 13820  [WARNING] Warning: No probes are enabled. Please enable at least one before simulating.
+2024-05-22 11:55:34 13820     [INFO] Close HyperLynx Session: Design file: Mad5160.hyp Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "Cancel" button was selected
+2024-05-22 11:55:43 13820     [INFO] Close HyperLynx Session: Design file: Mad5160.hyp Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "Yes" button was selected
+2024-05-22 11:55:46 13820     [INFO] Closing Design: Mad5160.hyp
+2024-05-22 11:55:46 13820     [INFO] ****** Closing HyperLynx 
+2024-05-22 13:16:50 11880     [INFO] ****** HyperLynx v2.6 build 14488140 
+2024-05-22 13:16:50 11880     [INFO]        C:\MentorGraphics\HLVX.2.6\SDD_HOME\hyperlynx64\BSW.EXE /dde 
+2024-05-22 13:16:50 11880     [INFO] Opening Project C:\Users\MadCat\Documents\GitHub\mad5160\Mad5160.hyp
+2024-05-22 13:16:56 11880     [INFO] Opened Board: Mad5160.hyp <C:\Users\MadCat\Documents\GitHub\mad5160\>
+2024-05-22 13:24:45 11880  [WARNING] No driver on selected net. Choose a driver now? - The "No" button was selected
+2024-05-22 13:30:13 11880     [INFO] SI Batch analysis started 
+2024-05-22 13:30:13 11880     [INFO] Using default IC model: TTL,5V,MEDIUM,IO Library: modvsez.ibs Device: MODvsEZIBIS Pin: 27  
+2024-05-22 13:30:14 11880     [INFO] Net: A0 Simulation #1   Delay and SI, Corner: Fast-Strong Driver: J4.A31   Receivers (9): U5.9, J1.A31, J5.A31, J3.A31, J2.A31, U17.11, J6.A31, J7.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:16 11880     [INFO] 
+2024-05-22 13:30:16 11880     [INFO] Net: A0 Simulation #2   Delay and SI, Corner: Fast-Strong Driver: U5.9   Receivers (9): J4.A31, J1.A31, J5.A31, J3.A31, J2.A31, U17.11, J6.A31, J7.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:16 11880     [INFO] 
+2024-05-22 13:30:16 11880     [INFO] Net: A0 Simulation #3   Delay and SI, Corner: Fast-Strong Driver: J1.A31   Receivers (9): J4.A31, U5.9, J5.A31, J3.A31, J2.A31, U17.11, J6.A31, J7.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:17 11880     [INFO] 
+2024-05-22 13:30:17 11880     [INFO] Net: A0 Simulation #4   Delay and SI, Corner: Fast-Strong Driver: J5.A31   Receivers (9): J4.A31, U5.9, J1.A31, J3.A31, J2.A31, U17.11, J6.A31, J7.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:18 11880     [INFO] 
+2024-05-22 13:30:18 11880     [INFO] Net: A0 Simulation #5   Delay and SI, Corner: Fast-Strong Driver: J3.A31   Receivers (9): J4.A31, U5.9, J1.A31, J5.A31, J2.A31, U17.11, J6.A31, J7.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:19 11880     [INFO] 
+2024-05-22 13:30:19 11880     [INFO] Net: A0 Simulation #6   Delay and SI, Corner: Fast-Strong Driver: J2.A31   Receivers (9): J4.A31, U5.9, J1.A31, J5.A31, J3.A31, U17.11, J6.A31, J7.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:19 11880     [INFO] 
+2024-05-22 13:30:19 11880     [INFO] Net: A0 Simulation #7   Delay and SI, Corner: Fast-Strong Driver: U17.11   Receivers (9): J4.A31, U5.9, J1.A31, J5.A31, J3.A31, J2.A31, J6.A31, J7.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:20 11880     [INFO] 
+2024-05-22 13:30:20 11880     [INFO] Net: A0 Simulation #8   Delay and SI, Corner: Fast-Strong Driver: J6.A31   Receivers (9): J4.A31, U5.9, J1.A31, J5.A31, J3.A31, J2.A31, U17.11, J7.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:21 11880     [INFO] 
+2024-05-22 13:30:21 11880     [INFO] Net: A0 Simulation #9   Delay and SI, Corner: Fast-Strong Driver: J7.A31   Receivers (9): J4.A31, U5.9, J1.A31, J5.A31, J3.A31, J2.A31, U17.11, J6.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:21 11880     [INFO] 
+2024-05-22 13:30:21 11880     [INFO] Net: A0 Simulation #10   Delay and SI, Corner: Fast-Strong Driver: U12.18   Receivers (9): J4.A31, U5.9, J1.A31, J5.A31, J3.A31, J2.A31, U17.11, J6.A31, J7.A31 Coupled nets (0): 
+2024-05-22 13:30:22 11880     [INFO] 
+2024-05-22 13:30:22 11880  [WARNING] Net: A0:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:30:22 11880     [INFO] Net: A0 Simulation #11   Delay and SI, Corner: Typical Driver: J4.A31   Receivers (9): U5.9, J1.A31, J5.A31, J3.A31, J2.A31, U17.11, J6.A31, J7.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:23 11880     [INFO] 
+2024-05-22 13:30:23 11880     [INFO] Net: A0 Simulation #12   Delay and SI, Corner: Typical Driver: U5.9   Receivers (9): J4.A31, J1.A31, J5.A31, J3.A31, J2.A31, U17.11, J6.A31, J7.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:23 11880     [INFO] 
+2024-05-22 13:30:23 11880     [INFO] Net: A0 Simulation #13   Delay and SI, Corner: Typical Driver: J1.A31   Receivers (9): J4.A31, U5.9, J5.A31, J3.A31, J2.A31, U17.11, J6.A31, J7.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:24 11880     [INFO] 
+2024-05-22 13:30:24 11880     [INFO] Net: A0 Simulation #14   Delay and SI, Corner: Typical Driver: J5.A31   Receivers (9): J4.A31, U5.9, J1.A31, J3.A31, J2.A31, U17.11, J6.A31, J7.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:24 11880     [INFO] 
+2024-05-22 13:30:24 11880     [INFO] Net: A0 Simulation #15   Delay and SI, Corner: Typical Driver: J3.A31   Receivers (9): J4.A31, U5.9, J1.A31, J5.A31, J2.A31, U17.11, J6.A31, J7.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:25 11880     [INFO] 
+2024-05-22 13:30:25 11880     [INFO] Net: A0 Simulation #16   Delay and SI, Corner: Typical Driver: J2.A31   Receivers (9): J4.A31, U5.9, J1.A31, J5.A31, J3.A31, U17.11, J6.A31, J7.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:26 11880     [INFO] 
+2024-05-22 13:30:26 11880     [INFO] Net: A0 Simulation #17   Delay and SI, Corner: Typical Driver: U17.11   Receivers (9): J4.A31, U5.9, J1.A31, J5.A31, J3.A31, J2.A31, J6.A31, J7.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:26 11880     [INFO] 
+2024-05-22 13:30:26 11880     [INFO] Net: A0 Simulation #18   Delay and SI, Corner: Typical Driver: J6.A31   Receivers (9): J4.A31, U5.9, J1.A31, J5.A31, J3.A31, J2.A31, U17.11, J7.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:27 11880     [INFO] 
+2024-05-22 13:30:27 11880     [INFO] Net: A0 Simulation #19   Delay and SI, Corner: Typical Driver: J7.A31   Receivers (9): J4.A31, U5.9, J1.A31, J5.A31, J3.A31, J2.A31, U17.11, J6.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:27 11880     [INFO] 
+2024-05-22 13:30:27 11880     [INFO] Net: A0 Simulation #20   Delay and SI, Corner: Typical Driver: U12.18   Receivers (9): J4.A31, U5.9, J1.A31, J5.A31, J3.A31, J2.A31, U17.11, J6.A31, J7.A31 Coupled nets (0): 
+2024-05-22 13:30:28 11880     [INFO] 
+2024-05-22 13:30:28 11880  [WARNING] Net: A0:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:30:28 11880     [INFO] Net: A0 Simulation #21   Delay and SI, Corner: Slow-Weak Driver: J4.A31   Receivers (9): U5.9, J1.A31, J5.A31, J3.A31, J2.A31, U17.11, J6.A31, J7.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:28 11880     [INFO] 
+2024-05-22 13:30:28 11880     [INFO] Net: A0 Simulation #22   Delay and SI, Corner: Slow-Weak Driver: U5.9   Receivers (9): J4.A31, J1.A31, J5.A31, J3.A31, J2.A31, U17.11, J6.A31, J7.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:29 11880     [INFO] 
+2024-05-22 13:30:29 11880     [INFO] Net: A0 Simulation #23   Delay and SI, Corner: Slow-Weak Driver: J1.A31   Receivers (9): J4.A31, U5.9, J5.A31, J3.A31, J2.A31, U17.11, J6.A31, J7.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:29 11880     [INFO] 
+2024-05-22 13:30:29 11880     [INFO] Net: A0 Simulation #24   Delay and SI, Corner: Slow-Weak Driver: J5.A31   Receivers (9): J4.A31, U5.9, J1.A31, J3.A31, J2.A31, U17.11, J6.A31, J7.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:30 11880     [INFO] 
+2024-05-22 13:30:30 11880     [INFO] Net: A0 Simulation #25   Delay and SI, Corner: Slow-Weak Driver: J3.A31   Receivers (9): J4.A31, U5.9, J1.A31, J5.A31, J2.A31, U17.11, J6.A31, J7.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:30 11880     [INFO] 
+2024-05-22 13:30:30 11880     [INFO] Net: A0 Simulation #26   Delay and SI, Corner: Slow-Weak Driver: J2.A31   Receivers (9): J4.A31, U5.9, J1.A31, J5.A31, J3.A31, U17.11, J6.A31, J7.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:31 11880     [INFO] 
+2024-05-22 13:30:31 11880     [INFO] Net: A0 Simulation #27   Delay and SI, Corner: Slow-Weak Driver: U17.11   Receivers (9): J4.A31, U5.9, J1.A31, J5.A31, J3.A31, J2.A31, J6.A31, J7.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:31 11880     [INFO] 
+2024-05-22 13:30:31 11880     [INFO] Net: A0 Simulation #28   Delay and SI, Corner: Slow-Weak Driver: J6.A31   Receivers (9): J4.A31, U5.9, J1.A31, J5.A31, J3.A31, J2.A31, U17.11, J7.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:32 11880     [INFO] 
+2024-05-22 13:30:32 11880     [INFO] Net: A0 Simulation #29   Delay and SI, Corner: Slow-Weak Driver: J7.A31   Receivers (9): J4.A31, U5.9, J1.A31, J5.A31, J3.A31, J2.A31, U17.11, J6.A31, U12.18 Coupled nets (0): 
+2024-05-22 13:30:32 11880     [INFO] 
+2024-05-22 13:30:32 11880     [INFO] Net: A0 Simulation #30   Delay and SI, Corner: Slow-Weak Driver: U12.18   Receivers (9): J4.A31, U5.9, J1.A31, J5.A31, J3.A31, J2.A31, U17.11, J6.A31, J7.A31 Coupled nets (0): 
+2024-05-22 13:30:33 11880     [INFO] 
+2024-05-22 13:30:33 11880  [WARNING] Net: A0:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:30:34 11880     [INFO] Net: A1 Simulation #31   Delay and SI, Corner: Fast-Strong Driver: J4.A30   Receivers (9): U5.12, J1.A30, J5.A30, J3.A30, J2.A30, U17.8, J6.A30, J7.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:35 11880     [INFO] 
+2024-05-22 13:30:35 11880     [INFO] Net: A1 Simulation #32   Delay and SI, Corner: Fast-Strong Driver: U5.12   Receivers (9): J4.A30, J1.A30, J5.A30, J3.A30, J2.A30, U17.8, J6.A30, J7.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:36 11880     [INFO] 
+2024-05-22 13:30:36 11880     [INFO] Net: A1 Simulation #33   Delay and SI, Corner: Fast-Strong Driver: J1.A30   Receivers (9): J4.A30, U5.12, J5.A30, J3.A30, J2.A30, U17.8, J6.A30, J7.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:37 11880     [INFO] 
+2024-05-22 13:30:37 11880     [INFO] Net: A1 Simulation #34   Delay and SI, Corner: Fast-Strong Driver: J5.A30   Receivers (9): J4.A30, U5.12, J1.A30, J3.A30, J2.A30, U17.8, J6.A30, J7.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:38 11880     [INFO] 
+2024-05-22 13:30:38 11880     [INFO] Net: A1 Simulation #35   Delay and SI, Corner: Fast-Strong Driver: J3.A30   Receivers (9): J4.A30, U5.12, J1.A30, J5.A30, J2.A30, U17.8, J6.A30, J7.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:38 11880     [INFO] 
+2024-05-22 13:30:38 11880     [INFO] Net: A1 Simulation #36   Delay and SI, Corner: Fast-Strong Driver: J2.A30   Receivers (9): J4.A30, U5.12, J1.A30, J5.A30, J3.A30, U17.8, J6.A30, J7.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:39 11880     [INFO] 
+2024-05-22 13:30:39 11880     [INFO] Net: A1 Simulation #37   Delay and SI, Corner: Fast-Strong Driver: U17.8   Receivers (9): J4.A30, U5.12, J1.A30, J5.A30, J3.A30, J2.A30, J6.A30, J7.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:40 11880     [INFO] 
+2024-05-22 13:30:40 11880     [INFO] Net: A1 Simulation #38   Delay and SI, Corner: Fast-Strong Driver: J6.A30   Receivers (9): J4.A30, U5.12, J1.A30, J5.A30, J3.A30, J2.A30, U17.8, J7.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:41 11880     [INFO] 
+2024-05-22 13:30:41 11880     [INFO] Net: A1 Simulation #39   Delay and SI, Corner: Fast-Strong Driver: J7.A30   Receivers (9): J4.A30, U5.12, J1.A30, J5.A30, J3.A30, J2.A30, U17.8, J6.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:42 11880     [INFO] 
+2024-05-22 13:30:42 11880     [INFO] Net: A1 Simulation #40   Delay and SI, Corner: Fast-Strong Driver: U12.16   Receivers (9): J4.A30, U5.12, J1.A30, J5.A30, J3.A30, J2.A30, U17.8, J6.A30, J7.A30 Coupled nets (0): 
+2024-05-22 13:30:42 11880     [INFO] 
+2024-05-22 13:30:42 11880  [WARNING] Net: A1:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:30:42 11880     [INFO] Net: A1 Simulation #41   Delay and SI, Corner: Typical Driver: J4.A30   Receivers (9): U5.12, J1.A30, J5.A30, J3.A30, J2.A30, U17.8, J6.A30, J7.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:43 11880     [INFO] 
+2024-05-22 13:30:43 11880     [INFO] Net: A1 Simulation #42   Delay and SI, Corner: Typical Driver: U5.12   Receivers (9): J4.A30, J1.A30, J5.A30, J3.A30, J2.A30, U17.8, J6.A30, J7.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:44 11880     [INFO] 
+2024-05-22 13:30:44 11880     [INFO] Net: A1 Simulation #43   Delay and SI, Corner: Typical Driver: J1.A30   Receivers (9): J4.A30, U5.12, J5.A30, J3.A30, J2.A30, U17.8, J6.A30, J7.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:44 11880     [INFO] 
+2024-05-22 13:30:44 11880     [INFO] Net: A1 Simulation #44   Delay and SI, Corner: Typical Driver: J5.A30   Receivers (9): J4.A30, U5.12, J1.A30, J3.A30, J2.A30, U17.8, J6.A30, J7.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:45 11880     [INFO] 
+2024-05-22 13:30:45 11880     [INFO] Net: A1 Simulation #45   Delay and SI, Corner: Typical Driver: J3.A30   Receivers (9): J4.A30, U5.12, J1.A30, J5.A30, J2.A30, U17.8, J6.A30, J7.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:46 11880     [INFO] 
+2024-05-22 13:30:46 11880     [INFO] Net: A1 Simulation #46   Delay and SI, Corner: Typical Driver: J2.A30   Receivers (9): J4.A30, U5.12, J1.A30, J5.A30, J3.A30, U17.8, J6.A30, J7.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:47 11880     [INFO] 
+2024-05-22 13:30:47 11880     [INFO] Net: A1 Simulation #47   Delay and SI, Corner: Typical Driver: U17.8   Receivers (9): J4.A30, U5.12, J1.A30, J5.A30, J3.A30, J2.A30, J6.A30, J7.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:47 11880     [INFO] 
+2024-05-22 13:30:47 11880     [INFO] Net: A1 Simulation #48   Delay and SI, Corner: Typical Driver: J6.A30   Receivers (9): J4.A30, U5.12, J1.A30, J5.A30, J3.A30, J2.A30, U17.8, J7.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:48 11880     [INFO] 
+2024-05-22 13:30:48 11880     [INFO] Net: A1 Simulation #49   Delay and SI, Corner: Typical Driver: J7.A30   Receivers (9): J4.A30, U5.12, J1.A30, J5.A30, J3.A30, J2.A30, U17.8, J6.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:49 11880     [INFO] 
+2024-05-22 13:30:49 11880     [INFO] Net: A1 Simulation #50   Delay and SI, Corner: Typical Driver: U12.16   Receivers (9): J4.A30, U5.12, J1.A30, J5.A30, J3.A30, J2.A30, U17.8, J6.A30, J7.A30 Coupled nets (0): 
+2024-05-22 13:30:49 11880     [INFO] 
+2024-05-22 13:30:49 11880  [WARNING] Net: A1:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:30:49 11880     [INFO] Net: A1 Simulation #51   Delay and SI, Corner: Slow-Weak Driver: J4.A30   Receivers (9): U5.12, J1.A30, J5.A30, J3.A30, J2.A30, U17.8, J6.A30, J7.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:50 11880     [INFO] 
+2024-05-22 13:30:50 11880     [INFO] Net: A1 Simulation #52   Delay and SI, Corner: Slow-Weak Driver: U5.12   Receivers (9): J4.A30, J1.A30, J5.A30, J3.A30, J2.A30, U17.8, J6.A30, J7.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:51 11880     [INFO] 
+2024-05-22 13:30:51 11880     [INFO] Net: A1 Simulation #53   Delay and SI, Corner: Slow-Weak Driver: J1.A30   Receivers (9): J4.A30, U5.12, J5.A30, J3.A30, J2.A30, U17.8, J6.A30, J7.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:51 11880     [INFO] 
+2024-05-22 13:30:51 11880     [INFO] Net: A1 Simulation #54   Delay and SI, Corner: Slow-Weak Driver: J5.A30   Receivers (9): J4.A30, U5.12, J1.A30, J3.A30, J2.A30, U17.8, J6.A30, J7.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:52 11880     [INFO] 
+2024-05-22 13:30:52 11880     [INFO] Net: A1 Simulation #55   Delay and SI, Corner: Slow-Weak Driver: J3.A30   Receivers (9): J4.A30, U5.12, J1.A30, J5.A30, J2.A30, U17.8, J6.A30, J7.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:52 11880     [INFO] 
+2024-05-22 13:30:52 11880     [INFO] Net: A1 Simulation #56   Delay and SI, Corner: Slow-Weak Driver: J2.A30   Receivers (9): J4.A30, U5.12, J1.A30, J5.A30, J3.A30, U17.8, J6.A30, J7.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:53 11880     [INFO] 
+2024-05-22 13:30:53 11880     [INFO] Net: A1 Simulation #57   Delay and SI, Corner: Slow-Weak Driver: U17.8   Receivers (9): J4.A30, U5.12, J1.A30, J5.A30, J3.A30, J2.A30, J6.A30, J7.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:53 11880     [INFO] 
+2024-05-22 13:30:53 11880     [INFO] Net: A1 Simulation #58   Delay and SI, Corner: Slow-Weak Driver: J6.A30   Receivers (9): J4.A30, U5.12, J1.A30, J5.A30, J3.A30, J2.A30, U17.8, J7.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:54 11880     [INFO] 
+2024-05-22 13:30:54 11880     [INFO] Net: A1 Simulation #59   Delay and SI, Corner: Slow-Weak Driver: J7.A30   Receivers (9): J4.A30, U5.12, J1.A30, J5.A30, J3.A30, J2.A30, U17.8, J6.A30, U12.16 Coupled nets (0): 
+2024-05-22 13:30:54 11880     [INFO] 
+2024-05-22 13:30:54 11880     [INFO] Net: A1 Simulation #60   Delay and SI, Corner: Slow-Weak Driver: U12.16   Receivers (9): J4.A30, U5.12, J1.A30, J5.A30, J3.A30, J2.A30, U17.8, J6.A30, J7.A30 Coupled nets (0): 
+2024-05-22 13:30:55 11880     [INFO] 
+2024-05-22 13:30:55 11880  [WARNING] Net: A1:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:30:56 11880     [INFO] Net: A2 Simulation #61   Delay and SI, Corner: Fast-Strong Driver: J4.A29   Receivers (9): U5.15, J1.A29, J5.A29, J3.A29, J2.A29, U17.13, J6.A29, J7.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:30:57 11880     [INFO] 
+2024-05-22 13:30:57 11880     [INFO] Net: A2 Simulation #62   Delay and SI, Corner: Fast-Strong Driver: U5.15   Receivers (9): J4.A29, J1.A29, J5.A29, J3.A29, J2.A29, U17.13, J6.A29, J7.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:30:58 11880     [INFO] 
+2024-05-22 13:30:58 11880     [INFO] Net: A2 Simulation #63   Delay and SI, Corner: Fast-Strong Driver: J1.A29   Receivers (9): J4.A29, U5.15, J5.A29, J3.A29, J2.A29, U17.13, J6.A29, J7.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:30:58 11880     [INFO] 
+2024-05-22 13:30:58 11880     [INFO] Net: A2 Simulation #64   Delay and SI, Corner: Fast-Strong Driver: J5.A29   Receivers (9): J4.A29, U5.15, J1.A29, J3.A29, J2.A29, U17.13, J6.A29, J7.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:30:59 11880     [INFO] 
+2024-05-22 13:30:59 11880     [INFO] Net: A2 Simulation #65   Delay and SI, Corner: Fast-Strong Driver: J3.A29   Receivers (9): J4.A29, U5.15, J1.A29, J5.A29, J2.A29, U17.13, J6.A29, J7.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:31:00 11880     [INFO] 
+2024-05-22 13:31:00 11880     [INFO] Net: A2 Simulation #66   Delay and SI, Corner: Fast-Strong Driver: J2.A29   Receivers (9): J4.A29, U5.15, J1.A29, J5.A29, J3.A29, U17.13, J6.A29, J7.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:31:00 11880     [INFO] 
+2024-05-22 13:31:00 11880     [INFO] Net: A2 Simulation #67   Delay and SI, Corner: Fast-Strong Driver: U17.13   Receivers (9): J4.A29, U5.15, J1.A29, J5.A29, J3.A29, J2.A29, J6.A29, J7.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:31:01 11880     [INFO] 
+2024-05-22 13:31:01 11880     [INFO] Net: A2 Simulation #68   Delay and SI, Corner: Fast-Strong Driver: J6.A29   Receivers (9): J4.A29, U5.15, J1.A29, J5.A29, J3.A29, J2.A29, U17.13, J7.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:31:02 11880     [INFO] 
+2024-05-22 13:31:02 11880     [INFO] Net: A2 Simulation #69   Delay and SI, Corner: Fast-Strong Driver: J7.A29   Receivers (9): J4.A29, U5.15, J1.A29, J5.A29, J3.A29, J2.A29, U17.13, J6.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:31:02 11880     [INFO] 
+2024-05-22 13:31:02 11880     [INFO] Net: A2 Simulation #70   Delay and SI, Corner: Fast-Strong Driver: U12.14   Receivers (9): J4.A29, U5.15, J1.A29, J5.A29, J3.A29, J2.A29, U17.13, J6.A29, J7.A29 Coupled nets (0): 
+2024-05-22 13:31:03 11880     [INFO] 
+2024-05-22 13:31:03 11880  [WARNING] Net: A2:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:31:03 11880     [INFO] Net: A2 Simulation #71   Delay and SI, Corner: Typical Driver: J4.A29   Receivers (9): U5.15, J1.A29, J5.A29, J3.A29, J2.A29, U17.13, J6.A29, J7.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:31:04 11880     [INFO] 
+2024-05-22 13:31:04 11880     [INFO] Net: A2 Simulation #72   Delay and SI, Corner: Typical Driver: U5.15   Receivers (9): J4.A29, J1.A29, J5.A29, J3.A29, J2.A29, U17.13, J6.A29, J7.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:31:04 11880     [INFO] 
+2024-05-22 13:31:04 11880     [INFO] Net: A2 Simulation #73   Delay and SI, Corner: Typical Driver: J1.A29   Receivers (9): J4.A29, U5.15, J5.A29, J3.A29, J2.A29, U17.13, J6.A29, J7.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:31:05 11880     [INFO] 
+2024-05-22 13:31:05 11880     [INFO] Net: A2 Simulation #74   Delay and SI, Corner: Typical Driver: J5.A29   Receivers (9): J4.A29, U5.15, J1.A29, J3.A29, J2.A29, U17.13, J6.A29, J7.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:31:06 11880     [INFO] 
+2024-05-22 13:31:06 11880     [INFO] Net: A2 Simulation #75   Delay and SI, Corner: Typical Driver: J3.A29   Receivers (9): J4.A29, U5.15, J1.A29, J5.A29, J2.A29, U17.13, J6.A29, J7.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:31:07 11880     [INFO] 
+2024-05-22 13:31:07 11880     [INFO] Net: A2 Simulation #76   Delay and SI, Corner: Typical Driver: J2.A29   Receivers (9): J4.A29, U5.15, J1.A29, J5.A29, J3.A29, U17.13, J6.A29, J7.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:31:07 11880     [INFO] 
+2024-05-22 13:31:07 11880     [INFO] Net: A2 Simulation #77   Delay and SI, Corner: Typical Driver: U17.13   Receivers (9): J4.A29, U5.15, J1.A29, J5.A29, J3.A29, J2.A29, J6.A29, J7.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:31:08 11880     [INFO] 
+2024-05-22 13:31:08 11880     [INFO] Net: A2 Simulation #78   Delay and SI, Corner: Typical Driver: J6.A29   Receivers (9): J4.A29, U5.15, J1.A29, J5.A29, J3.A29, J2.A29, U17.13, J7.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:31:09 11880     [INFO] 
+2024-05-22 13:31:09 11880     [INFO] Net: A2 Simulation #79   Delay and SI, Corner: Typical Driver: J7.A29   Receivers (9): J4.A29, U5.15, J1.A29, J5.A29, J3.A29, J2.A29, U17.13, J6.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:31:09 11880     [INFO] 
+2024-05-22 13:31:10 11880     [INFO] Net: A2 Simulation #80   Delay and SI, Corner: Typical Driver: U12.14   Receivers (9): J4.A29, U5.15, J1.A29, J5.A29, J3.A29, J2.A29, U17.13, J6.A29, J7.A29 Coupled nets (0): 
+2024-05-22 13:31:10 11880     [INFO] 
+2024-05-22 13:31:10 11880  [WARNING] Net: A2:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:31:10 11880     [INFO] Net: A2 Simulation #81   Delay and SI, Corner: Slow-Weak Driver: J4.A29   Receivers (9): U5.15, J1.A29, J5.A29, J3.A29, J2.A29, U17.13, J6.A29, J7.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:31:11 11880     [INFO] 
+2024-05-22 13:31:11 11880     [INFO] Net: A2 Simulation #82   Delay and SI, Corner: Slow-Weak Driver: U5.15   Receivers (9): J4.A29, J1.A29, J5.A29, J3.A29, J2.A29, U17.13, J6.A29, J7.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:31:11 11880     [INFO] 
+2024-05-22 13:31:11 11880     [INFO] Net: A2 Simulation #83   Delay and SI, Corner: Slow-Weak Driver: J1.A29   Receivers (9): J4.A29, U5.15, J5.A29, J3.A29, J2.A29, U17.13, J6.A29, J7.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:31:12 11880     [INFO] 
+2024-05-22 13:31:12 11880     [INFO] Net: A2 Simulation #84   Delay and SI, Corner: Slow-Weak Driver: J5.A29   Receivers (9): J4.A29, U5.15, J1.A29, J3.A29, J2.A29, U17.13, J6.A29, J7.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:31:13 11880     [INFO] 
+2024-05-22 13:31:13 11880     [INFO] Net: A2 Simulation #85   Delay and SI, Corner: Slow-Weak Driver: J3.A29   Receivers (9): J4.A29, U5.15, J1.A29, J5.A29, J2.A29, U17.13, J6.A29, J7.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:31:13 11880     [INFO] 
+2024-05-22 13:31:13 11880     [INFO] Net: A2 Simulation #86   Delay and SI, Corner: Slow-Weak Driver: J2.A29   Receivers (9): J4.A29, U5.15, J1.A29, J5.A29, J3.A29, U17.13, J6.A29, J7.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:31:14 11880     [INFO] 
+2024-05-22 13:31:14 11880     [INFO] Net: A2 Simulation #87   Delay and SI, Corner: Slow-Weak Driver: U17.13   Receivers (9): J4.A29, U5.15, J1.A29, J5.A29, J3.A29, J2.A29, J6.A29, J7.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:31:14 11880     [INFO] 
+2024-05-22 13:31:14 11880     [INFO] Net: A2 Simulation #88   Delay and SI, Corner: Slow-Weak Driver: J6.A29   Receivers (9): J4.A29, U5.15, J1.A29, J5.A29, J3.A29, J2.A29, U17.13, J7.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:31:15 11880     [INFO] 
+2024-05-22 13:31:15 11880     [INFO] Net: A2 Simulation #89   Delay and SI, Corner: Slow-Weak Driver: J7.A29   Receivers (9): J4.A29, U5.15, J1.A29, J5.A29, J3.A29, J2.A29, U17.13, J6.A29, U12.14 Coupled nets (0): 
+2024-05-22 13:31:16 11880     [INFO] 
+2024-05-22 13:31:16 11880     [INFO] Net: A2 Simulation #90   Delay and SI, Corner: Slow-Weak Driver: U12.14   Receivers (9): J4.A29, U5.15, J1.A29, J5.A29, J3.A29, J2.A29, U17.13, J6.A29, J7.A29 Coupled nets (0): 
+2024-05-22 13:31:16 11880     [INFO] 
+2024-05-22 13:31:16 11880  [WARNING] Net: A2:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:31:17 11880     [INFO] Net: A3 Simulation #91   Delay and SI, Corner: Fast-Strong Driver: J4.A28   Receivers (9): U5.6, J1.A28, J5.A28, J3.A28, J2.A28, U17.6, J6.A28, J7.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:18 11880     [INFO] 
+2024-05-22 13:31:18 11880     [INFO] Net: A3 Simulation #92   Delay and SI, Corner: Fast-Strong Driver: U5.6   Receivers (9): J4.A28, J1.A28, J5.A28, J3.A28, J2.A28, U17.6, J6.A28, J7.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:19 11880     [INFO] 
+2024-05-22 13:31:19 11880     [INFO] Net: A3 Simulation #93   Delay and SI, Corner: Fast-Strong Driver: J1.A28   Receivers (9): J4.A28, U5.6, J5.A28, J3.A28, J2.A28, U17.6, J6.A28, J7.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:20 11880     [INFO] 
+2024-05-22 13:31:20 11880     [INFO] Net: A3 Simulation #94   Delay and SI, Corner: Fast-Strong Driver: J5.A28   Receivers (9): J4.A28, U5.6, J1.A28, J3.A28, J2.A28, U17.6, J6.A28, J7.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:20 11880     [INFO] 
+2024-05-22 13:31:20 11880     [INFO] Net: A3 Simulation #95   Delay and SI, Corner: Fast-Strong Driver: J3.A28   Receivers (9): J4.A28, U5.6, J1.A28, J5.A28, J2.A28, U17.6, J6.A28, J7.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:21 11880     [INFO] 
+2024-05-22 13:31:21 11880     [INFO] Net: A3 Simulation #96   Delay and SI, Corner: Fast-Strong Driver: J2.A28   Receivers (9): J4.A28, U5.6, J1.A28, J5.A28, J3.A28, U17.6, J6.A28, J7.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:22 11880     [INFO] 
+2024-05-22 13:31:22 11880     [INFO] Net: A3 Simulation #97   Delay and SI, Corner: Fast-Strong Driver: U17.6   Receivers (9): J4.A28, U5.6, J1.A28, J5.A28, J3.A28, J2.A28, J6.A28, J7.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:22 11880     [INFO] 
+2024-05-22 13:31:22 11880     [INFO] Net: A3 Simulation #98   Delay and SI, Corner: Fast-Strong Driver: J6.A28   Receivers (9): J4.A28, U5.6, J1.A28, J5.A28, J3.A28, J2.A28, U17.6, J7.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:23 11880     [INFO] 
+2024-05-22 13:31:23 11880     [INFO] Net: A3 Simulation #99   Delay and SI, Corner: Fast-Strong Driver: J7.A28   Receivers (9): J4.A28, U5.6, J1.A28, J5.A28, J3.A28, J2.A28, U17.6, J6.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:24 11880     [INFO] 
+2024-05-22 13:31:24 11880     [INFO] Net: A3 Simulation #100   Delay and SI, Corner: Fast-Strong Driver: U12.12   Receivers (9): J4.A28, U5.6, J1.A28, J5.A28, J3.A28, J2.A28, U17.6, J6.A28, J7.A28 Coupled nets (0): 
+2024-05-22 13:31:24 11880     [INFO] 
+2024-05-22 13:31:24 11880  [WARNING] Net: A3:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:31:24 11880     [INFO] Net: A3 Simulation #101   Delay and SI, Corner: Typical Driver: J4.A28   Receivers (9): U5.6, J1.A28, J5.A28, J3.A28, J2.A28, U17.6, J6.A28, J7.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:25 11880     [INFO] 
+2024-05-22 13:31:25 11880     [INFO] Net: A3 Simulation #102   Delay and SI, Corner: Typical Driver: U5.6   Receivers (9): J4.A28, J1.A28, J5.A28, J3.A28, J2.A28, U17.6, J6.A28, J7.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:25 11880     [INFO] 
+2024-05-22 13:31:25 11880     [INFO] Net: A3 Simulation #103   Delay and SI, Corner: Typical Driver: J1.A28   Receivers (9): J4.A28, U5.6, J5.A28, J3.A28, J2.A28, U17.6, J6.A28, J7.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:26 11880     [INFO] 
+2024-05-22 13:31:26 11880     [INFO] Net: A3 Simulation #104   Delay and SI, Corner: Typical Driver: J5.A28   Receivers (9): J4.A28, U5.6, J1.A28, J3.A28, J2.A28, U17.6, J6.A28, J7.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:27 11880     [INFO] 
+2024-05-22 13:31:27 11880     [INFO] Net: A3 Simulation #105   Delay and SI, Corner: Typical Driver: J3.A28   Receivers (9): J4.A28, U5.6, J1.A28, J5.A28, J2.A28, U17.6, J6.A28, J7.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:27 11880     [INFO] 
+2024-05-22 13:31:27 11880     [INFO] Net: A3 Simulation #106   Delay and SI, Corner: Typical Driver: J2.A28   Receivers (9): J4.A28, U5.6, J1.A28, J5.A28, J3.A28, U17.6, J6.A28, J7.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:28 11880     [INFO] 
+2024-05-22 13:31:28 11880     [INFO] Net: A3 Simulation #107   Delay and SI, Corner: Typical Driver: U17.6   Receivers (9): J4.A28, U5.6, J1.A28, J5.A28, J3.A28, J2.A28, J6.A28, J7.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:28 11880     [INFO] 
+2024-05-22 13:31:28 11880     [INFO] Net: A3 Simulation #108   Delay and SI, Corner: Typical Driver: J6.A28   Receivers (9): J4.A28, U5.6, J1.A28, J5.A28, J3.A28, J2.A28, U17.6, J7.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:29 11880     [INFO] 
+2024-05-22 13:31:29 11880     [INFO] Net: A3 Simulation #109   Delay and SI, Corner: Typical Driver: J7.A28   Receivers (9): J4.A28, U5.6, J1.A28, J5.A28, J3.A28, J2.A28, U17.6, J6.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:30 11880     [INFO] 
+2024-05-22 13:31:30 11880     [INFO] Net: A3 Simulation #110   Delay and SI, Corner: Typical Driver: U12.12   Receivers (9): J4.A28, U5.6, J1.A28, J5.A28, J3.A28, J2.A28, U17.6, J6.A28, J7.A28 Coupled nets (0): 
+2024-05-22 13:31:30 11880     [INFO] 
+2024-05-22 13:31:30 11880  [WARNING] Net: A3:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:31:30 11880     [INFO] Net: A3 Simulation #111   Delay and SI, Corner: Slow-Weak Driver: J4.A28   Receivers (9): U5.6, J1.A28, J5.A28, J3.A28, J2.A28, U17.6, J6.A28, J7.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:31 11880     [INFO] 
+2024-05-22 13:31:31 11880     [INFO] Net: A3 Simulation #112   Delay and SI, Corner: Slow-Weak Driver: U5.6   Receivers (9): J4.A28, J1.A28, J5.A28, J3.A28, J2.A28, U17.6, J6.A28, J7.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:31 11880     [INFO] 
+2024-05-22 13:31:31 11880     [INFO] Net: A3 Simulation #113   Delay and SI, Corner: Slow-Weak Driver: J1.A28   Receivers (9): J4.A28, U5.6, J5.A28, J3.A28, J2.A28, U17.6, J6.A28, J7.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:32 11880     [INFO] 
+2024-05-22 13:31:32 11880     [INFO] Net: A3 Simulation #114   Delay and SI, Corner: Slow-Weak Driver: J5.A28   Receivers (9): J4.A28, U5.6, J1.A28, J3.A28, J2.A28, U17.6, J6.A28, J7.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:32 11880     [INFO] 
+2024-05-22 13:31:32 11880     [INFO] Net: A3 Simulation #115   Delay and SI, Corner: Slow-Weak Driver: J3.A28   Receivers (9): J4.A28, U5.6, J1.A28, J5.A28, J2.A28, U17.6, J6.A28, J7.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:33 11880     [INFO] 
+2024-05-22 13:31:33 11880     [INFO] Net: A3 Simulation #116   Delay and SI, Corner: Slow-Weak Driver: J2.A28   Receivers (9): J4.A28, U5.6, J1.A28, J5.A28, J3.A28, U17.6, J6.A28, J7.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:33 11880     [INFO] 
+2024-05-22 13:31:33 11880     [INFO] Net: A3 Simulation #117   Delay and SI, Corner: Slow-Weak Driver: U17.6   Receivers (9): J4.A28, U5.6, J1.A28, J5.A28, J3.A28, J2.A28, J6.A28, J7.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:34 11880     [INFO] 
+2024-05-22 13:31:34 11880     [INFO] Net: A3 Simulation #118   Delay and SI, Corner: Slow-Weak Driver: J6.A28   Receivers (9): J4.A28, U5.6, J1.A28, J5.A28, J3.A28, J2.A28, U17.6, J7.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:35 11880     [INFO] 
+2024-05-22 13:31:35 11880     [INFO] Net: A3 Simulation #119   Delay and SI, Corner: Slow-Weak Driver: J7.A28   Receivers (9): J4.A28, U5.6, J1.A28, J5.A28, J3.A28, J2.A28, U17.6, J6.A28, U12.12 Coupled nets (0): 
+2024-05-22 13:31:35 11880     [INFO] 
+2024-05-22 13:31:35 11880     [INFO] Net: A3 Simulation #120   Delay and SI, Corner: Slow-Weak Driver: U12.12   Receivers (9): J4.A28, U5.6, J1.A28, J5.A28, J3.A28, J2.A28, U17.6, J6.A28, J7.A28 Coupled nets (0): 
+2024-05-22 13:31:36 11880     [INFO] 
+2024-05-22 13:31:36 11880  [WARNING] Net: A3:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:31:36 11880     [INFO] Net: A4 Simulation #121   Delay and SI, Corner: Fast-Strong Driver: J4.A27   Receivers (9): U5.5, J1.A27, J5.A27, J3.A27, J2.A27, U17.15, J6.A27, J7.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:31:37 11880     [INFO] 
+2024-05-22 13:31:37 11880     [INFO] Net: A4 Simulation #122   Delay and SI, Corner: Fast-Strong Driver: U5.5   Receivers (9): J4.A27, J1.A27, J5.A27, J3.A27, J2.A27, U17.15, J6.A27, J7.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:31:38 11880     [INFO] 
+2024-05-22 13:31:38 11880     [INFO] Net: A4 Simulation #123   Delay and SI, Corner: Fast-Strong Driver: J1.A27   Receivers (9): J4.A27, U5.5, J5.A27, J3.A27, J2.A27, U17.15, J6.A27, J7.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:31:39 11880     [INFO] 
+2024-05-22 13:31:39 11880     [INFO] Net: A4 Simulation #124   Delay and SI, Corner: Fast-Strong Driver: J5.A27   Receivers (9): J4.A27, U5.5, J1.A27, J3.A27, J2.A27, U17.15, J6.A27, J7.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:31:40 11880     [INFO] 
+2024-05-22 13:31:40 11880     [INFO] Net: A4 Simulation #125   Delay and SI, Corner: Fast-Strong Driver: J3.A27   Receivers (9): J4.A27, U5.5, J1.A27, J5.A27, J2.A27, U17.15, J6.A27, J7.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:31:41 11880     [INFO] 
+2024-05-22 13:31:41 11880     [INFO] Net: A4 Simulation #126   Delay and SI, Corner: Fast-Strong Driver: J2.A27   Receivers (9): J4.A27, U5.5, J1.A27, J5.A27, J3.A27, U17.15, J6.A27, J7.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:31:42 11880     [INFO] 
+2024-05-22 13:31:42 11880     [INFO] Net: A4 Simulation #127   Delay and SI, Corner: Fast-Strong Driver: U17.15   Receivers (9): J4.A27, U5.5, J1.A27, J5.A27, J3.A27, J2.A27, J6.A27, J7.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:31:42 11880     [INFO] 
+2024-05-22 13:31:42 11880     [INFO] Net: A4 Simulation #128   Delay and SI, Corner: Fast-Strong Driver: J6.A27   Receivers (9): J4.A27, U5.5, J1.A27, J5.A27, J3.A27, J2.A27, U17.15, J7.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:31:43 11880     [INFO] 
+2024-05-22 13:31:43 11880     [INFO] Net: A4 Simulation #129   Delay and SI, Corner: Fast-Strong Driver: J7.A27   Receivers (9): J4.A27, U5.5, J1.A27, J5.A27, J3.A27, J2.A27, U17.15, J6.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:31:44 11880     [INFO] 
+2024-05-22 13:31:44 11880     [INFO] Net: A4 Simulation #130   Delay and SI, Corner: Fast-Strong Driver: U12.9   Receivers (9): J4.A27, U5.5, J1.A27, J5.A27, J3.A27, J2.A27, U17.15, J6.A27, J7.A27 Coupled nets (0): 
+2024-05-22 13:31:45 11880     [INFO] 
+2024-05-22 13:31:45 11880  [WARNING] Net: A4:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:31:45 11880     [INFO] Net: A4 Simulation #131   Delay and SI, Corner: Typical Driver: J4.A27   Receivers (9): U5.5, J1.A27, J5.A27, J3.A27, J2.A27, U17.15, J6.A27, J7.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:31:46 11880     [INFO] 
+2024-05-22 13:31:46 11880     [INFO] Net: A4 Simulation #132   Delay and SI, Corner: Typical Driver: U5.5   Receivers (9): J4.A27, J1.A27, J5.A27, J3.A27, J2.A27, U17.15, J6.A27, J7.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:31:47 11880     [INFO] 
+2024-05-22 13:31:47 11880     [INFO] Net: A4 Simulation #133   Delay and SI, Corner: Typical Driver: J1.A27   Receivers (9): J4.A27, U5.5, J5.A27, J3.A27, J2.A27, U17.15, J6.A27, J7.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:31:48 11880     [INFO] 
+2024-05-22 13:31:48 11880     [INFO] Net: A4 Simulation #134   Delay and SI, Corner: Typical Driver: J5.A27   Receivers (9): J4.A27, U5.5, J1.A27, J3.A27, J2.A27, U17.15, J6.A27, J7.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:31:48 11880     [INFO] 
+2024-05-22 13:31:48 11880     [INFO] Net: A4 Simulation #135   Delay and SI, Corner: Typical Driver: J3.A27   Receivers (9): J4.A27, U5.5, J1.A27, J5.A27, J2.A27, U17.15, J6.A27, J7.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:31:49 11880     [INFO] 
+2024-05-22 13:31:49 11880     [INFO] Net: A4 Simulation #136   Delay and SI, Corner: Typical Driver: J2.A27   Receivers (9): J4.A27, U5.5, J1.A27, J5.A27, J3.A27, U17.15, J6.A27, J7.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:31:50 11880     [INFO] 
+2024-05-22 13:31:50 11880     [INFO] Net: A4 Simulation #137   Delay and SI, Corner: Typical Driver: U17.15   Receivers (9): J4.A27, U5.5, J1.A27, J5.A27, J3.A27, J2.A27, J6.A27, J7.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:31:51 11880     [INFO] 
+2024-05-22 13:31:51 11880     [INFO] Net: A4 Simulation #138   Delay and SI, Corner: Typical Driver: J6.A27   Receivers (9): J4.A27, U5.5, J1.A27, J5.A27, J3.A27, J2.A27, U17.15, J7.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:31:52 11880     [INFO] 
+2024-05-22 13:31:52 11880     [INFO] Net: A4 Simulation #139   Delay and SI, Corner: Typical Driver: J7.A27   Receivers (9): J4.A27, U5.5, J1.A27, J5.A27, J3.A27, J2.A27, U17.15, J6.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:31:53 11880     [INFO] 
+2024-05-22 13:31:53 11880     [INFO] Net: A4 Simulation #140   Delay and SI, Corner: Typical Driver: U12.9   Receivers (9): J4.A27, U5.5, J1.A27, J5.A27, J3.A27, J2.A27, U17.15, J6.A27, J7.A27 Coupled nets (0): 
+2024-05-22 13:31:54 11880     [INFO] 
+2024-05-22 13:31:54 11880  [WARNING] Net: A4:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:31:54 11880     [INFO] Net: A4 Simulation #141   Delay and SI, Corner: Slow-Weak Driver: J4.A27   Receivers (9): U5.5, J1.A27, J5.A27, J3.A27, J2.A27, U17.15, J6.A27, J7.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:31:55 11880     [INFO] 
+2024-05-22 13:31:55 11880     [INFO] Net: A4 Simulation #142   Delay and SI, Corner: Slow-Weak Driver: U5.5   Receivers (9): J4.A27, J1.A27, J5.A27, J3.A27, J2.A27, U17.15, J6.A27, J7.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:31:56 11880     [INFO] 
+2024-05-22 13:31:56 11880     [INFO] Net: A4 Simulation #143   Delay and SI, Corner: Slow-Weak Driver: J1.A27   Receivers (9): J4.A27, U5.5, J5.A27, J3.A27, J2.A27, U17.15, J6.A27, J7.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:31:56 11880     [INFO] 
+2024-05-22 13:31:56 11880     [INFO] Net: A4 Simulation #144   Delay and SI, Corner: Slow-Weak Driver: J5.A27   Receivers (9): J4.A27, U5.5, J1.A27, J3.A27, J2.A27, U17.15, J6.A27, J7.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:31:57 11880     [INFO] 
+2024-05-22 13:31:57 11880     [INFO] Net: A4 Simulation #145   Delay and SI, Corner: Slow-Weak Driver: J3.A27   Receivers (9): J4.A27, U5.5, J1.A27, J5.A27, J2.A27, U17.15, J6.A27, J7.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:31:58 11880     [INFO] 
+2024-05-22 13:31:58 11880     [INFO] Net: A4 Simulation #146   Delay and SI, Corner: Slow-Weak Driver: J2.A27   Receivers (9): J4.A27, U5.5, J1.A27, J5.A27, J3.A27, U17.15, J6.A27, J7.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:31:59 11880     [INFO] 
+2024-05-22 13:31:59 11880     [INFO] Net: A4 Simulation #147   Delay and SI, Corner: Slow-Weak Driver: U17.15   Receivers (9): J4.A27, U5.5, J1.A27, J5.A27, J3.A27, J2.A27, J6.A27, J7.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:32:00 11880     [INFO] 
+2024-05-22 13:32:00 11880     [INFO] Net: A4 Simulation #148   Delay and SI, Corner: Slow-Weak Driver: J6.A27   Receivers (9): J4.A27, U5.5, J1.A27, J5.A27, J3.A27, J2.A27, U17.15, J7.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:32:01 11880     [INFO] 
+2024-05-22 13:32:01 11880     [INFO] Net: A4 Simulation #149   Delay and SI, Corner: Slow-Weak Driver: J7.A27   Receivers (9): J4.A27, U5.5, J1.A27, J5.A27, J3.A27, J2.A27, U17.15, J6.A27, U12.9 Coupled nets (0): 
+2024-05-22 13:32:01 11880     [INFO] 
+2024-05-22 13:32:01 11880     [INFO] Net: A4 Simulation #150   Delay and SI, Corner: Slow-Weak Driver: U12.9   Receivers (9): J4.A27, U5.5, J1.A27, J5.A27, J3.A27, J2.A27, U17.15, J6.A27, J7.A27 Coupled nets (0): 
+2024-05-22 13:32:02 11880     [INFO] 
+2024-05-22 13:32:02 11880  [WARNING] Net: A4:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:32:03 11880     [INFO] Net: A5 Simulation #151   Delay and SI, Corner: Fast-Strong Driver: J4.A26   Receivers (9): U5.16, J1.A26, J5.A26, J3.A26, J2.A26, U17.4, J6.A26, J7.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:04 11880     [INFO] 
+2024-05-22 13:32:04 11880     [INFO] Net: A5 Simulation #152   Delay and SI, Corner: Fast-Strong Driver: U5.16   Receivers (9): J4.A26, J1.A26, J5.A26, J3.A26, J2.A26, U17.4, J6.A26, J7.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:05 11880     [INFO] 
+2024-05-22 13:32:05 11880     [INFO] Net: A5 Simulation #153   Delay and SI, Corner: Fast-Strong Driver: J1.A26   Receivers (9): J4.A26, U5.16, J5.A26, J3.A26, J2.A26, U17.4, J6.A26, J7.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:05 11880     [INFO] 
+2024-05-22 13:32:05 11880     [INFO] Net: A5 Simulation #154   Delay and SI, Corner: Fast-Strong Driver: J5.A26   Receivers (9): J4.A26, U5.16, J1.A26, J3.A26, J2.A26, U17.4, J6.A26, J7.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:06 11880     [INFO] 
+2024-05-22 13:32:06 11880     [INFO] Net: A5 Simulation #155   Delay and SI, Corner: Fast-Strong Driver: J3.A26   Receivers (9): J4.A26, U5.16, J1.A26, J5.A26, J2.A26, U17.4, J6.A26, J7.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:07 11880     [INFO] 
+2024-05-22 13:32:07 11880     [INFO] Net: A5 Simulation #156   Delay and SI, Corner: Fast-Strong Driver: J2.A26   Receivers (9): J4.A26, U5.16, J1.A26, J5.A26, J3.A26, U17.4, J6.A26, J7.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:07 11880     [INFO] 
+2024-05-22 13:32:07 11880     [INFO] Net: A5 Simulation #157   Delay and SI, Corner: Fast-Strong Driver: U17.4   Receivers (9): J4.A26, U5.16, J1.A26, J5.A26, J3.A26, J2.A26, J6.A26, J7.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:08 11880     [INFO] 
+2024-05-22 13:32:08 11880     [INFO] Net: A5 Simulation #158   Delay and SI, Corner: Fast-Strong Driver: J6.A26   Receivers (9): J4.A26, U5.16, J1.A26, J5.A26, J3.A26, J2.A26, U17.4, J7.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:09 11880     [INFO] 
+2024-05-22 13:32:09 11880     [INFO] Net: A5 Simulation #159   Delay and SI, Corner: Fast-Strong Driver: J7.A26   Receivers (9): J4.A26, U5.16, J1.A26, J5.A26, J3.A26, J2.A26, U17.4, J6.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:10 11880     [INFO] 
+2024-05-22 13:32:10 11880     [INFO] Net: A5 Simulation #160   Delay and SI, Corner: Fast-Strong Driver: U12.7   Receivers (9): J4.A26, U5.16, J1.A26, J5.A26, J3.A26, J2.A26, U17.4, J6.A26, J7.A26 Coupled nets (0): 
+2024-05-22 13:32:10 11880     [INFO] 
+2024-05-22 13:32:10 11880  [WARNING] Net: A5:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:32:10 11880     [INFO] Net: A5 Simulation #161   Delay and SI, Corner: Typical Driver: J4.A26   Receivers (9): U5.16, J1.A26, J5.A26, J3.A26, J2.A26, U17.4, J6.A26, J7.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:11 11880     [INFO] 
+2024-05-22 13:32:11 11880     [INFO] Net: A5 Simulation #162   Delay and SI, Corner: Typical Driver: U5.16   Receivers (9): J4.A26, J1.A26, J5.A26, J3.A26, J2.A26, U17.4, J6.A26, J7.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:12 11880     [INFO] 
+2024-05-22 13:32:12 11880     [INFO] Net: A5 Simulation #163   Delay and SI, Corner: Typical Driver: J1.A26   Receivers (9): J4.A26, U5.16, J5.A26, J3.A26, J2.A26, U17.4, J6.A26, J7.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:13 11880     [INFO] 
+2024-05-22 13:32:13 11880     [INFO] Net: A5 Simulation #164   Delay and SI, Corner: Typical Driver: J5.A26   Receivers (9): J4.A26, U5.16, J1.A26, J3.A26, J2.A26, U17.4, J6.A26, J7.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:13 11880     [INFO] 
+2024-05-22 13:32:13 11880     [INFO] Net: A5 Simulation #165   Delay and SI, Corner: Typical Driver: J3.A26   Receivers (9): J4.A26, U5.16, J1.A26, J5.A26, J2.A26, U17.4, J6.A26, J7.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:14 11880     [INFO] 
+2024-05-22 13:32:14 11880     [INFO] Net: A5 Simulation #166   Delay and SI, Corner: Typical Driver: J2.A26   Receivers (9): J4.A26, U5.16, J1.A26, J5.A26, J3.A26, U17.4, J6.A26, J7.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:15 11880     [INFO] 
+2024-05-22 13:32:15 11880     [INFO] Net: A5 Simulation #167   Delay and SI, Corner: Typical Driver: U17.4   Receivers (9): J4.A26, U5.16, J1.A26, J5.A26, J3.A26, J2.A26, J6.A26, J7.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:16 11880     [INFO] 
+2024-05-22 13:32:16 11880     [INFO] Net: A5 Simulation #168   Delay and SI, Corner: Typical Driver: J6.A26   Receivers (9): J4.A26, U5.16, J1.A26, J5.A26, J3.A26, J2.A26, U17.4, J7.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:17 11880     [INFO] 
+2024-05-22 13:32:17 11880     [INFO] Net: A5 Simulation #169   Delay and SI, Corner: Typical Driver: J7.A26   Receivers (9): J4.A26, U5.16, J1.A26, J5.A26, J3.A26, J2.A26, U17.4, J6.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:17 11880     [INFO] 
+2024-05-22 13:32:17 11880     [INFO] Net: A5 Simulation #170   Delay and SI, Corner: Typical Driver: U12.7   Receivers (9): J4.A26, U5.16, J1.A26, J5.A26, J3.A26, J2.A26, U17.4, J6.A26, J7.A26 Coupled nets (0): 
+2024-05-22 13:32:18 11880     [INFO] 
+2024-05-22 13:32:18 11880  [WARNING] Net: A5:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:32:18 11880     [INFO] Net: A5 Simulation #171   Delay and SI, Corner: Slow-Weak Driver: J4.A26   Receivers (9): U5.16, J1.A26, J5.A26, J3.A26, J2.A26, U17.4, J6.A26, J7.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:19 11880     [INFO] 
+2024-05-22 13:32:19 11880     [INFO] Net: A5 Simulation #172   Delay and SI, Corner: Slow-Weak Driver: U5.16   Receivers (9): J4.A26, J1.A26, J5.A26, J3.A26, J2.A26, U17.4, J6.A26, J7.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:20 11880     [INFO] 
+2024-05-22 13:32:20 11880     [INFO] Net: A5 Simulation #173   Delay and SI, Corner: Slow-Weak Driver: J1.A26   Receivers (9): J4.A26, U5.16, J5.A26, J3.A26, J2.A26, U17.4, J6.A26, J7.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:20 11880     [INFO] 
+2024-05-22 13:32:20 11880     [INFO] Net: A5 Simulation #174   Delay and SI, Corner: Slow-Weak Driver: J5.A26   Receivers (9): J4.A26, U5.16, J1.A26, J3.A26, J2.A26, U17.4, J6.A26, J7.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:21 11880     [INFO] 
+2024-05-22 13:32:21 11880     [INFO] Net: A5 Simulation #175   Delay and SI, Corner: Slow-Weak Driver: J3.A26   Receivers (9): J4.A26, U5.16, J1.A26, J5.A26, J2.A26, U17.4, J6.A26, J7.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:22 11880     [INFO] 
+2024-05-22 13:32:22 11880     [INFO] Net: A5 Simulation #176   Delay and SI, Corner: Slow-Weak Driver: J2.A26   Receivers (9): J4.A26, U5.16, J1.A26, J5.A26, J3.A26, U17.4, J6.A26, J7.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:22 11880     [INFO] 
+2024-05-22 13:32:22 11880     [INFO] Net: A5 Simulation #177   Delay and SI, Corner: Slow-Weak Driver: U17.4   Receivers (9): J4.A26, U5.16, J1.A26, J5.A26, J3.A26, J2.A26, J6.A26, J7.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:23 11880     [INFO] 
+2024-05-22 13:32:23 11880     [INFO] Net: A5 Simulation #178   Delay and SI, Corner: Slow-Weak Driver: J6.A26   Receivers (9): J4.A26, U5.16, J1.A26, J5.A26, J3.A26, J2.A26, U17.4, J7.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:24 11880     [INFO] 
+2024-05-22 13:32:24 11880     [INFO] Net: A5 Simulation #179   Delay and SI, Corner: Slow-Weak Driver: J7.A26   Receivers (9): J4.A26, U5.16, J1.A26, J5.A26, J3.A26, J2.A26, U17.4, J6.A26, U12.7 Coupled nets (0): 
+2024-05-22 13:32:24 11880     [INFO] 
+2024-05-22 13:32:24 11880     [INFO] Net: A5 Simulation #180   Delay and SI, Corner: Slow-Weak Driver: U12.7   Receivers (9): J4.A26, U5.16, J1.A26, J5.A26, J3.A26, J2.A26, U17.4, J6.A26, J7.A26 Coupled nets (0): 
+2024-05-22 13:32:25 11880     [INFO] 
+2024-05-22 13:32:25 11880  [WARNING] Net: A5:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:32:26 11880     [INFO] Net: A6 Simulation #181   Delay and SI, Corner: Fast-Strong Driver: J4.A25   Receivers (9): U5.19, J1.A25, J5.A25, J3.A25, J2.A25, U17.17, J6.A25, J7.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:27 11880     [INFO] 
+2024-05-22 13:32:27 11880     [INFO] Net: A6 Simulation #182   Delay and SI, Corner: Fast-Strong Driver: U5.19   Receivers (9): J4.A25, J1.A25, J5.A25, J3.A25, J2.A25, U17.17, J6.A25, J7.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:28 11880     [INFO] 
+2024-05-22 13:32:28 11880     [INFO] Net: A6 Simulation #183   Delay and SI, Corner: Fast-Strong Driver: J1.A25   Receivers (9): J4.A25, U5.19, J5.A25, J3.A25, J2.A25, U17.17, J6.A25, J7.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:28 11880     [INFO] 
+2024-05-22 13:32:28 11880     [INFO] Net: A6 Simulation #184   Delay and SI, Corner: Fast-Strong Driver: J5.A25   Receivers (9): J4.A25, U5.19, J1.A25, J3.A25, J2.A25, U17.17, J6.A25, J7.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:29 11880     [INFO] 
+2024-05-22 13:32:29 11880     [INFO] Net: A6 Simulation #185   Delay and SI, Corner: Fast-Strong Driver: J3.A25   Receivers (9): J4.A25, U5.19, J1.A25, J5.A25, J2.A25, U17.17, J6.A25, J7.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:30 11880     [INFO] 
+2024-05-22 13:32:30 11880     [INFO] Net: A6 Simulation #186   Delay and SI, Corner: Fast-Strong Driver: J2.A25   Receivers (9): J4.A25, U5.19, J1.A25, J5.A25, J3.A25, U17.17, J6.A25, J7.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:31 11880     [INFO] 
+2024-05-22 13:32:31 11880     [INFO] Net: A6 Simulation #187   Delay and SI, Corner: Fast-Strong Driver: U17.17   Receivers (9): J4.A25, U5.19, J1.A25, J5.A25, J3.A25, J2.A25, J6.A25, J7.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:32 11880     [INFO] 
+2024-05-22 13:32:32 11880     [INFO] Net: A6 Simulation #188   Delay and SI, Corner: Fast-Strong Driver: J6.A25   Receivers (9): J4.A25, U5.19, J1.A25, J5.A25, J3.A25, J2.A25, U17.17, J7.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:33 11880     [INFO] 
+2024-05-22 13:32:33 11880     [INFO] Net: A6 Simulation #189   Delay and SI, Corner: Fast-Strong Driver: J7.A25   Receivers (9): J4.A25, U5.19, J1.A25, J5.A25, J3.A25, J2.A25, U17.17, J6.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:33 11880     [INFO] 
+2024-05-22 13:32:33 11880     [INFO] Net: A6 Simulation #190   Delay and SI, Corner: Fast-Strong Driver: U12.5   Receivers (9): J4.A25, U5.19, J1.A25, J5.A25, J3.A25, J2.A25, U17.17, J6.A25, J7.A25 Coupled nets (0): 
+2024-05-22 13:32:34 11880     [INFO] 
+2024-05-22 13:32:34 11880  [WARNING] Net: A6:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:32:34 11880     [INFO] Net: A6 Simulation #191   Delay and SI, Corner: Typical Driver: J4.A25   Receivers (9): U5.19, J1.A25, J5.A25, J3.A25, J2.A25, U17.17, J6.A25, J7.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:35 11880     [INFO] 
+2024-05-22 13:32:35 11880     [INFO] Net: A6 Simulation #192   Delay and SI, Corner: Typical Driver: U5.19   Receivers (9): J4.A25, J1.A25, J5.A25, J3.A25, J2.A25, U17.17, J6.A25, J7.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:36 11880     [INFO] 
+2024-05-22 13:32:36 11880     [INFO] Net: A6 Simulation #193   Delay and SI, Corner: Typical Driver: J1.A25   Receivers (9): J4.A25, U5.19, J5.A25, J3.A25, J2.A25, U17.17, J6.A25, J7.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:37 11880     [INFO] 
+2024-05-22 13:32:37 11880     [INFO] Net: A6 Simulation #194   Delay and SI, Corner: Typical Driver: J5.A25   Receivers (9): J4.A25, U5.19, J1.A25, J3.A25, J2.A25, U17.17, J6.A25, J7.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:38 11880     [INFO] 
+2024-05-22 13:32:38 11880     [INFO] Net: A6 Simulation #195   Delay and SI, Corner: Typical Driver: J3.A25   Receivers (9): J4.A25, U5.19, J1.A25, J5.A25, J2.A25, U17.17, J6.A25, J7.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:38 11880     [INFO] 
+2024-05-22 13:32:38 11880     [INFO] Net: A6 Simulation #196   Delay and SI, Corner: Typical Driver: J2.A25   Receivers (9): J4.A25, U5.19, J1.A25, J5.A25, J3.A25, U17.17, J6.A25, J7.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:39 11880     [INFO] 
+2024-05-22 13:32:39 11880     [INFO] Net: A6 Simulation #197   Delay and SI, Corner: Typical Driver: U17.17   Receivers (9): J4.A25, U5.19, J1.A25, J5.A25, J3.A25, J2.A25, J6.A25, J7.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:40 11880     [INFO] 
+2024-05-22 13:32:40 11880     [INFO] Net: A6 Simulation #198   Delay and SI, Corner: Typical Driver: J6.A25   Receivers (9): J4.A25, U5.19, J1.A25, J5.A25, J3.A25, J2.A25, U17.17, J7.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:41 11880     [INFO] 
+2024-05-22 13:32:41 11880     [INFO] Net: A6 Simulation #199   Delay and SI, Corner: Typical Driver: J7.A25   Receivers (9): J4.A25, U5.19, J1.A25, J5.A25, J3.A25, J2.A25, U17.17, J6.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:42 11880     [INFO] 
+2024-05-22 13:32:42 11880     [INFO] Net: A6 Simulation #200   Delay and SI, Corner: Typical Driver: U12.5   Receivers (9): J4.A25, U5.19, J1.A25, J5.A25, J3.A25, J2.A25, U17.17, J6.A25, J7.A25 Coupled nets (0): 
+2024-05-22 13:32:43 11880     [INFO] 
+2024-05-22 13:32:43 11880  [WARNING] Net: A6:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:32:43 11880     [INFO] Net: A6 Simulation #201   Delay and SI, Corner: Slow-Weak Driver: J4.A25   Receivers (9): U5.19, J1.A25, J5.A25, J3.A25, J2.A25, U17.17, J6.A25, J7.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:44 11880     [INFO] 
+2024-05-22 13:32:44 11880     [INFO] Net: A6 Simulation #202   Delay and SI, Corner: Slow-Weak Driver: U5.19   Receivers (9): J4.A25, J1.A25, J5.A25, J3.A25, J2.A25, U17.17, J6.A25, J7.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:45 11880     [INFO] 
+2024-05-22 13:32:45 11880     [INFO] Net: A6 Simulation #203   Delay and SI, Corner: Slow-Weak Driver: J1.A25   Receivers (9): J4.A25, U5.19, J5.A25, J3.A25, J2.A25, U17.17, J6.A25, J7.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:45 11880     [INFO] 
+2024-05-22 13:32:45 11880     [INFO] Net: A6 Simulation #204   Delay and SI, Corner: Slow-Weak Driver: J5.A25   Receivers (9): J4.A25, U5.19, J1.A25, J3.A25, J2.A25, U17.17, J6.A25, J7.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:46 11880     [INFO] 
+2024-05-22 13:32:46 11880     [INFO] Net: A6 Simulation #205   Delay and SI, Corner: Slow-Weak Driver: J3.A25   Receivers (9): J4.A25, U5.19, J1.A25, J5.A25, J2.A25, U17.17, J6.A25, J7.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:47 11880     [INFO] 
+2024-05-22 13:32:47 11880     [INFO] Net: A6 Simulation #206   Delay and SI, Corner: Slow-Weak Driver: J2.A25   Receivers (9): J4.A25, U5.19, J1.A25, J5.A25, J3.A25, U17.17, J6.A25, J7.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:48 11880     [INFO] 
+2024-05-22 13:32:48 11880     [INFO] Net: A6 Simulation #207   Delay and SI, Corner: Slow-Weak Driver: U17.17   Receivers (9): J4.A25, U5.19, J1.A25, J5.A25, J3.A25, J2.A25, J6.A25, J7.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:48 11880     [INFO] 
+2024-05-22 13:32:49 11880     [INFO] Net: A6 Simulation #208   Delay and SI, Corner: Slow-Weak Driver: J6.A25   Receivers (9): J4.A25, U5.19, J1.A25, J5.A25, J3.A25, J2.A25, U17.17, J7.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:49 11880     [INFO] 
+2024-05-22 13:32:49 11880     [INFO] Net: A6 Simulation #209   Delay and SI, Corner: Slow-Weak Driver: J7.A25   Receivers (9): J4.A25, U5.19, J1.A25, J5.A25, J3.A25, J2.A25, U17.17, J6.A25, U12.5 Coupled nets (0): 
+2024-05-22 13:32:50 11880     [INFO] 
+2024-05-22 13:32:50 11880     [INFO] Net: A6 Simulation #210   Delay and SI, Corner: Slow-Weak Driver: U12.5   Receivers (9): J4.A25, U5.19, J1.A25, J5.A25, J3.A25, J2.A25, U17.17, J6.A25, J7.A25 Coupled nets (0): 
+2024-05-22 13:32:51 11880     [INFO] 
+2024-05-22 13:32:51 11880  [WARNING] Net: A6:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:32:52 11880     [INFO] Net: A7 Simulation #211   Delay and SI, Corner: Fast-Strong Driver: J4.A24   Receivers (9): U5.2, J1.A24, J5.A24, J3.A24, J2.A24, U17.2, J6.A24, J7.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:32:53 11880     [INFO] 
+2024-05-22 13:32:53 11880     [INFO] Net: A7 Simulation #212   Delay and SI, Corner: Fast-Strong Driver: U5.2   Receivers (9): J4.A24, J1.A24, J5.A24, J3.A24, J2.A24, U17.2, J6.A24, J7.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:32:53 11880     [INFO] 
+2024-05-22 13:32:53 11880     [INFO] Net: A7 Simulation #213   Delay and SI, Corner: Fast-Strong Driver: J1.A24   Receivers (9): J4.A24, U5.2, J5.A24, J3.A24, J2.A24, U17.2, J6.A24, J7.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:32:54 11880     [INFO] 
+2024-05-22 13:32:54 11880     [INFO] Net: A7 Simulation #214   Delay and SI, Corner: Fast-Strong Driver: J5.A24   Receivers (9): J4.A24, U5.2, J1.A24, J3.A24, J2.A24, U17.2, J6.A24, J7.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:32:55 11880     [INFO] 
+2024-05-22 13:32:55 11880     [INFO] Net: A7 Simulation #215   Delay and SI, Corner: Fast-Strong Driver: J3.A24   Receivers (9): J4.A24, U5.2, J1.A24, J5.A24, J2.A24, U17.2, J6.A24, J7.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:32:55 11880     [INFO] 
+2024-05-22 13:32:55 11880     [INFO] Net: A7 Simulation #216   Delay and SI, Corner: Fast-Strong Driver: J2.A24   Receivers (9): J4.A24, U5.2, J1.A24, J5.A24, J3.A24, U17.2, J6.A24, J7.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:32:56 11880     [INFO] 
+2024-05-22 13:32:56 11880     [INFO] Net: A7 Simulation #217   Delay and SI, Corner: Fast-Strong Driver: U17.2   Receivers (9): J4.A24, U5.2, J1.A24, J5.A24, J3.A24, J2.A24, J6.A24, J7.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:32:57 11880     [INFO] 
+2024-05-22 13:32:57 11880     [INFO] Net: A7 Simulation #218   Delay and SI, Corner: Fast-Strong Driver: J6.A24   Receivers (9): J4.A24, U5.2, J1.A24, J5.A24, J3.A24, J2.A24, U17.2, J7.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:32:57 11880     [INFO] 
+2024-05-22 13:32:57 11880     [INFO] Net: A7 Simulation #219   Delay and SI, Corner: Fast-Strong Driver: J7.A24   Receivers (9): J4.A24, U5.2, J1.A24, J5.A24, J3.A24, J2.A24, U17.2, J6.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:32:58 11880     [INFO] 
+2024-05-22 13:32:58 11880     [INFO] Net: A7 Simulation #220   Delay and SI, Corner: Fast-Strong Driver: U12.3   Receivers (9): J4.A24, U5.2, J1.A24, J5.A24, J3.A24, J2.A24, U17.2, J6.A24, J7.A24 Coupled nets (0): 
+2024-05-22 13:32:59 11880     [INFO] 
+2024-05-22 13:32:59 11880  [WARNING] Net: A7:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:32:59 11880     [INFO] Net: A7 Simulation #221   Delay and SI, Corner: Typical Driver: J4.A24   Receivers (9): U5.2, J1.A24, J5.A24, J3.A24, J2.A24, U17.2, J6.A24, J7.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:32:59 11880     [INFO] 
+2024-05-22 13:32:59 11880     [INFO] Net: A7 Simulation #222   Delay and SI, Corner: Typical Driver: U5.2   Receivers (9): J4.A24, J1.A24, J5.A24, J3.A24, J2.A24, U17.2, J6.A24, J7.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:33:00 11880     [INFO] 
+2024-05-22 13:33:00 11880     [INFO] Net: A7 Simulation #223   Delay and SI, Corner: Typical Driver: J1.A24   Receivers (9): J4.A24, U5.2, J5.A24, J3.A24, J2.A24, U17.2, J6.A24, J7.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:33:01 11880     [INFO] 
+2024-05-22 13:33:01 11880     [INFO] Net: A7 Simulation #224   Delay and SI, Corner: Typical Driver: J5.A24   Receivers (9): J4.A24, U5.2, J1.A24, J3.A24, J2.A24, U17.2, J6.A24, J7.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:33:02 11880     [INFO] 
+2024-05-22 13:33:02 11880     [INFO] Net: A7 Simulation #225   Delay and SI, Corner: Typical Driver: J3.A24   Receivers (9): J4.A24, U5.2, J1.A24, J5.A24, J2.A24, U17.2, J6.A24, J7.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:33:03 11880     [INFO] 
+2024-05-22 13:33:03 11880     [INFO] Net: A7 Simulation #226   Delay and SI, Corner: Typical Driver: J2.A24   Receivers (9): J4.A24, U5.2, J1.A24, J5.A24, J3.A24, U17.2, J6.A24, J7.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:33:03 11880     [INFO] 
+2024-05-22 13:33:03 11880     [INFO] Net: A7 Simulation #227   Delay and SI, Corner: Typical Driver: U17.2   Receivers (9): J4.A24, U5.2, J1.A24, J5.A24, J3.A24, J2.A24, J6.A24, J7.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:33:04 11880     [INFO] 
+2024-05-22 13:33:04 11880     [INFO] Net: A7 Simulation #228   Delay and SI, Corner: Typical Driver: J6.A24   Receivers (9): J4.A24, U5.2, J1.A24, J5.A24, J3.A24, J2.A24, U17.2, J7.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:33:05 11880     [INFO] 
+2024-05-22 13:33:05 11880     [INFO] Net: A7 Simulation #229   Delay and SI, Corner: Typical Driver: J7.A24   Receivers (9): J4.A24, U5.2, J1.A24, J5.A24, J3.A24, J2.A24, U17.2, J6.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:33:06 11880     [INFO] 
+2024-05-22 13:33:06 11880     [INFO] Net: A7 Simulation #230   Delay and SI, Corner: Typical Driver: U12.3   Receivers (9): J4.A24, U5.2, J1.A24, J5.A24, J3.A24, J2.A24, U17.2, J6.A24, J7.A24 Coupled nets (0): 
+2024-05-22 13:33:06 11880     [INFO] 
+2024-05-22 13:33:06 11880  [WARNING] Net: A7:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:33:06 11880     [INFO] Net: A7 Simulation #231   Delay and SI, Corner: Slow-Weak Driver: J4.A24   Receivers (9): U5.2, J1.A24, J5.A24, J3.A24, J2.A24, U17.2, J6.A24, J7.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:33:07 11880     [INFO] 
+2024-05-22 13:33:07 11880     [INFO] Net: A7 Simulation #232   Delay and SI, Corner: Slow-Weak Driver: U5.2   Receivers (9): J4.A24, J1.A24, J5.A24, J3.A24, J2.A24, U17.2, J6.A24, J7.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:33:08 11880     [INFO] 
+2024-05-22 13:33:08 11880     [INFO] Net: A7 Simulation #233   Delay and SI, Corner: Slow-Weak Driver: J1.A24   Receivers (9): J4.A24, U5.2, J5.A24, J3.A24, J2.A24, U17.2, J6.A24, J7.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:33:08 11880     [INFO] 
+2024-05-22 13:33:08 11880     [INFO] Net: A7 Simulation #234   Delay and SI, Corner: Slow-Weak Driver: J5.A24   Receivers (9): J4.A24, U5.2, J1.A24, J3.A24, J2.A24, U17.2, J6.A24, J7.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:33:09 11880     [INFO] 
+2024-05-22 13:33:09 11880     [INFO] Net: A7 Simulation #235   Delay and SI, Corner: Slow-Weak Driver: J3.A24   Receivers (9): J4.A24, U5.2, J1.A24, J5.A24, J2.A24, U17.2, J6.A24, J7.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:33:10 11880     [INFO] 
+2024-05-22 13:33:10 11880     [INFO] Net: A7 Simulation #236   Delay and SI, Corner: Slow-Weak Driver: J2.A24   Receivers (9): J4.A24, U5.2, J1.A24, J5.A24, J3.A24, U17.2, J6.A24, J7.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:33:10 11880     [INFO] 
+2024-05-22 13:33:10 11880     [INFO] Net: A7 Simulation #237   Delay and SI, Corner: Slow-Weak Driver: U17.2   Receivers (9): J4.A24, U5.2, J1.A24, J5.A24, J3.A24, J2.A24, J6.A24, J7.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:33:11 11880     [INFO] 
+2024-05-22 13:33:11 11880     [INFO] Net: A7 Simulation #238   Delay and SI, Corner: Slow-Weak Driver: J6.A24   Receivers (9): J4.A24, U5.2, J1.A24, J5.A24, J3.A24, J2.A24, U17.2, J7.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:33:12 11880     [INFO] 
+2024-05-22 13:33:12 11880     [INFO] Net: A7 Simulation #239   Delay and SI, Corner: Slow-Weak Driver: J7.A24   Receivers (9): J4.A24, U5.2, J1.A24, J5.A24, J3.A24, J2.A24, U17.2, J6.A24, U12.3 Coupled nets (0): 
+2024-05-22 13:33:12 11880     [INFO] 
+2024-05-22 13:33:12 11880     [INFO] Net: A7 Simulation #240   Delay and SI, Corner: Slow-Weak Driver: U12.3   Receivers (9): J4.A24, U5.2, J1.A24, J5.A24, J3.A24, J2.A24, U17.2, J6.A24, J7.A24 Coupled nets (0): 
+2024-05-22 13:33:13 11880     [INFO] 
+2024-05-22 13:33:13 11880  [WARNING] Net: A7:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:33:14 11880     [INFO] Net: A8 Simulation #241   Delay and SI, Corner: Fast-Strong Driver: J4.A23   Receivers (9): U6.18, J1.A23, J5.A23, J3.A23, J2.A23, J6.A23, U16.15, J7.A23, U11.2 Coupled nets (0): 
+2024-05-22 13:33:15 11880     [INFO] 
+2024-05-22 13:33:15 11880     [INFO] Net: A8 Simulation #242   Delay and SI, Corner: Fast-Strong Driver: U6.18   Receivers (9): J4.A23, J1.A23, J5.A23, J3.A23, J2.A23, J6.A23, U16.15, J7.A23, U11.2 Coupled nets (0): 
+2024-05-22 13:33:15 11880     [INFO] 
+2024-05-22 13:33:15 11880     [INFO] Net: A8 Simulation #243   Delay and SI, Corner: Fast-Strong Driver: J1.A23   Receivers (9): J4.A23, U6.18, J5.A23, J3.A23, J2.A23, J6.A23, U16.15, J7.A23, U11.2 Coupled nets (0): 
+2024-05-22 13:33:16 11880     [INFO] 
+2024-05-22 13:33:16 11880     [INFO] Net: A8 Simulation #244   Delay and SI, Corner: Fast-Strong Driver: J5.A23   Receivers (9): J4.A23, U6.18, J1.A23, J3.A23, J2.A23, J6.A23, U16.15, J7.A23, U11.2 Coupled nets (0): 
+2024-05-22 13:33:17 11880     [INFO] 
+2024-05-22 13:33:17 11880     [INFO] Net: A8 Simulation #245   Delay and SI, Corner: Fast-Strong Driver: J3.A23   Receivers (9): J4.A23, U6.18, J1.A23, J5.A23, J2.A23, J6.A23, U16.15, J7.A23, U11.2 Coupled nets (0): 
+2024-05-22 13:33:18 11880     [INFO] 
+2024-05-22 13:33:18 11880     [INFO] Net: A8 Simulation #246   Delay and SI, Corner: Fast-Strong Driver: J2.A23   Receivers (9): J4.A23, U6.18, J1.A23, J5.A23, J3.A23, J6.A23, U16.15, J7.A23, U11.2 Coupled nets (0): 
+2024-05-22 13:33:18 11880     [INFO] 
+2024-05-22 13:33:18 11880     [INFO] Net: A8 Simulation #247   Delay and SI, Corner: Fast-Strong Driver: J6.A23   Receivers (9): J4.A23, U6.18, J1.A23, J5.A23, J3.A23, J2.A23, U16.15, J7.A23, U11.2 Coupled nets (0): 
+2024-05-22 13:33:19 11880     [INFO] 
+2024-05-22 13:33:19 11880     [INFO] Net: A8 Simulation #248   Delay and SI, Corner: Fast-Strong Driver: U16.15   Receivers (9): J4.A23, U6.18, J1.A23, J5.A23, J3.A23, J2.A23, J6.A23, J7.A23, U11.2 Coupled nets (0): 
+2024-05-22 13:33:20 11880     [INFO] 
+2024-05-22 13:33:20 11880     [INFO] Net: A8 Simulation #249   Delay and SI, Corner: Fast-Strong Driver: J7.A23   Receivers (9): J4.A23, U6.18, J1.A23, J5.A23, J3.A23, J2.A23, J6.A23, U16.15, U11.2 Coupled nets (0): 
+2024-05-22 13:33:21 11880     [INFO] 
+2024-05-22 13:33:21 11880     [INFO] Net: A8 Simulation #250   Delay and SI, Corner: Fast-Strong Driver: U11.2   Receivers (9): J4.A23, U6.18, J1.A23, J5.A23, J3.A23, J2.A23, J6.A23, U16.15, J7.A23 Coupled nets (0): 
+2024-05-22 13:33:21 11880     [INFO] 
+2024-05-22 13:33:21 11880  [WARNING] Net: A8:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:33:21 11880     [INFO] Net: A8 Simulation #251   Delay and SI, Corner: Typical Driver: J4.A23   Receivers (9): U6.18, J1.A23, J5.A23, J3.A23, J2.A23, J6.A23, U16.15, J7.A23, U11.2 Coupled nets (0): 
+2024-05-22 13:33:22 11880     [INFO] 
+2024-05-22 13:33:22 11880     [INFO] Net: A8 Simulation #252   Delay and SI, Corner: Typical Driver: U6.18   Receivers (9): J4.A23, J1.A23, J5.A23, J3.A23, J2.A23, J6.A23, U16.15, J7.A23, U11.2 Coupled nets (0): 
+2024-05-22 13:33:23 11880     [INFO] 
+2024-05-22 13:33:23 11880     [INFO] Net: A8 Simulation #253   Delay and SI, Corner: Typical Driver: J1.A23   Receivers (9): J4.A23, U6.18, J5.A23, J3.A23, J2.A23, J6.A23, U16.15, J7.A23, U11.2 Coupled nets (0): 
+2024-05-22 13:33:24 11880     [INFO] 
+2024-05-22 13:33:24 11880     [INFO] Net: A8 Simulation #254   Delay and SI, Corner: Typical Driver: J5.A23   Receivers (9): J4.A23, U6.18, J1.A23, J3.A23, J2.A23, J6.A23, U16.15, J7.A23, U11.2 Coupled nets (0): 
+2024-05-22 13:33:25 11880     [INFO] 
+2024-05-22 13:33:25 11880     [INFO] Net: A8 Simulation #255   Delay and SI, Corner: Typical Driver: J3.A23   Receivers (9): J4.A23, U6.18, J1.A23, J5.A23, J2.A23, J6.A23, U16.15, J7.A23, U11.2 Coupled nets (0): 
+2024-05-22 13:33:26 11880     [INFO] 
+2024-05-22 13:33:26 11880     [INFO] Net: A8 Simulation #256   Delay and SI, Corner: Typical Driver: J2.A23   Receivers (9): J4.A23, U6.18, J1.A23, J5.A23, J3.A23, J6.A23, U16.15, J7.A23, U11.2 Coupled nets (0): 
+2024-05-22 13:33:27 11880     [INFO] 
+2024-05-22 13:33:27 11880     [INFO] Net: A8 Simulation #257   Delay and SI, Corner: Typical Driver: J6.A23   Receivers (9): J4.A23, U6.18, J1.A23, J5.A23, J3.A23, J2.A23, U16.15, J7.A23, U11.2 Coupled nets (0): 
+2024-05-22 13:33:27 11880     [INFO] 
+2024-05-22 13:33:27 11880     [INFO] Net: A8 Simulation #258   Delay and SI, Corner: Typical Driver: U16.15   Receivers (9): J4.A23, U6.18, J1.A23, J5.A23, J3.A23, J2.A23, J6.A23, J7.A23, U11.2 Coupled nets (0): 
+2024-05-22 13:33:28 11880     [INFO] 
+2024-05-22 13:33:28 11880     [INFO] Net: A8 Simulation #259   Delay and SI, Corner: Typical Driver: J7.A23   Receivers (9): J4.A23, U6.18, J1.A23, J5.A23, J3.A23, J2.A23, J6.A23, U16.15, U11.2 Coupled nets (0): 
+2024-05-22 13:33:29 11880     [INFO] 
+2024-05-22 13:33:29 11880     [INFO] Net: A8 Simulation #260   Delay and SI, Corner: Typical Driver: U11.2   Receivers (9): J4.A23, U6.18, J1.A23, J5.A23, J3.A23, J2.A23, J6.A23, U16.15, J7.A23 Coupled nets (0): 
+2024-05-22 13:33:30 11880     [INFO] 
+2024-05-22 13:33:30 11880  [WARNING] Net: A8:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:33:30 11880     [INFO] Net: A8 Simulation #261   Delay and SI, Corner: Slow-Weak Driver: J4.A23   Receivers (9): U6.18, J1.A23, J5.A23, J3.A23, J2.A23, J6.A23, U16.15, J7.A23, U11.2 Coupled nets (0): 
+2024-05-22 13:33:31 11880     [INFO] 
+2024-05-22 13:33:31 11880     [INFO] Net: A8 Simulation #262   Delay and SI, Corner: Slow-Weak Driver: U6.18   Receivers (9): J4.A23, J1.A23, J5.A23, J3.A23, J2.A23, J6.A23, U16.15, J7.A23, U11.2 Coupled nets (0): 
+2024-05-22 13:33:31 11880     [INFO] 
+2024-05-22 13:33:31 11880     [INFO] Net: A8 Simulation #263   Delay and SI, Corner: Slow-Weak Driver: J1.A23   Receivers (9): J4.A23, U6.18, J5.A23, J3.A23, J2.A23, J6.A23, U16.15, J7.A23, U11.2 Coupled nets (0): 
+2024-05-22 13:33:32 11880     [INFO] 
+2024-05-22 13:33:32 11880     [INFO] Net: A8 Simulation #264   Delay and SI, Corner: Slow-Weak Driver: J5.A23   Receivers (9): J4.A23, U6.18, J1.A23, J3.A23, J2.A23, J6.A23, U16.15, J7.A23, U11.2 Coupled nets (0): 
+2024-05-22 13:33:33 11880     [INFO] 
+2024-05-22 13:33:33 11880     [INFO] Net: A8 Simulation #265   Delay and SI, Corner: Slow-Weak Driver: J3.A23   Receivers (9): J4.A23, U6.18, J1.A23, J5.A23, J2.A23, J6.A23, U16.15, J7.A23, U11.2 Coupled nets (0): 
+2024-05-22 13:33:34 11880     [INFO] 
+2024-05-22 13:33:34 11880     [INFO] Net: A8 Simulation #266   Delay and SI, Corner: Slow-Weak Driver: J2.A23   Receivers (9): J4.A23, U6.18, J1.A23, J5.A23, J3.A23, J6.A23, U16.15, J7.A23, U11.2 Coupled nets (0): 
+2024-05-22 13:33:34 11880     [INFO] 
+2024-05-22 13:33:34 11880     [INFO] Net: A8 Simulation #267   Delay and SI, Corner: Slow-Weak Driver: J6.A23   Receivers (9): J4.A23, U6.18, J1.A23, J5.A23, J3.A23, J2.A23, U16.15, J7.A23, U11.2 Coupled nets (0): 
+2024-05-22 13:33:35 11880     [INFO] 
+2024-05-22 13:33:35 11880     [INFO] Net: A8 Simulation #268   Delay and SI, Corner: Slow-Weak Driver: U16.15   Receivers (9): J4.A23, U6.18, J1.A23, J5.A23, J3.A23, J2.A23, J6.A23, J7.A23, U11.2 Coupled nets (0): 
+2024-05-22 13:33:36 11880     [INFO] 
+2024-05-22 13:33:36 11880     [INFO] Net: A8 Simulation #269   Delay and SI, Corner: Slow-Weak Driver: J7.A23   Receivers (9): J4.A23, U6.18, J1.A23, J5.A23, J3.A23, J2.A23, J6.A23, U16.15, U11.2 Coupled nets (0): 
+2024-05-22 13:33:36 11880     [INFO] 
+2024-05-22 13:33:36 11880     [INFO] Net: A8 Simulation #270   Delay and SI, Corner: Slow-Weak Driver: U11.2   Receivers (9): J4.A23, U6.18, J1.A23, J5.A23, J3.A23, J2.A23, J6.A23, U16.15, J7.A23 Coupled nets (0): 
+2024-05-22 13:33:37 11880     [INFO] 
+2024-05-22 13:33:37 11880  [WARNING] Net: A8:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:33:38 11880     [INFO] Net: A9 Simulation #271   Delay and SI, Corner: Fast-Strong Driver: J4.A22   Receivers (9): U6.16, J1.A22, J5.A22, J3.A22, J2.A22, J6.A22, U16.13, J7.A22, U11.5 Coupled nets (0): 
+2024-05-22 13:33:39 11880     [INFO] 
+2024-05-22 13:33:39 11880     [INFO] Net: A9 Simulation #272   Delay and SI, Corner: Fast-Strong Driver: U6.16   Receivers (9): J4.A22, J1.A22, J5.A22, J3.A22, J2.A22, J6.A22, U16.13, J7.A22, U11.5 Coupled nets (0): 
+2024-05-22 13:33:40 11880     [INFO] 
+2024-05-22 13:33:40 11880     [INFO] Net: A9 Simulation #273   Delay and SI, Corner: Fast-Strong Driver: J1.A22   Receivers (9): J4.A22, U6.16, J5.A22, J3.A22, J2.A22, J6.A22, U16.13, J7.A22, U11.5 Coupled nets (0): 
+2024-05-22 13:33:41 11880     [INFO] 
+2024-05-22 13:33:41 11880     [INFO] Net: A9 Simulation #274   Delay and SI, Corner: Fast-Strong Driver: J5.A22   Receivers (9): J4.A22, U6.16, J1.A22, J3.A22, J2.A22, J6.A22, U16.13, J7.A22, U11.5 Coupled nets (0): 
+2024-05-22 13:33:42 11880     [INFO] 
+2024-05-22 13:33:42 11880     [INFO] Net: A9 Simulation #275   Delay and SI, Corner: Fast-Strong Driver: J3.A22   Receivers (9): J4.A22, U6.16, J1.A22, J5.A22, J2.A22, J6.A22, U16.13, J7.A22, U11.5 Coupled nets (0): 
+2024-05-22 13:33:42 11880     [INFO] 
+2024-05-22 13:33:42 11880     [INFO] Net: A9 Simulation #276   Delay and SI, Corner: Fast-Strong Driver: J2.A22   Receivers (9): J4.A22, U6.16, J1.A22, J5.A22, J3.A22, J6.A22, U16.13, J7.A22, U11.5 Coupled nets (0): 
+2024-05-22 13:33:43 11880     [INFO] 
+2024-05-22 13:33:43 11880     [INFO] Net: A9 Simulation #277   Delay and SI, Corner: Fast-Strong Driver: J6.A22   Receivers (9): J4.A22, U6.16, J1.A22, J5.A22, J3.A22, J2.A22, U16.13, J7.A22, U11.5 Coupled nets (0): 
+2024-05-22 13:33:44 11880     [INFO] 
+2024-05-22 13:33:44 11880     [INFO] Net: A9 Simulation #278   Delay and SI, Corner: Fast-Strong Driver: U16.13   Receivers (9): J4.A22, U6.16, J1.A22, J5.A22, J3.A22, J2.A22, J6.A22, J7.A22, U11.5 Coupled nets (0): 
+2024-05-22 13:33:45 11880     [INFO] 
+2024-05-22 13:33:45 11880     [INFO] Net: A9 Simulation #279   Delay and SI, Corner: Fast-Strong Driver: J7.A22   Receivers (9): J4.A22, U6.16, J1.A22, J5.A22, J3.A22, J2.A22, J6.A22, U16.13, U11.5 Coupled nets (0): 
+2024-05-22 13:33:46 11880     [INFO] 
+2024-05-22 13:33:46 11880     [INFO] Net: A9 Simulation #280   Delay and SI, Corner: Fast-Strong Driver: U11.5   Receivers (9): J4.A22, U6.16, J1.A22, J5.A22, J3.A22, J2.A22, J6.A22, U16.13, J7.A22 Coupled nets (0): 
+2024-05-22 13:33:47 11880     [INFO] 
+2024-05-22 13:33:47 11880  [WARNING] Net: A9:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:33:47 11880     [INFO] Net: A9 Simulation #281   Delay and SI, Corner: Typical Driver: J4.A22   Receivers (9): U6.16, J1.A22, J5.A22, J3.A22, J2.A22, J6.A22, U16.13, J7.A22, U11.5 Coupled nets (0): 
+2024-05-22 13:33:48 11880     [INFO] 
+2024-05-22 13:33:48 11880     [INFO] Net: A9 Simulation #282   Delay and SI, Corner: Typical Driver: U6.16   Receivers (9): J4.A22, J1.A22, J5.A22, J3.A22, J2.A22, J6.A22, U16.13, J7.A22, U11.5 Coupled nets (0): 
+2024-05-22 13:33:49 11880     [INFO] 
+2024-05-22 13:33:49 11880     [INFO] Net: A9 Simulation #283   Delay and SI, Corner: Typical Driver: J1.A22   Receivers (9): J4.A22, U6.16, J5.A22, J3.A22, J2.A22, J6.A22, U16.13, J7.A22, U11.5 Coupled nets (0): 
+2024-05-22 13:33:50 11880     [INFO] 
+2024-05-22 13:33:50 11880     [INFO] Net: A9 Simulation #284   Delay and SI, Corner: Typical Driver: J5.A22   Receivers (9): J4.A22, U6.16, J1.A22, J3.A22, J2.A22, J6.A22, U16.13, J7.A22, U11.5 Coupled nets (0): 
+2024-05-22 13:33:50 11880     [INFO] 
+2024-05-22 13:33:50 11880     [INFO] Net: A9 Simulation #285   Delay and SI, Corner: Typical Driver: J3.A22   Receivers (9): J4.A22, U6.16, J1.A22, J5.A22, J2.A22, J6.A22, U16.13, J7.A22, U11.5 Coupled nets (0): 
+2024-05-22 13:33:51 11880     [INFO] 
+2024-05-22 13:33:51 11880     [INFO] Net: A9 Simulation #286   Delay and SI, Corner: Typical Driver: J2.A22   Receivers (9): J4.A22, U6.16, J1.A22, J5.A22, J3.A22, J6.A22, U16.13, J7.A22, U11.5 Coupled nets (0): 
+2024-05-22 13:33:52 11880     [INFO] 
+2024-05-22 13:33:52 11880     [INFO] Net: A9 Simulation #287   Delay and SI, Corner: Typical Driver: J6.A22   Receivers (9): J4.A22, U6.16, J1.A22, J5.A22, J3.A22, J2.A22, U16.13, J7.A22, U11.5 Coupled nets (0): 
+2024-05-22 13:33:53 11880     [INFO] 
+2024-05-22 13:33:53 11880     [INFO] Net: A9 Simulation #288   Delay and SI, Corner: Typical Driver: U16.13   Receivers (9): J4.A22, U6.16, J1.A22, J5.A22, J3.A22, J2.A22, J6.A22, J7.A22, U11.5 Coupled nets (0): 
+2024-05-22 13:33:54 11880     [INFO] 
+2024-05-22 13:33:54 11880     [INFO] Net: A9 Simulation #289   Delay and SI, Corner: Typical Driver: J7.A22   Receivers (9): J4.A22, U6.16, J1.A22, J5.A22, J3.A22, J2.A22, J6.A22, U16.13, U11.5 Coupled nets (0): 
+2024-05-22 13:33:55 11880     [INFO] 
+2024-05-22 13:33:55 11880     [INFO] Net: A9 Simulation #290   Delay and SI, Corner: Typical Driver: U11.5   Receivers (9): J4.A22, U6.16, J1.A22, J5.A22, J3.A22, J2.A22, J6.A22, U16.13, J7.A22 Coupled nets (0): 
+2024-05-22 13:33:55 11880     [INFO] 
+2024-05-22 13:33:55 11880  [WARNING] Net: A9:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:33:55 11880     [INFO] Net: A9 Simulation #291   Delay and SI, Corner: Slow-Weak Driver: J4.A22   Receivers (9): U6.16, J1.A22, J5.A22, J3.A22, J2.A22, J6.A22, U16.13, J7.A22, U11.5 Coupled nets (0): 
+2024-05-22 13:33:56 11880     [INFO] 
+2024-05-22 13:33:56 11880     [INFO] Net: A9 Simulation #292   Delay and SI, Corner: Slow-Weak Driver: U6.16   Receivers (9): J4.A22, J1.A22, J5.A22, J3.A22, J2.A22, J6.A22, U16.13, J7.A22, U11.5 Coupled nets (0): 
+2024-05-22 13:33:57 11880     [INFO] 
+2024-05-22 13:33:57 11880     [INFO] Net: A9 Simulation #293   Delay and SI, Corner: Slow-Weak Driver: J1.A22   Receivers (9): J4.A22, U6.16, J5.A22, J3.A22, J2.A22, J6.A22, U16.13, J7.A22, U11.5 Coupled nets (0): 
+2024-05-22 13:33:58 11880     [INFO] 
+2024-05-22 13:33:58 11880     [INFO] Net: A9 Simulation #294   Delay and SI, Corner: Slow-Weak Driver: J5.A22   Receivers (9): J4.A22, U6.16, J1.A22, J3.A22, J2.A22, J6.A22, U16.13, J7.A22, U11.5 Coupled nets (0): 
+2024-05-22 13:33:58 11880     [INFO] 
+2024-05-22 13:33:58 11880     [INFO] Net: A9 Simulation #295   Delay and SI, Corner: Slow-Weak Driver: J3.A22   Receivers (9): J4.A22, U6.16, J1.A22, J5.A22, J2.A22, J6.A22, U16.13, J7.A22, U11.5 Coupled nets (0): 
+2024-05-22 13:33:59 11880     [INFO] 
+2024-05-22 13:33:59 11880     [INFO] Net: A9 Simulation #296   Delay and SI, Corner: Slow-Weak Driver: J2.A22   Receivers (9): J4.A22, U6.16, J1.A22, J5.A22, J3.A22, J6.A22, U16.13, J7.A22, U11.5 Coupled nets (0): 
+2024-05-22 13:34:00 11880     [INFO] 
+2024-05-22 13:34:00 11880     [INFO] Net: A9 Simulation #297   Delay and SI, Corner: Slow-Weak Driver: J6.A22   Receivers (9): J4.A22, U6.16, J1.A22, J5.A22, J3.A22, J2.A22, U16.13, J7.A22, U11.5 Coupled nets (0): 
+2024-05-22 13:34:01 11880     [INFO] 
+2024-05-22 13:34:01 11880     [INFO] Net: A9 Simulation #298   Delay and SI, Corner: Slow-Weak Driver: U16.13   Receivers (9): J4.A22, U6.16, J1.A22, J5.A22, J3.A22, J2.A22, J6.A22, J7.A22, U11.5 Coupled nets (0): 
+2024-05-22 13:34:01 11880     [INFO] 
+2024-05-22 13:34:01 11880     [INFO] Net: A9 Simulation #299   Delay and SI, Corner: Slow-Weak Driver: J7.A22   Receivers (9): J4.A22, U6.16, J1.A22, J5.A22, J3.A22, J2.A22, J6.A22, U16.13, U11.5 Coupled nets (0): 
+2024-05-22 13:34:02 11880     [INFO] 
+2024-05-22 13:34:02 11880     [INFO] Net: A9 Simulation #300   Delay and SI, Corner: Slow-Weak Driver: U11.5   Receivers (9): J4.A22, U6.16, J1.A22, J5.A22, J3.A22, J2.A22, J6.A22, U16.13, J7.A22 Coupled nets (0): 
+2024-05-22 13:34:03 11880     [INFO] 
+2024-05-22 13:34:03 11880  [WARNING] Net: A9:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:34:04 11880     [INFO] Net: A10 Simulation #301   Delay and SI, Corner: Fast-Strong Driver: J4.A21   Receivers (9): U6.14, J1.A21, J5.A21, J3.A21, J2.A21, J6.A21, U16.8, J7.A21, U11.6 Coupled nets (0): 
+2024-05-22 13:34:05 11880     [INFO] 
+2024-05-22 13:34:05 11880     [INFO] Net: A10 Simulation #302   Delay and SI, Corner: Fast-Strong Driver: U6.14   Receivers (9): J4.A21, J1.A21, J5.A21, J3.A21, J2.A21, J6.A21, U16.8, J7.A21, U11.6 Coupled nets (0): 
+2024-05-22 13:34:06 11880     [INFO] 
+2024-05-22 13:34:06 11880     [INFO] Net: A10 Simulation #303   Delay and SI, Corner: Fast-Strong Driver: J1.A21   Receivers (9): J4.A21, U6.14, J5.A21, J3.A21, J2.A21, J6.A21, U16.8, J7.A21, U11.6 Coupled nets (0): 
+2024-05-22 13:34:07 11880     [INFO] 
+2024-05-22 13:34:07 11880     [INFO] Net: A10 Simulation #304   Delay and SI, Corner: Fast-Strong Driver: J5.A21   Receivers (9): J4.A21, U6.14, J1.A21, J3.A21, J2.A21, J6.A21, U16.8, J7.A21, U11.6 Coupled nets (0): 
+2024-05-22 13:34:08 11880     [INFO] 
+2024-05-22 13:34:08 11880     [INFO] Net: A10 Simulation #305   Delay and SI, Corner: Fast-Strong Driver: J3.A21   Receivers (9): J4.A21, U6.14, J1.A21, J5.A21, J2.A21, J6.A21, U16.8, J7.A21, U11.6 Coupled nets (0): 
+2024-05-22 13:34:09 11880     [INFO] 
+2024-05-22 13:34:09 11880     [INFO] Net: A10 Simulation #306   Delay and SI, Corner: Fast-Strong Driver: J2.A21   Receivers (9): J4.A21, U6.14, J1.A21, J5.A21, J3.A21, J6.A21, U16.8, J7.A21, U11.6 Coupled nets (0): 
+2024-05-22 13:34:10 11880     [INFO] 
+2024-05-22 13:34:10 11880     [INFO] Net: A10 Simulation #307   Delay and SI, Corner: Fast-Strong Driver: J6.A21   Receivers (9): J4.A21, U6.14, J1.A21, J5.A21, J3.A21, J2.A21, U16.8, J7.A21, U11.6 Coupled nets (0): 
+2024-05-22 13:34:11 11880     [INFO] 
+2024-05-22 13:34:11 11880     [INFO] Net: A10 Simulation #308   Delay and SI, Corner: Fast-Strong Driver: U16.8   Receivers (9): J4.A21, U6.14, J1.A21, J5.A21, J3.A21, J2.A21, J6.A21, J7.A21, U11.6 Coupled nets (0): 
+2024-05-22 13:34:12 11880     [INFO] 
+2024-05-22 13:34:12 11880     [INFO] Net: A10 Simulation #309   Delay and SI, Corner: Fast-Strong Driver: J7.A21   Receivers (9): J4.A21, U6.14, J1.A21, J5.A21, J3.A21, J2.A21, J6.A21, U16.8, U11.6 Coupled nets (0): 
+2024-05-22 13:34:13 11880     [INFO] 
+2024-05-22 13:34:13 11880     [INFO] Net: A10 Simulation #310   Delay and SI, Corner: Fast-Strong Driver: U11.6   Receivers (9): J4.A21, U6.14, J1.A21, J5.A21, J3.A21, J2.A21, J6.A21, U16.8, J7.A21 Coupled nets (0): 
+2024-05-22 13:34:13 11880     [INFO] 
+2024-05-22 13:34:13 11880  [WARNING] Net: A10:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:34:13 11880     [INFO] Net: A10 Simulation #311   Delay and SI, Corner: Typical Driver: J4.A21   Receivers (9): U6.14, J1.A21, J5.A21, J3.A21, J2.A21, J6.A21, U16.8, J7.A21, U11.6 Coupled nets (0): 
+2024-05-22 13:34:15 11880     [INFO] 
+2024-05-22 13:34:15 11880     [INFO] Net: A10 Simulation #312   Delay and SI, Corner: Typical Driver: U6.14   Receivers (9): J4.A21, J1.A21, J5.A21, J3.A21, J2.A21, J6.A21, U16.8, J7.A21, U11.6 Coupled nets (0): 
+2024-05-22 13:34:16 11880     [INFO] 
+2024-05-22 13:34:16 11880     [INFO] Net: A10 Simulation #313   Delay and SI, Corner: Typical Driver: J1.A21   Receivers (9): J4.A21, U6.14, J5.A21, J3.A21, J2.A21, J6.A21, U16.8, J7.A21, U11.6 Coupled nets (0): 
+2024-05-22 13:34:17 11880     [INFO] 
+2024-05-22 13:34:17 11880     [INFO] Net: A10 Simulation #314   Delay and SI, Corner: Typical Driver: J5.A21   Receivers (9): J4.A21, U6.14, J1.A21, J3.A21, J2.A21, J6.A21, U16.8, J7.A21, U11.6 Coupled nets (0): 
+2024-05-22 13:34:18 11880     [INFO] 
+2024-05-22 13:34:18 11880     [INFO] Net: A10 Simulation #315   Delay and SI, Corner: Typical Driver: J3.A21   Receivers (9): J4.A21, U6.14, J1.A21, J5.A21, J2.A21, J6.A21, U16.8, J7.A21, U11.6 Coupled nets (0): 
+2024-05-22 13:34:19 11880     [INFO] 
+2024-05-22 13:34:19 11880     [INFO] Net: A10 Simulation #316   Delay and SI, Corner: Typical Driver: J2.A21   Receivers (9): J4.A21, U6.14, J1.A21, J5.A21, J3.A21, J6.A21, U16.8, J7.A21, U11.6 Coupled nets (0): 
+2024-05-22 13:34:20 11880     [INFO] 
+2024-05-22 13:34:20 11880     [INFO] Net: A10 Simulation #317   Delay and SI, Corner: Typical Driver: J6.A21   Receivers (9): J4.A21, U6.14, J1.A21, J5.A21, J3.A21, J2.A21, U16.8, J7.A21, U11.6 Coupled nets (0): 
+2024-05-22 13:34:21 11880     [INFO] 
+2024-05-22 13:34:21 11880     [INFO] Net: A10 Simulation #318   Delay and SI, Corner: Typical Driver: U16.8   Receivers (9): J4.A21, U6.14, J1.A21, J5.A21, J3.A21, J2.A21, J6.A21, J7.A21, U11.6 Coupled nets (0): 
+2024-05-22 13:34:22 11880     [INFO] 
+2024-05-22 13:34:22 11880     [INFO] Net: A10 Simulation #319   Delay and SI, Corner: Typical Driver: J7.A21   Receivers (9): J4.A21, U6.14, J1.A21, J5.A21, J3.A21, J2.A21, J6.A21, U16.8, U11.6 Coupled nets (0): 
+2024-05-22 13:34:23 11880     [INFO] 
+2024-05-22 13:34:23 11880     [INFO] Net: A10 Simulation #320   Delay and SI, Corner: Typical Driver: U11.6   Receivers (9): J4.A21, U6.14, J1.A21, J5.A21, J3.A21, J2.A21, J6.A21, U16.8, J7.A21 Coupled nets (0): 
+2024-05-22 13:34:24 11880     [INFO] 
+2024-05-22 13:34:24 11880  [WARNING] Net: A10:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:34:24 11880     [INFO] Net: A10 Simulation #321   Delay and SI, Corner: Slow-Weak Driver: J4.A21   Receivers (9): U6.14, J1.A21, J5.A21, J3.A21, J2.A21, J6.A21, U16.8, J7.A21, U11.6 Coupled nets (0): 
+2024-05-22 13:34:25 11880     [INFO] 
+2024-05-22 13:34:25 11880     [INFO] Net: A10 Simulation #322   Delay and SI, Corner: Slow-Weak Driver: U6.14   Receivers (9): J4.A21, J1.A21, J5.A21, J3.A21, J2.A21, J6.A21, U16.8, J7.A21, U11.6 Coupled nets (0): 
+2024-05-22 13:34:26 11880     [INFO] 
+2024-05-22 13:34:26 11880     [INFO] Net: A10 Simulation #323   Delay and SI, Corner: Slow-Weak Driver: J1.A21   Receivers (9): J4.A21, U6.14, J5.A21, J3.A21, J2.A21, J6.A21, U16.8, J7.A21, U11.6 Coupled nets (0): 
+2024-05-22 13:34:27 11880     [INFO] 
+2024-05-22 13:34:27 11880     [INFO] Net: A10 Simulation #324   Delay and SI, Corner: Slow-Weak Driver: J5.A21   Receivers (9): J4.A21, U6.14, J1.A21, J3.A21, J2.A21, J6.A21, U16.8, J7.A21, U11.6 Coupled nets (0): 
+2024-05-22 13:34:28 11880     [INFO] 
+2024-05-22 13:34:28 11880     [INFO] Net: A10 Simulation #325   Delay and SI, Corner: Slow-Weak Driver: J3.A21   Receivers (9): J4.A21, U6.14, J1.A21, J5.A21, J2.A21, J6.A21, U16.8, J7.A21, U11.6 Coupled nets (0): 
+2024-05-22 13:34:28 11880     [INFO] 
+2024-05-22 13:34:28 11880     [INFO] Net: A10 Simulation #326   Delay and SI, Corner: Slow-Weak Driver: J2.A21   Receivers (9): J4.A21, U6.14, J1.A21, J5.A21, J3.A21, J6.A21, U16.8, J7.A21, U11.6 Coupled nets (0): 
+2024-05-22 13:34:29 11880     [INFO] 
+2024-05-22 13:34:29 11880     [INFO] Net: A10 Simulation #327   Delay and SI, Corner: Slow-Weak Driver: J6.A21   Receivers (9): J4.A21, U6.14, J1.A21, J5.A21, J3.A21, J2.A21, U16.8, J7.A21, U11.6 Coupled nets (0): 
+2024-05-22 13:34:30 11880     [INFO] 
+2024-05-22 13:34:30 11880     [INFO] Net: A10 Simulation #328   Delay and SI, Corner: Slow-Weak Driver: U16.8   Receivers (9): J4.A21, U6.14, J1.A21, J5.A21, J3.A21, J2.A21, J6.A21, J7.A21, U11.6 Coupled nets (0): 
+2024-05-22 13:34:31 11880     [INFO] 
+2024-05-22 13:34:31 11880     [INFO] Net: A10 Simulation #329   Delay and SI, Corner: Slow-Weak Driver: J7.A21   Receivers (9): J4.A21, U6.14, J1.A21, J5.A21, J3.A21, J2.A21, J6.A21, U16.8, U11.6 Coupled nets (0): 
+2024-05-22 13:34:32 11880     [INFO] 
+2024-05-22 13:34:32 11880     [INFO] Net: A10 Simulation #330   Delay and SI, Corner: Slow-Weak Driver: U11.6   Receivers (9): J4.A21, U6.14, J1.A21, J5.A21, J3.A21, J2.A21, J6.A21, U16.8, J7.A21 Coupled nets (0): 
+2024-05-22 13:34:33 11880     [INFO] 
+2024-05-22 13:34:33 11880  [WARNING] Net: A10:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:34:34 11880     [INFO] Net: A11 Simulation #331   Delay and SI, Corner: Fast-Strong Driver: J4.A20   Receivers (9): U6.12, J1.A20, J5.A20, J3.A20, J2.A20, J6.A20, U16.6, J7.A20, U11.9 Coupled nets (0): 
+2024-05-22 13:34:35 11880     [INFO] 
+2024-05-22 13:34:35 11880     [INFO] Net: A11 Simulation #332   Delay and SI, Corner: Fast-Strong Driver: U6.12   Receivers (9): J4.A20, J1.A20, J5.A20, J3.A20, J2.A20, J6.A20, U16.6, J7.A20, U11.9 Coupled nets (0): 
+2024-05-22 13:34:36 11880     [INFO] 
+2024-05-22 13:34:36 11880     [INFO] Net: A11 Simulation #333   Delay and SI, Corner: Fast-Strong Driver: J1.A20   Receivers (9): J4.A20, U6.12, J5.A20, J3.A20, J2.A20, J6.A20, U16.6, J7.A20, U11.9 Coupled nets (0): 
+2024-05-22 13:34:37 11880     [INFO] 
+2024-05-22 13:34:37 11880     [INFO] Net: A11 Simulation #334   Delay and SI, Corner: Fast-Strong Driver: J5.A20   Receivers (9): J4.A20, U6.12, J1.A20, J3.A20, J2.A20, J6.A20, U16.6, J7.A20, U11.9 Coupled nets (0): 
+2024-05-22 13:34:37 11880     [INFO] 
+2024-05-22 13:34:37 11880     [INFO] Net: A11 Simulation #335   Delay and SI, Corner: Fast-Strong Driver: J3.A20   Receivers (9): J4.A20, U6.12, J1.A20, J5.A20, J2.A20, J6.A20, U16.6, J7.A20, U11.9 Coupled nets (0): 
+2024-05-22 13:34:38 11880     [INFO] 
+2024-05-22 13:34:38 11880     [INFO] Net: A11 Simulation #336   Delay and SI, Corner: Fast-Strong Driver: J2.A20   Receivers (9): J4.A20, U6.12, J1.A20, J5.A20, J3.A20, J6.A20, U16.6, J7.A20, U11.9 Coupled nets (0): 
+2024-05-22 13:34:39 11880     [INFO] 
+2024-05-22 13:34:39 11880     [INFO] Net: A11 Simulation #337   Delay and SI, Corner: Fast-Strong Driver: J6.A20   Receivers (9): J4.A20, U6.12, J1.A20, J5.A20, J3.A20, J2.A20, U16.6, J7.A20, U11.9 Coupled nets (0): 
+2024-05-22 13:34:40 11880     [INFO] 
+2024-05-22 13:34:40 11880     [INFO] Net: A11 Simulation #338   Delay and SI, Corner: Fast-Strong Driver: U16.6   Receivers (9): J4.A20, U6.12, J1.A20, J5.A20, J3.A20, J2.A20, J6.A20, J7.A20, U11.9 Coupled nets (0): 
+2024-05-22 13:34:41 11880     [INFO] 
+2024-05-22 13:34:41 11880     [INFO] Net: A11 Simulation #339   Delay and SI, Corner: Fast-Strong Driver: J7.A20   Receivers (9): J4.A20, U6.12, J1.A20, J5.A20, J3.A20, J2.A20, J6.A20, U16.6, U11.9 Coupled nets (0): 
+2024-05-22 13:34:41 11880     [INFO] 
+2024-05-22 13:34:41 11880     [INFO] Net: A11 Simulation #340   Delay and SI, Corner: Fast-Strong Driver: U11.9   Receivers (9): J4.A20, U6.12, J1.A20, J5.A20, J3.A20, J2.A20, J6.A20, U16.6, J7.A20 Coupled nets (0): 
+2024-05-22 13:34:42 11880     [INFO] 
+2024-05-22 13:34:42 11880  [WARNING] Net: A11:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:34:42 11880     [INFO] Net: A11 Simulation #341   Delay and SI, Corner: Typical Driver: J4.A20   Receivers (9): U6.12, J1.A20, J5.A20, J3.A20, J2.A20, J6.A20, U16.6, J7.A20, U11.9 Coupled nets (0): 
+2024-05-22 13:34:43 11880     [INFO] 
+2024-05-22 13:34:43 11880     [INFO] Net: A11 Simulation #342   Delay and SI, Corner: Typical Driver: U6.12   Receivers (9): J4.A20, J1.A20, J5.A20, J3.A20, J2.A20, J6.A20, U16.6, J7.A20, U11.9 Coupled nets (0): 
+2024-05-22 13:34:44 11880     [INFO] 
+2024-05-22 13:34:44 11880     [INFO] Net: A11 Simulation #343   Delay and SI, Corner: Typical Driver: J1.A20   Receivers (9): J4.A20, U6.12, J5.A20, J3.A20, J2.A20, J6.A20, U16.6, J7.A20, U11.9 Coupled nets (0): 
+2024-05-22 13:34:45 11880     [INFO] 
+2024-05-22 13:34:45 11880     [INFO] Net: A11 Simulation #344   Delay and SI, Corner: Typical Driver: J5.A20   Receivers (9): J4.A20, U6.12, J1.A20, J3.A20, J2.A20, J6.A20, U16.6, J7.A20, U11.9 Coupled nets (0): 
+2024-05-22 13:34:45 11880     [INFO] 
+2024-05-22 13:34:45 11880     [INFO] Net: A11 Simulation #345   Delay and SI, Corner: Typical Driver: J3.A20   Receivers (9): J4.A20, U6.12, J1.A20, J5.A20, J2.A20, J6.A20, U16.6, J7.A20, U11.9 Coupled nets (0): 
+2024-05-22 13:34:46 11880     [INFO] 
+2024-05-22 13:34:46 11880     [INFO] Net: A11 Simulation #346   Delay and SI, Corner: Typical Driver: J2.A20   Receivers (9): J4.A20, U6.12, J1.A20, J5.A20, J3.A20, J6.A20, U16.6, J7.A20, U11.9 Coupled nets (0): 
+2024-05-22 13:34:47 11880     [INFO] 
+2024-05-22 13:34:47 11880     [INFO] Net: A11 Simulation #347   Delay and SI, Corner: Typical Driver: J6.A20   Receivers (9): J4.A20, U6.12, J1.A20, J5.A20, J3.A20, J2.A20, U16.6, J7.A20, U11.9 Coupled nets (0): 
+2024-05-22 13:34:48 11880     [INFO] 
+2024-05-22 13:34:48 11880     [INFO] Net: A11 Simulation #348   Delay and SI, Corner: Typical Driver: U16.6   Receivers (9): J4.A20, U6.12, J1.A20, J5.A20, J3.A20, J2.A20, J6.A20, J7.A20, U11.9 Coupled nets (0): 
+2024-05-22 13:34:49 11880     [INFO] 
+2024-05-22 13:34:49 11880     [INFO] Net: A11 Simulation #349   Delay and SI, Corner: Typical Driver: J7.A20   Receivers (9): J4.A20, U6.12, J1.A20, J5.A20, J3.A20, J2.A20, J6.A20, U16.6, U11.9 Coupled nets (0): 
+2024-05-22 13:34:49 11880     [INFO] 
+2024-05-22 13:34:49 11880     [INFO] Net: A11 Simulation #350   Delay and SI, Corner: Typical Driver: U11.9   Receivers (9): J4.A20, U6.12, J1.A20, J5.A20, J3.A20, J2.A20, J6.A20, U16.6, J7.A20 Coupled nets (0): 
+2024-05-22 13:34:50 11880     [INFO] 
+2024-05-22 13:34:50 11880  [WARNING] Net: A11:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:34:50 11880     [INFO] Net: A11 Simulation #351   Delay and SI, Corner: Slow-Weak Driver: J4.A20   Receivers (9): U6.12, J1.A20, J5.A20, J3.A20, J2.A20, J6.A20, U16.6, J7.A20, U11.9 Coupled nets (0): 
+2024-05-22 13:34:51 11880     [INFO] 
+2024-05-22 13:34:51 11880     [INFO] Net: A11 Simulation #352   Delay and SI, Corner: Slow-Weak Driver: U6.12   Receivers (9): J4.A20, J1.A20, J5.A20, J3.A20, J2.A20, J6.A20, U16.6, J7.A20, U11.9 Coupled nets (0): 
+2024-05-22 13:34:52 11880     [INFO] 
+2024-05-22 13:34:52 11880     [INFO] Net: A11 Simulation #353   Delay and SI, Corner: Slow-Weak Driver: J1.A20   Receivers (9): J4.A20, U6.12, J5.A20, J3.A20, J2.A20, J6.A20, U16.6, J7.A20, U11.9 Coupled nets (0): 
+2024-05-22 13:34:52 11880     [INFO] 
+2024-05-22 13:34:52 11880     [INFO] Net: A11 Simulation #354   Delay and SI, Corner: Slow-Weak Driver: J5.A20   Receivers (9): J4.A20, U6.12, J1.A20, J3.A20, J2.A20, J6.A20, U16.6, J7.A20, U11.9 Coupled nets (0): 
+2024-05-22 13:34:53 11880     [INFO] 
+2024-05-22 13:34:53 11880     [INFO] Net: A11 Simulation #355   Delay and SI, Corner: Slow-Weak Driver: J3.A20   Receivers (9): J4.A20, U6.12, J1.A20, J5.A20, J2.A20, J6.A20, U16.6, J7.A20, U11.9 Coupled nets (0): 
+2024-05-22 13:34:54 11880     [INFO] 
+2024-05-22 13:34:54 11880     [INFO] Net: A11 Simulation #356   Delay and SI, Corner: Slow-Weak Driver: J2.A20   Receivers (9): J4.A20, U6.12, J1.A20, J5.A20, J3.A20, J6.A20, U16.6, J7.A20, U11.9 Coupled nets (0): 
+2024-05-22 13:34:55 11880     [INFO] 
+2024-05-22 13:34:55 11880     [INFO] Net: A11 Simulation #357   Delay and SI, Corner: Slow-Weak Driver: J6.A20   Receivers (9): J4.A20, U6.12, J1.A20, J5.A20, J3.A20, J2.A20, U16.6, J7.A20, U11.9 Coupled nets (0): 
+2024-05-22 13:34:55 11880     [INFO] 
+2024-05-22 13:34:55 11880     [INFO] Net: A11 Simulation #358   Delay and SI, Corner: Slow-Weak Driver: U16.6   Receivers (9): J4.A20, U6.12, J1.A20, J5.A20, J3.A20, J2.A20, J6.A20, J7.A20, U11.9 Coupled nets (0): 
+2024-05-22 13:34:56 11880     [INFO] 
+2024-05-22 13:34:56 11880     [INFO] Net: A11 Simulation #359   Delay and SI, Corner: Slow-Weak Driver: J7.A20   Receivers (9): J4.A20, U6.12, J1.A20, J5.A20, J3.A20, J2.A20, J6.A20, U16.6, U11.9 Coupled nets (0): 
+2024-05-22 13:34:57 11880     [INFO] 
+2024-05-22 13:34:57 11880     [INFO] Net: A11 Simulation #360   Delay and SI, Corner: Slow-Weak Driver: U11.9   Receivers (9): J4.A20, U6.12, J1.A20, J5.A20, J3.A20, J2.A20, J6.A20, U16.6, J7.A20 Coupled nets (0): 
+2024-05-22 13:34:58 11880     [INFO] 
+2024-05-22 13:34:58 11880  [WARNING] Net: A11:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:35:00 11880     [INFO] Net: A12 Simulation #361   Delay and SI, Corner: Fast-Strong Driver: J4.A19   Receivers (9): J1.A19, J5.A19, J3.A19, J2.A19, U7.12, J6.A19, U16.2, J7.A19, U11.12 Coupled nets (0): 
+2024-05-22 13:35:01 11880     [INFO] 
+2024-05-22 13:35:01 11880     [INFO] Net: A12 Simulation #362   Delay and SI, Corner: Fast-Strong Driver: J1.A19   Receivers (9): J4.A19, J5.A19, J3.A19, J2.A19, U7.12, J6.A19, U16.2, J7.A19, U11.12 Coupled nets (0): 
+2024-05-22 13:35:03 11880     [INFO] 
+2024-05-22 13:35:03 11880     [INFO] Net: A12 Simulation #363   Delay and SI, Corner: Fast-Strong Driver: J5.A19   Receivers (9): J4.A19, J1.A19, J3.A19, J2.A19, U7.12, J6.A19, U16.2, J7.A19, U11.12 Coupled nets (0): 
+2024-05-22 13:35:04 11880     [INFO] 
+2024-05-22 13:35:04 11880     [INFO] Net: A12 Simulation #364   Delay and SI, Corner: Fast-Strong Driver: J3.A19   Receivers (9): J4.A19, J1.A19, J5.A19, J2.A19, U7.12, J6.A19, U16.2, J7.A19, U11.12 Coupled nets (0): 
+2024-05-22 13:35:05 11880     [INFO] 
+2024-05-22 13:35:05 11880     [INFO] Net: A12 Simulation #365   Delay and SI, Corner: Fast-Strong Driver: J2.A19   Receivers (9): J4.A19, J1.A19, J5.A19, J3.A19, U7.12, J6.A19, U16.2, J7.A19, U11.12 Coupled nets (0): 
+2024-05-22 13:35:06 11880     [INFO] 
+2024-05-22 13:35:06 11880     [INFO] Net: A12 Simulation #366   Delay and SI, Corner: Fast-Strong Driver: U7.12   Receivers (9): J4.A19, J1.A19, J5.A19, J3.A19, J2.A19, J6.A19, U16.2, J7.A19, U11.12 Coupled nets (0): 
+2024-05-22 13:35:07 11880     [INFO] 
+2024-05-22 13:35:07 11880     [INFO] Net: A12 Simulation #367   Delay and SI, Corner: Fast-Strong Driver: J6.A19   Receivers (9): J4.A19, J1.A19, J5.A19, J3.A19, J2.A19, U7.12, U16.2, J7.A19, U11.12 Coupled nets (0): 
+2024-05-22 13:35:08 11880     [INFO] 
+2024-05-22 13:35:08 11880     [INFO] Net: A12 Simulation #368   Delay and SI, Corner: Fast-Strong Driver: U16.2   Receivers (9): J4.A19, J1.A19, J5.A19, J3.A19, J2.A19, U7.12, J6.A19, J7.A19, U11.12 Coupled nets (0): 
+2024-05-22 13:35:09 11880     [INFO] 
+2024-05-22 13:35:09 11880     [INFO] Net: A12 Simulation #369   Delay and SI, Corner: Fast-Strong Driver: J7.A19   Receivers (9): J4.A19, J1.A19, J5.A19, J3.A19, J2.A19, U7.12, J6.A19, U16.2, U11.12 Coupled nets (0): 
+2024-05-22 13:35:10 11880     [INFO] 
+2024-05-22 13:35:10 11880     [INFO] Net: A12 Simulation #370   Delay and SI, Corner: Fast-Strong Driver: U11.12   Receivers (9): J4.A19, J1.A19, J5.A19, J3.A19, J2.A19, U7.12, J6.A19, U16.2, J7.A19 Coupled nets (0): 
+2024-05-22 13:35:11 11880     [INFO] 
+2024-05-22 13:35:11 11880  [WARNING] Net: A12:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:35:11 11880     [INFO] Net: A12 Simulation #371   Delay and SI, Corner: Typical Driver: J4.A19   Receivers (9): J1.A19, J5.A19, J3.A19, J2.A19, U7.12, J6.A19, U16.2, J7.A19, U11.12 Coupled nets (0): 
+2024-05-22 13:35:11 11880     [INFO] 
+2024-05-22 13:35:11 11880     [INFO] Net: A12 Simulation #372   Delay and SI, Corner: Typical Driver: J1.A19   Receivers (9): J4.A19, J5.A19, J3.A19, J2.A19, U7.12, J6.A19, U16.2, J7.A19, U11.12 Coupled nets (0): 
+2024-05-22 13:35:12 11880     [INFO] 
+2024-05-22 13:35:12 11880     [INFO] Net: A12 Simulation #373   Delay and SI, Corner: Typical Driver: J5.A19   Receivers (9): J4.A19, J1.A19, J3.A19, J2.A19, U7.12, J6.A19, U16.2, J7.A19, U11.12 Coupled nets (0): 
+2024-05-22 13:35:13 11880     [INFO] 
+2024-05-22 13:35:13 11880     [INFO] Net: A12 Simulation #374   Delay and SI, Corner: Typical Driver: J3.A19   Receivers (9): J4.A19, J1.A19, J5.A19, J2.A19, U7.12, J6.A19, U16.2, J7.A19, U11.12 Coupled nets (0): 
+2024-05-22 13:35:14 11880     [INFO] 
+2024-05-22 13:35:14 11880     [INFO] Net: A12 Simulation #375   Delay and SI, Corner: Typical Driver: J2.A19   Receivers (9): J4.A19, J1.A19, J5.A19, J3.A19, U7.12, J6.A19, U16.2, J7.A19, U11.12 Coupled nets (0): 
+2024-05-22 13:35:15 11880     [INFO] 
+2024-05-22 13:35:15 11880     [INFO] Net: A12 Simulation #376   Delay and SI, Corner: Typical Driver: U7.12   Receivers (9): J4.A19, J1.A19, J5.A19, J3.A19, J2.A19, J6.A19, U16.2, J7.A19, U11.12 Coupled nets (0): 
+2024-05-22 13:35:16 11880     [INFO] 
+2024-05-22 13:35:16 11880     [INFO] Net: A12 Simulation #377   Delay and SI, Corner: Typical Driver: J6.A19   Receivers (9): J4.A19, J1.A19, J5.A19, J3.A19, J2.A19, U7.12, U16.2, J7.A19, U11.12 Coupled nets (0): 
+2024-05-22 13:35:16 11880     [INFO] 
+2024-05-22 13:35:16 11880     [INFO] Net: A12 Simulation #378   Delay and SI, Corner: Typical Driver: U16.2   Receivers (9): J4.A19, J1.A19, J5.A19, J3.A19, J2.A19, U7.12, J6.A19, J7.A19, U11.12 Coupled nets (0): 
+2024-05-22 13:35:17 11880     [INFO] 
+2024-05-22 13:35:17 11880     [INFO] Net: A12 Simulation #379   Delay and SI, Corner: Typical Driver: J7.A19   Receivers (9): J4.A19, J1.A19, J5.A19, J3.A19, J2.A19, U7.12, J6.A19, U16.2, U11.12 Coupled nets (0): 
+2024-05-22 13:35:18 11880     [INFO] 
+2024-05-22 13:35:18 11880     [INFO] Net: A12 Simulation #380   Delay and SI, Corner: Typical Driver: U11.12   Receivers (9): J4.A19, J1.A19, J5.A19, J3.A19, J2.A19, U7.12, J6.A19, U16.2, J7.A19 Coupled nets (0): 
+2024-05-22 13:35:19 11880     [INFO] 
+2024-05-22 13:35:19 11880  [WARNING] Net: A12:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:35:19 11880     [INFO] Net: A12 Simulation #381   Delay and SI, Corner: Slow-Weak Driver: J4.A19   Receivers (9): J1.A19, J5.A19, J3.A19, J2.A19, U7.12, J6.A19, U16.2, J7.A19, U11.12 Coupled nets (0): 
+2024-05-22 13:35:20 11880     [INFO] 
+2024-05-22 13:35:20 11880     [INFO] Net: A12 Simulation #382   Delay and SI, Corner: Slow-Weak Driver: J1.A19   Receivers (9): J4.A19, J5.A19, J3.A19, J2.A19, U7.12, J6.A19, U16.2, J7.A19, U11.12 Coupled nets (0): 
+2024-05-22 13:35:20 11880     [INFO] 
+2024-05-22 13:35:20 11880     [INFO] Net: A12 Simulation #383   Delay and SI, Corner: Slow-Weak Driver: J5.A19   Receivers (9): J4.A19, J1.A19, J3.A19, J2.A19, U7.12, J6.A19, U16.2, J7.A19, U11.12 Coupled nets (0): 
+2024-05-22 13:35:21 11880     [INFO] 
+2024-05-22 13:35:21 11880     [INFO] Net: A12 Simulation #384   Delay and SI, Corner: Slow-Weak Driver: J3.A19   Receivers (9): J4.A19, J1.A19, J5.A19, J2.A19, U7.12, J6.A19, U16.2, J7.A19, U11.12 Coupled nets (0): 
+2024-05-22 13:35:22 11880     [INFO] 
+2024-05-22 13:35:22 11880     [INFO] Net: A12 Simulation #385   Delay and SI, Corner: Slow-Weak Driver: J2.A19   Receivers (9): J4.A19, J1.A19, J5.A19, J3.A19, U7.12, J6.A19, U16.2, J7.A19, U11.12 Coupled nets (0): 
+2024-05-22 13:35:23 11880     [INFO] 
+2024-05-22 13:35:23 11880     [INFO] Net: A12 Simulation #386   Delay and SI, Corner: Slow-Weak Driver: U7.12   Receivers (9): J4.A19, J1.A19, J5.A19, J3.A19, J2.A19, J6.A19, U16.2, J7.A19, U11.12 Coupled nets (0): 
+2024-05-22 13:35:24 11880     [INFO] 
+2024-05-22 13:35:24 11880     [INFO] Net: A12 Simulation #387   Delay and SI, Corner: Slow-Weak Driver: J6.A19   Receivers (9): J4.A19, J1.A19, J5.A19, J3.A19, J2.A19, U7.12, U16.2, J7.A19, U11.12 Coupled nets (0): 
+2024-05-22 13:35:25 11880     [INFO] 
+2024-05-22 13:35:25 11880     [INFO] Net: A12 Simulation #388   Delay and SI, Corner: Slow-Weak Driver: U16.2   Receivers (9): J4.A19, J1.A19, J5.A19, J3.A19, J2.A19, U7.12, J6.A19, J7.A19, U11.12 Coupled nets (0): 
+2024-05-22 13:35:25 11880     [INFO] 
+2024-05-22 13:35:25 11880     [INFO] Net: A12 Simulation #389   Delay and SI, Corner: Slow-Weak Driver: J7.A19   Receivers (9): J4.A19, J1.A19, J5.A19, J3.A19, J2.A19, U7.12, J6.A19, U16.2, U11.12 Coupled nets (0): 
+2024-05-22 13:35:26 11880     [INFO] 
+2024-05-22 13:35:26 11880     [INFO] Net: A12 Simulation #390   Delay and SI, Corner: Slow-Weak Driver: U11.12   Receivers (9): J4.A19, J1.A19, J5.A19, J3.A19, J2.A19, U7.12, J6.A19, U16.2, J7.A19 Coupled nets (0): 
+2024-05-22 13:35:27 11880     [INFO] 
+2024-05-22 13:35:27 11880  [WARNING] Net: A12:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:35:28 11880     [INFO] Net: A13 Simulation #391   Delay and SI, Corner: Fast-Strong Driver: J4.A18   Receivers (9): J1.A18, J5.A18, U14.11, J3.A18, J2.A18, U7.9, J6.A18, J7.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:29 11880     [INFO] 
+2024-05-22 13:35:29 11880     [INFO] Net: A13 Simulation #392   Delay and SI, Corner: Fast-Strong Driver: J1.A18   Receivers (9): J4.A18, J5.A18, U14.11, J3.A18, J2.A18, U7.9, J6.A18, J7.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:30 11880     [INFO] 
+2024-05-22 13:35:30 11880     [INFO] Net: A13 Simulation #393   Delay and SI, Corner: Fast-Strong Driver: J5.A18   Receivers (9): J4.A18, J1.A18, U14.11, J3.A18, J2.A18, U7.9, J6.A18, J7.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:31 11880     [INFO] 
+2024-05-22 13:35:31 11880     [INFO] Net: A13 Simulation #394   Delay and SI, Corner: Fast-Strong Driver: U14.11   Receivers (9): J4.A18, J1.A18, J5.A18, J3.A18, J2.A18, U7.9, J6.A18, J7.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:32 11880     [INFO] 
+2024-05-22 13:35:32 11880     [INFO] Net: A13 Simulation #395   Delay and SI, Corner: Fast-Strong Driver: J3.A18   Receivers (9): J4.A18, J1.A18, J5.A18, U14.11, J2.A18, U7.9, J6.A18, J7.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:33 11880     [INFO] 
+2024-05-22 13:35:33 11880     [INFO] Net: A13 Simulation #396   Delay and SI, Corner: Fast-Strong Driver: J2.A18   Receivers (9): J4.A18, J1.A18, J5.A18, U14.11, J3.A18, U7.9, J6.A18, J7.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:33 11880     [INFO] 
+2024-05-22 13:35:33 11880     [INFO] Net: A13 Simulation #397   Delay and SI, Corner: Fast-Strong Driver: U7.9   Receivers (9): J4.A18, J1.A18, J5.A18, U14.11, J3.A18, J2.A18, J6.A18, J7.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:34 11880     [INFO] 
+2024-05-22 13:35:34 11880     [INFO] Net: A13 Simulation #398   Delay and SI, Corner: Fast-Strong Driver: J6.A18   Receivers (9): J4.A18, J1.A18, J5.A18, U14.11, J3.A18, J2.A18, U7.9, J7.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:35 11880     [INFO] 
+2024-05-22 13:35:35 11880     [INFO] Net: A13 Simulation #399   Delay and SI, Corner: Fast-Strong Driver: J7.A18   Receivers (9): J4.A18, J1.A18, J5.A18, U14.11, J3.A18, J2.A18, U7.9, J6.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:36 11880     [INFO] 
+2024-05-22 13:35:36 11880     [INFO] Net: A13 Simulation #400   Delay and SI, Corner: Fast-Strong Driver: U11.15   Receivers (9): J4.A18, J1.A18, J5.A18, U14.11, J3.A18, J2.A18, U7.9, J6.A18, J7.A18 Coupled nets (0): 
+2024-05-22 13:35:37 11880     [INFO] 
+2024-05-22 13:35:37 11880  [WARNING] Net: A13:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:35:37 11880     [INFO] Net: A13 Simulation #401   Delay and SI, Corner: Typical Driver: J4.A18   Receivers (9): J1.A18, J5.A18, U14.11, J3.A18, J2.A18, U7.9, J6.A18, J7.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:38 11880     [INFO] 
+2024-05-22 13:35:38 11880     [INFO] Net: A13 Simulation #402   Delay and SI, Corner: Typical Driver: J1.A18   Receivers (9): J4.A18, J5.A18, U14.11, J3.A18, J2.A18, U7.9, J6.A18, J7.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:39 11880     [INFO] 
+2024-05-22 13:35:39 11880     [INFO] Net: A13 Simulation #403   Delay and SI, Corner: Typical Driver: J5.A18   Receivers (9): J4.A18, J1.A18, U14.11, J3.A18, J2.A18, U7.9, J6.A18, J7.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:39 11880     [INFO] 
+2024-05-22 13:35:39 11880     [INFO] Net: A13 Simulation #404   Delay and SI, Corner: Typical Driver: U14.11   Receivers (9): J4.A18, J1.A18, J5.A18, J3.A18, J2.A18, U7.9, J6.A18, J7.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:40 11880     [INFO] 
+2024-05-22 13:35:40 11880     [INFO] Net: A13 Simulation #405   Delay and SI, Corner: Typical Driver: J3.A18   Receivers (9): J4.A18, J1.A18, J5.A18, U14.11, J2.A18, U7.9, J6.A18, J7.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:41 11880     [INFO] 
+2024-05-22 13:35:41 11880     [INFO] Net: A13 Simulation #406   Delay and SI, Corner: Typical Driver: J2.A18   Receivers (9): J4.A18, J1.A18, J5.A18, U14.11, J3.A18, U7.9, J6.A18, J7.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:42 11880     [INFO] 
+2024-05-22 13:35:42 11880     [INFO] Net: A13 Simulation #407   Delay and SI, Corner: Typical Driver: U7.9   Receivers (9): J4.A18, J1.A18, J5.A18, U14.11, J3.A18, J2.A18, J6.A18, J7.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:42 11880     [INFO] 
+2024-05-22 13:35:42 11880     [INFO] Net: A13 Simulation #408   Delay and SI, Corner: Typical Driver: J6.A18   Receivers (9): J4.A18, J1.A18, J5.A18, U14.11, J3.A18, J2.A18, U7.9, J7.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:43 11880     [INFO] 
+2024-05-22 13:35:43 11880     [INFO] Net: A13 Simulation #409   Delay and SI, Corner: Typical Driver: J7.A18   Receivers (9): J4.A18, J1.A18, J5.A18, U14.11, J3.A18, J2.A18, U7.9, J6.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:44 11880     [INFO] 
+2024-05-22 13:35:44 11880     [INFO] Net: A13 Simulation #410   Delay and SI, Corner: Typical Driver: U11.15   Receivers (9): J4.A18, J1.A18, J5.A18, U14.11, J3.A18, J2.A18, U7.9, J6.A18, J7.A18 Coupled nets (0): 
+2024-05-22 13:35:45 11880     [INFO] 
+2024-05-22 13:35:45 11880  [WARNING] Net: A13:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:35:45 11880     [INFO] Net: A13 Simulation #411   Delay and SI, Corner: Slow-Weak Driver: J4.A18   Receivers (9): J1.A18, J5.A18, U14.11, J3.A18, J2.A18, U7.9, J6.A18, J7.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:46 11880     [INFO] 
+2024-05-22 13:35:46 11880     [INFO] Net: A13 Simulation #412   Delay and SI, Corner: Slow-Weak Driver: J1.A18   Receivers (9): J4.A18, J5.A18, U14.11, J3.A18, J2.A18, U7.9, J6.A18, J7.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:46 11880     [INFO] 
+2024-05-22 13:35:46 11880     [INFO] Net: A13 Simulation #413   Delay and SI, Corner: Slow-Weak Driver: J5.A18   Receivers (9): J4.A18, J1.A18, U14.11, J3.A18, J2.A18, U7.9, J6.A18, J7.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:47 11880     [INFO] 
+2024-05-22 13:35:47 11880     [INFO] Net: A13 Simulation #414   Delay and SI, Corner: Slow-Weak Driver: U14.11   Receivers (9): J4.A18, J1.A18, J5.A18, J3.A18, J2.A18, U7.9, J6.A18, J7.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:48 11880     [INFO] 
+2024-05-22 13:35:48 11880     [INFO] Net: A13 Simulation #415   Delay and SI, Corner: Slow-Weak Driver: J3.A18   Receivers (9): J4.A18, J1.A18, J5.A18, U14.11, J2.A18, U7.9, J6.A18, J7.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:49 11880     [INFO] 
+2024-05-22 13:35:49 11880     [INFO] Net: A13 Simulation #416   Delay and SI, Corner: Slow-Weak Driver: J2.A18   Receivers (9): J4.A18, J1.A18, J5.A18, U14.11, J3.A18, U7.9, J6.A18, J7.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:49 11880     [INFO] 
+2024-05-22 13:35:49 11880     [INFO] Net: A13 Simulation #417   Delay and SI, Corner: Slow-Weak Driver: U7.9   Receivers (9): J4.A18, J1.A18, J5.A18, U14.11, J3.A18, J2.A18, J6.A18, J7.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:50 11880     [INFO] 
+2024-05-22 13:35:50 11880     [INFO] Net: A13 Simulation #418   Delay and SI, Corner: Slow-Weak Driver: J6.A18   Receivers (9): J4.A18, J1.A18, J5.A18, U14.11, J3.A18, J2.A18, U7.9, J7.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:51 11880     [INFO] 
+2024-05-22 13:35:51 11880     [INFO] Net: A13 Simulation #419   Delay and SI, Corner: Slow-Weak Driver: J7.A18   Receivers (9): J4.A18, J1.A18, J5.A18, U14.11, J3.A18, J2.A18, U7.9, J6.A18, U11.15 Coupled nets (0): 
+2024-05-22 13:35:52 11880     [INFO] 
+2024-05-22 13:35:52 11880     [INFO] Net: A13 Simulation #420   Delay and SI, Corner: Slow-Weak Driver: U11.15   Receivers (9): J4.A18, J1.A18, J5.A18, U14.11, J3.A18, J2.A18, U7.9, J6.A18, J7.A18 Coupled nets (0): 
+2024-05-22 13:35:52 11880     [INFO] 
+2024-05-22 13:35:52 11880  [WARNING] Net: A13:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:35:54 11880     [INFO] Net: A14 Simulation #421   Delay and SI, Corner: Fast-Strong Driver: J4.A17   Receivers (9): J1.A17, J5.A17, U14.8, J3.A17, J2.A17, U7.15, J6.A17, J7.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:35:55 11880     [INFO] 
+2024-05-22 13:35:55 11880     [INFO] Net: A14 Simulation #422   Delay and SI, Corner: Fast-Strong Driver: J1.A17   Receivers (9): J4.A17, J5.A17, U14.8, J3.A17, J2.A17, U7.15, J6.A17, J7.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:35:55 11880     [INFO] 
+2024-05-22 13:35:55 11880     [INFO] Net: A14 Simulation #423   Delay and SI, Corner: Fast-Strong Driver: J5.A17   Receivers (9): J4.A17, J1.A17, U14.8, J3.A17, J2.A17, U7.15, J6.A17, J7.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:35:56 11880     [INFO] 
+2024-05-22 13:35:56 11880     [INFO] Net: A14 Simulation #424   Delay and SI, Corner: Fast-Strong Driver: U14.8   Receivers (9): J4.A17, J1.A17, J5.A17, J3.A17, J2.A17, U7.15, J6.A17, J7.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:35:57 11880     [INFO] 
+2024-05-22 13:35:57 11880     [INFO] Net: A14 Simulation #425   Delay and SI, Corner: Fast-Strong Driver: J3.A17   Receivers (9): J4.A17, J1.A17, J5.A17, U14.8, J2.A17, U7.15, J6.A17, J7.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:35:58 11880     [INFO] 
+2024-05-22 13:35:58 11880     [INFO] Net: A14 Simulation #426   Delay and SI, Corner: Fast-Strong Driver: J2.A17   Receivers (9): J4.A17, J1.A17, J5.A17, U14.8, J3.A17, U7.15, J6.A17, J7.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:35:58 11880     [INFO] 
+2024-05-22 13:35:58 11880     [INFO] Net: A14 Simulation #427   Delay and SI, Corner: Fast-Strong Driver: U7.15   Receivers (9): J4.A17, J1.A17, J5.A17, U14.8, J3.A17, J2.A17, J6.A17, J7.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:35:59 11880     [INFO] 
+2024-05-22 13:35:59 11880     [INFO] Net: A14 Simulation #428   Delay and SI, Corner: Fast-Strong Driver: J6.A17   Receivers (9): J4.A17, J1.A17, J5.A17, U14.8, J3.A17, J2.A17, U7.15, J7.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:36:00 11880     [INFO] 
+2024-05-22 13:36:00 11880     [INFO] Net: A14 Simulation #429   Delay and SI, Corner: Fast-Strong Driver: J7.A17   Receivers (9): J4.A17, J1.A17, J5.A17, U14.8, J3.A17, J2.A17, U7.15, J6.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:36:00 11880     [INFO] 
+2024-05-22 13:36:00 11880     [INFO] Net: A14 Simulation #430   Delay and SI, Corner: Fast-Strong Driver: U11.16   Receivers (9): J4.A17, J1.A17, J5.A17, U14.8, J3.A17, J2.A17, U7.15, J6.A17, J7.A17 Coupled nets (0): 
+2024-05-22 13:36:01 11880     [INFO] 
+2024-05-22 13:36:01 11880  [WARNING] Net: A14:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:36:01 11880     [INFO] Net: A14 Simulation #431   Delay and SI, Corner: Typical Driver: J4.A17   Receivers (9): J1.A17, J5.A17, U14.8, J3.A17, J2.A17, U7.15, J6.A17, J7.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:36:02 11880     [INFO] 
+2024-05-22 13:36:02 11880     [INFO] Net: A14 Simulation #432   Delay and SI, Corner: Typical Driver: J1.A17   Receivers (9): J4.A17, J5.A17, U14.8, J3.A17, J2.A17, U7.15, J6.A17, J7.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:36:03 11880     [INFO] 
+2024-05-22 13:36:03 11880     [INFO] Net: A14 Simulation #433   Delay and SI, Corner: Typical Driver: J5.A17   Receivers (9): J4.A17, J1.A17, U14.8, J3.A17, J2.A17, U7.15, J6.A17, J7.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:36:04 11880     [INFO] 
+2024-05-22 13:36:04 11880     [INFO] Net: A14 Simulation #434   Delay and SI, Corner: Typical Driver: U14.8   Receivers (9): J4.A17, J1.A17, J5.A17, J3.A17, J2.A17, U7.15, J6.A17, J7.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:36:04 11880     [INFO] 
+2024-05-22 13:36:04 11880     [INFO] Net: A14 Simulation #435   Delay and SI, Corner: Typical Driver: J3.A17   Receivers (9): J4.A17, J1.A17, J5.A17, U14.8, J2.A17, U7.15, J6.A17, J7.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:36:05 11880     [INFO] 
+2024-05-22 13:36:05 11880     [INFO] Net: A14 Simulation #436   Delay and SI, Corner: Typical Driver: J2.A17   Receivers (9): J4.A17, J1.A17, J5.A17, U14.8, J3.A17, U7.15, J6.A17, J7.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:36:06 11880     [INFO] 
+2024-05-22 13:36:06 11880     [INFO] Net: A14 Simulation #437   Delay and SI, Corner: Typical Driver: U7.15   Receivers (9): J4.A17, J1.A17, J5.A17, U14.8, J3.A17, J2.A17, J6.A17, J7.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:36:06 11880     [INFO] 
+2024-05-22 13:36:06 11880     [INFO] Net: A14 Simulation #438   Delay and SI, Corner: Typical Driver: J6.A17   Receivers (9): J4.A17, J1.A17, J5.A17, U14.8, J3.A17, J2.A17, U7.15, J7.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:36:07 11880     [INFO] 
+2024-05-22 13:36:07 11880     [INFO] Net: A14 Simulation #439   Delay and SI, Corner: Typical Driver: J7.A17   Receivers (9): J4.A17, J1.A17, J5.A17, U14.8, J3.A17, J2.A17, U7.15, J6.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:36:08 11880     [INFO] 
+2024-05-22 13:36:08 11880     [INFO] Net: A14 Simulation #440   Delay and SI, Corner: Typical Driver: U11.16   Receivers (9): J4.A17, J1.A17, J5.A17, U14.8, J3.A17, J2.A17, U7.15, J6.A17, J7.A17 Coupled nets (0): 
+2024-05-22 13:36:09 11880     [INFO] 
+2024-05-22 13:36:09 11880  [WARNING] Net: A14:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:36:09 11880     [INFO] Net: A14 Simulation #441   Delay and SI, Corner: Slow-Weak Driver: J4.A17   Receivers (9): J1.A17, J5.A17, U14.8, J3.A17, J2.A17, U7.15, J6.A17, J7.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:36:09 11880     [INFO] 
+2024-05-22 13:36:09 11880     [INFO] Net: A14 Simulation #442   Delay and SI, Corner: Slow-Weak Driver: J1.A17   Receivers (9): J4.A17, J5.A17, U14.8, J3.A17, J2.A17, U7.15, J6.A17, J7.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:36:10 11880     [INFO] 
+2024-05-22 13:36:10 11880     [INFO] Net: A14 Simulation #443   Delay and SI, Corner: Slow-Weak Driver: J5.A17   Receivers (9): J4.A17, J1.A17, U14.8, J3.A17, J2.A17, U7.15, J6.A17, J7.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:36:11 11880     [INFO] 
+2024-05-22 13:36:11 11880     [INFO] Net: A14 Simulation #444   Delay and SI, Corner: Slow-Weak Driver: U14.8   Receivers (9): J4.A17, J1.A17, J5.A17, J3.A17, J2.A17, U7.15, J6.A17, J7.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:36:11 11880     [INFO] 
+2024-05-22 13:36:11 11880     [INFO] Net: A14 Simulation #445   Delay and SI, Corner: Slow-Weak Driver: J3.A17   Receivers (9): J4.A17, J1.A17, J5.A17, U14.8, J2.A17, U7.15, J6.A17, J7.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:36:12 11880     [INFO] 
+2024-05-22 13:36:12 11880     [INFO] Net: A14 Simulation #446   Delay and SI, Corner: Slow-Weak Driver: J2.A17   Receivers (9): J4.A17, J1.A17, J5.A17, U14.8, J3.A17, U7.15, J6.A17, J7.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:36:13 11880     [INFO] 
+2024-05-22 13:36:13 11880     [INFO] Net: A14 Simulation #447   Delay and SI, Corner: Slow-Weak Driver: U7.15   Receivers (9): J4.A17, J1.A17, J5.A17, U14.8, J3.A17, J2.A17, J6.A17, J7.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:36:14 11880     [INFO] 
+2024-05-22 13:36:14 11880     [INFO] Net: A14 Simulation #448   Delay and SI, Corner: Slow-Weak Driver: J6.A17   Receivers (9): J4.A17, J1.A17, J5.A17, U14.8, J3.A17, J2.A17, U7.15, J7.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:36:15 11880     [INFO] 
+2024-05-22 13:36:15 11880     [INFO] Net: A14 Simulation #449   Delay and SI, Corner: Slow-Weak Driver: J7.A17   Receivers (9): J4.A17, J1.A17, J5.A17, U14.8, J3.A17, J2.A17, U7.15, J6.A17, U11.16 Coupled nets (0): 
+2024-05-22 13:36:15 11880     [INFO] 
+2024-05-22 13:36:15 11880     [INFO] Net: A14 Simulation #450   Delay and SI, Corner: Slow-Weak Driver: U11.16   Receivers (9): J4.A17, J1.A17, J5.A17, U14.8, J3.A17, J2.A17, U7.15, J6.A17, J7.A17 Coupled nets (0): 
+2024-05-22 13:36:16 11880     [INFO] 
+2024-05-22 13:36:16 11880  [WARNING] Net: A14:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:36:17 11880     [INFO] Net: A15 Simulation #451   Delay and SI, Corner: Fast-Strong Driver: J4.A16   Receivers (9): J1.A16, J5.A16, U14.13, J3.A16, J2.A16, U7.6, J6.A16, J7.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:18 11880     [INFO] 
+2024-05-22 13:36:18 11880     [INFO] Net: A15 Simulation #452   Delay and SI, Corner: Fast-Strong Driver: J1.A16   Receivers (9): J4.A16, J5.A16, U14.13, J3.A16, J2.A16, U7.6, J6.A16, J7.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:19 11880     [INFO] 
+2024-05-22 13:36:19 11880     [INFO] Net: A15 Simulation #453   Delay and SI, Corner: Fast-Strong Driver: J5.A16   Receivers (9): J4.A16, J1.A16, U14.13, J3.A16, J2.A16, U7.6, J6.A16, J7.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:19 11880     [INFO] 
+2024-05-22 13:36:19 11880     [INFO] Net: A15 Simulation #454   Delay and SI, Corner: Fast-Strong Driver: U14.13   Receivers (9): J4.A16, J1.A16, J5.A16, J3.A16, J2.A16, U7.6, J6.A16, J7.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:20 11880     [INFO] 
+2024-05-22 13:36:20 11880     [INFO] Net: A15 Simulation #455   Delay and SI, Corner: Fast-Strong Driver: J3.A16   Receivers (9): J4.A16, J1.A16, J5.A16, U14.13, J2.A16, U7.6, J6.A16, J7.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:21 11880     [INFO] 
+2024-05-22 13:36:21 11880     [INFO] Net: A15 Simulation #456   Delay and SI, Corner: Fast-Strong Driver: J2.A16   Receivers (9): J4.A16, J1.A16, J5.A16, U14.13, J3.A16, U7.6, J6.A16, J7.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:22 11880     [INFO] 
+2024-05-22 13:36:22 11880     [INFO] Net: A15 Simulation #457   Delay and SI, Corner: Fast-Strong Driver: U7.6   Receivers (9): J4.A16, J1.A16, J5.A16, U14.13, J3.A16, J2.A16, J6.A16, J7.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:23 11880     [INFO] 
+2024-05-22 13:36:23 11880     [INFO] Net: A15 Simulation #458   Delay and SI, Corner: Fast-Strong Driver: J6.A16   Receivers (9): J4.A16, J1.A16, J5.A16, U14.13, J3.A16, J2.A16, U7.6, J7.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:23 11880     [INFO] 
+2024-05-22 13:36:23 11880     [INFO] Net: A15 Simulation #459   Delay and SI, Corner: Fast-Strong Driver: J7.A16   Receivers (9): J4.A16, J1.A16, J5.A16, U14.13, J3.A16, J2.A16, U7.6, J6.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:24 11880     [INFO] 
+2024-05-22 13:36:24 11880     [INFO] Net: A15 Simulation #460   Delay and SI, Corner: Fast-Strong Driver: U11.19   Receivers (9): J4.A16, J1.A16, J5.A16, U14.13, J3.A16, J2.A16, U7.6, J6.A16, J7.A16 Coupled nets (0): 
+2024-05-22 13:36:25 11880     [INFO] 
+2024-05-22 13:36:25 11880  [WARNING] Net: A15:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:36:25 11880     [INFO] Net: A15 Simulation #461   Delay and SI, Corner: Typical Driver: J4.A16   Receivers (9): J1.A16, J5.A16, U14.13, J3.A16, J2.A16, U7.6, J6.A16, J7.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:26 11880     [INFO] 
+2024-05-22 13:36:26 11880     [INFO] Net: A15 Simulation #462   Delay and SI, Corner: Typical Driver: J1.A16   Receivers (9): J4.A16, J5.A16, U14.13, J3.A16, J2.A16, U7.6, J6.A16, J7.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:27 11880     [INFO] 
+2024-05-22 13:36:27 11880     [INFO] Net: A15 Simulation #463   Delay and SI, Corner: Typical Driver: J5.A16   Receivers (9): J4.A16, J1.A16, U14.13, J3.A16, J2.A16, U7.6, J6.A16, J7.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:28 11880     [INFO] 
+2024-05-22 13:36:28 11880     [INFO] Net: A15 Simulation #464   Delay and SI, Corner: Typical Driver: U14.13   Receivers (9): J4.A16, J1.A16, J5.A16, J3.A16, J2.A16, U7.6, J6.A16, J7.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:29 11880     [INFO] 
+2024-05-22 13:36:29 11880     [INFO] Net: A15 Simulation #465   Delay and SI, Corner: Typical Driver: J3.A16   Receivers (9): J4.A16, J1.A16, J5.A16, U14.13, J2.A16, U7.6, J6.A16, J7.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:30 11880     [INFO] 
+2024-05-22 13:36:30 11880     [INFO] Net: A15 Simulation #466   Delay and SI, Corner: Typical Driver: J2.A16   Receivers (9): J4.A16, J1.A16, J5.A16, U14.13, J3.A16, U7.6, J6.A16, J7.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:30 11880     [INFO] 
+2024-05-22 13:36:30 11880     [INFO] Net: A15 Simulation #467   Delay and SI, Corner: Typical Driver: U7.6   Receivers (9): J4.A16, J1.A16, J5.A16, U14.13, J3.A16, J2.A16, J6.A16, J7.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:31 11880     [INFO] 
+2024-05-22 13:36:31 11880     [INFO] Net: A15 Simulation #468   Delay and SI, Corner: Typical Driver: J6.A16   Receivers (9): J4.A16, J1.A16, J5.A16, U14.13, J3.A16, J2.A16, U7.6, J7.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:32 11880     [INFO] 
+2024-05-22 13:36:32 11880     [INFO] Net: A15 Simulation #469   Delay and SI, Corner: Typical Driver: J7.A16   Receivers (9): J4.A16, J1.A16, J5.A16, U14.13, J3.A16, J2.A16, U7.6, J6.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:33 11880     [INFO] 
+2024-05-22 13:36:33 11880     [INFO] Net: A15 Simulation #470   Delay and SI, Corner: Typical Driver: U11.19   Receivers (9): J4.A16, J1.A16, J5.A16, U14.13, J3.A16, J2.A16, U7.6, J6.A16, J7.A16 Coupled nets (0): 
+2024-05-22 13:36:34 11880     [INFO] 
+2024-05-22 13:36:34 11880  [WARNING] Net: A15:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:36:34 11880     [INFO] Net: A15 Simulation #471   Delay and SI, Corner: Slow-Weak Driver: J4.A16   Receivers (9): J1.A16, J5.A16, U14.13, J3.A16, J2.A16, U7.6, J6.A16, J7.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:34 11880     [INFO] 
+2024-05-22 13:36:34 11880     [INFO] Net: A15 Simulation #472   Delay and SI, Corner: Slow-Weak Driver: J1.A16   Receivers (9): J4.A16, J5.A16, U14.13, J3.A16, J2.A16, U7.6, J6.A16, J7.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:35 11880     [INFO] 
+2024-05-22 13:36:35 11880     [INFO] Net: A15 Simulation #473   Delay and SI, Corner: Slow-Weak Driver: J5.A16   Receivers (9): J4.A16, J1.A16, U14.13, J3.A16, J2.A16, U7.6, J6.A16, J7.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:36 11880     [INFO] 
+2024-05-22 13:36:36 11880     [INFO] Net: A15 Simulation #474   Delay and SI, Corner: Slow-Weak Driver: U14.13   Receivers (9): J4.A16, J1.A16, J5.A16, J3.A16, J2.A16, U7.6, J6.A16, J7.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:37 11880     [INFO] 
+2024-05-22 13:36:37 11880     [INFO] Net: A15 Simulation #475   Delay and SI, Corner: Slow-Weak Driver: J3.A16   Receivers (9): J4.A16, J1.A16, J5.A16, U14.13, J2.A16, U7.6, J6.A16, J7.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:38 11880     [INFO] 
+2024-05-22 13:36:38 11880     [INFO] Net: A15 Simulation #476   Delay and SI, Corner: Slow-Weak Driver: J2.A16   Receivers (9): J4.A16, J1.A16, J5.A16, U14.13, J3.A16, U7.6, J6.A16, J7.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:38 11880     [INFO] 
+2024-05-22 13:36:38 11880     [INFO] Net: A15 Simulation #477   Delay and SI, Corner: Slow-Weak Driver: U7.6   Receivers (9): J4.A16, J1.A16, J5.A16, U14.13, J3.A16, J2.A16, J6.A16, J7.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:39 11880     [INFO] 
+2024-05-22 13:36:39 11880     [INFO] Net: A15 Simulation #478   Delay and SI, Corner: Slow-Weak Driver: J6.A16   Receivers (9): J4.A16, J1.A16, J5.A16, U14.13, J3.A16, J2.A16, U7.6, J7.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:40 11880     [INFO] 
+2024-05-22 13:36:40 11880     [INFO] Net: A15 Simulation #479   Delay and SI, Corner: Slow-Weak Driver: J7.A16   Receivers (9): J4.A16, J1.A16, J5.A16, U14.13, J3.A16, J2.A16, U7.6, J6.A16, U11.19 Coupled nets (0): 
+2024-05-22 13:36:41 11880     [INFO] 
+2024-05-22 13:36:41 11880     [INFO] Net: A15 Simulation #480   Delay and SI, Corner: Slow-Weak Driver: U11.19   Receivers (9): J4.A16, J1.A16, J5.A16, U14.13, J3.A16, J2.A16, U7.6, J6.A16, J7.A16 Coupled nets (0): 
+2024-05-22 13:36:42 11880     [INFO] 
+2024-05-22 13:36:42 11880  [WARNING] Net: A15:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:36:43 11880     [INFO] Net: A16 Simulation #481   Delay and SI, Corner: Fast-Strong Driver: J4.A15   Receivers (10): J1.A15, J5.A15, U14.6, J3.A15, J2.A15, U10.10, U7.16, J6.A15, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:36:44 11880     [INFO] 
+2024-05-22 13:36:44 11880     [INFO] Net: A16 Simulation #482   Delay and SI, Corner: Fast-Strong Driver: J1.A15   Receivers (10): J4.A15, J5.A15, U14.6, J3.A15, J2.A15, U10.10, U7.16, J6.A15, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:36:45 11880     [INFO] 
+2024-05-22 13:36:45 11880     [INFO] Net: A16 Simulation #483   Delay and SI, Corner: Fast-Strong Driver: J5.A15   Receivers (10): J4.A15, J1.A15, U14.6, J3.A15, J2.A15, U10.10, U7.16, J6.A15, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:36:46 11880     [INFO] 
+2024-05-22 13:36:46 11880     [INFO] Net: A16 Simulation #484   Delay and SI, Corner: Fast-Strong Driver: U14.6   Receivers (10): J4.A15, J1.A15, J5.A15, J3.A15, J2.A15, U10.10, U7.16, J6.A15, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:36:47 11880     [INFO] 
+2024-05-22 13:36:47 11880     [INFO] Net: A16 Simulation #485   Delay and SI, Corner: Fast-Strong Driver: J3.A15   Receivers (10): J4.A15, J1.A15, J5.A15, U14.6, J2.A15, U10.10, U7.16, J6.A15, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:36:48 11880     [INFO] 
+2024-05-22 13:36:48 11880     [INFO] Net: A16 Simulation #486   Delay and SI, Corner: Fast-Strong Driver: J2.A15   Receivers (10): J4.A15, J1.A15, J5.A15, U14.6, J3.A15, U10.10, U7.16, J6.A15, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:36:49 11880     [INFO] 
+2024-05-22 13:36:49 11880     [INFO] Net: A16 Simulation #487   Delay and SI, Corner: Fast-Strong Driver: U10.10   Receivers (10): J4.A15, J1.A15, J5.A15, U14.6, J3.A15, J2.A15, U7.16, J6.A15, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:36:50 11880     [INFO] 
+2024-05-22 13:36:50 11880     [INFO] Net: A16 Simulation #488   Delay and SI, Corner: Fast-Strong Driver: U7.16   Receivers (10): J4.A15, J1.A15, J5.A15, U14.6, J3.A15, J2.A15, U10.10, J6.A15, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:36:51 11880     [INFO] 
+2024-05-22 13:36:51 11880     [INFO] Net: A16 Simulation #489   Delay and SI, Corner: Fast-Strong Driver: J6.A15   Receivers (10): J4.A15, J1.A15, J5.A15, U14.6, J3.A15, J2.A15, U10.10, U7.16, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:36:52 11880     [INFO] 
+2024-05-22 13:36:52 11880     [INFO] Net: A16 Simulation #490   Delay and SI, Corner: Fast-Strong Driver: U44.5   Receivers (10): J4.A15, J1.A15, J5.A15, U14.6, J3.A15, J2.A15, U10.10, U7.16, J6.A15, J7.A15 Coupled nets (0): 
+2024-05-22 13:36:53 11880     [INFO] 
+2024-05-22 13:36:53 11880     [INFO] Net: A16 Simulation #491   Delay and SI, Corner: Fast-Strong Driver: J7.A15   Receivers (10): J4.A15, J1.A15, J5.A15, U14.6, J3.A15, J2.A15, U10.10, U7.16, J6.A15, U44.5 Coupled nets (0): 
+2024-05-22 13:36:54 11880     [INFO] 
+2024-05-22 13:36:54 11880  [WARNING] Net: A16:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:36:54 11880     [INFO] Net: A16 Simulation #492   Delay and SI, Corner: Typical Driver: J4.A15   Receivers (10): J1.A15, J5.A15, U14.6, J3.A15, J2.A15, U10.10, U7.16, J6.A15, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:36:55 11880     [INFO] 
+2024-05-22 13:36:55 11880     [INFO] Net: A16 Simulation #493   Delay and SI, Corner: Typical Driver: J1.A15   Receivers (10): J4.A15, J5.A15, U14.6, J3.A15, J2.A15, U10.10, U7.16, J6.A15, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:36:56 11880     [INFO] 
+2024-05-22 13:36:56 11880     [INFO] Net: A16 Simulation #494   Delay and SI, Corner: Typical Driver: J5.A15   Receivers (10): J4.A15, J1.A15, U14.6, J3.A15, J2.A15, U10.10, U7.16, J6.A15, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:36:57 11880     [INFO] 
+2024-05-22 13:36:57 11880     [INFO] Net: A16 Simulation #495   Delay and SI, Corner: Typical Driver: U14.6   Receivers (10): J4.A15, J1.A15, J5.A15, J3.A15, J2.A15, U10.10, U7.16, J6.A15, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:36:58 11880     [INFO] 
+2024-05-22 13:36:58 11880     [INFO] Net: A16 Simulation #496   Delay and SI, Corner: Typical Driver: J3.A15   Receivers (10): J4.A15, J1.A15, J5.A15, U14.6, J2.A15, U10.10, U7.16, J6.A15, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:36:59 11880     [INFO] 
+2024-05-22 13:36:59 11880     [INFO] Net: A16 Simulation #497   Delay and SI, Corner: Typical Driver: J2.A15   Receivers (10): J4.A15, J1.A15, J5.A15, U14.6, J3.A15, U10.10, U7.16, J6.A15, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:37:00 11880     [INFO] 
+2024-05-22 13:37:00 11880     [INFO] Net: A16 Simulation #498   Delay and SI, Corner: Typical Driver: U10.10   Receivers (10): J4.A15, J1.A15, J5.A15, U14.6, J3.A15, J2.A15, U7.16, J6.A15, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:37:01 11880     [INFO] 
+2024-05-22 13:37:01 11880     [INFO] Net: A16 Simulation #499   Delay and SI, Corner: Typical Driver: U7.16   Receivers (10): J4.A15, J1.A15, J5.A15, U14.6, J3.A15, J2.A15, U10.10, J6.A15, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:37:02 11880     [INFO] 
+2024-05-22 13:37:02 11880     [INFO] Net: A16 Simulation #500   Delay and SI, Corner: Typical Driver: J6.A15   Receivers (10): J4.A15, J1.A15, J5.A15, U14.6, J3.A15, J2.A15, U10.10, U7.16, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:37:03 11880     [INFO] 
+2024-05-22 13:37:03 11880     [INFO] Net: A16 Simulation #501   Delay and SI, Corner: Typical Driver: U44.5   Receivers (10): J4.A15, J1.A15, J5.A15, U14.6, J3.A15, J2.A15, U10.10, U7.16, J6.A15, J7.A15 Coupled nets (0): 
+2024-05-22 13:37:04 11880     [INFO] 
+2024-05-22 13:37:04 11880     [INFO] Net: A16 Simulation #502   Delay and SI, Corner: Typical Driver: J7.A15   Receivers (10): J4.A15, J1.A15, J5.A15, U14.6, J3.A15, J2.A15, U10.10, U7.16, J6.A15, U44.5 Coupled nets (0): 
+2024-05-22 13:37:05 11880     [INFO] 
+2024-05-22 13:37:05 11880  [WARNING] Net: A16:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:37:05 11880     [INFO] Net: A16 Simulation #503   Delay and SI, Corner: Slow-Weak Driver: J4.A15   Receivers (10): J1.A15, J5.A15, U14.6, J3.A15, J2.A15, U10.10, U7.16, J6.A15, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:37:06 11880     [INFO] 
+2024-05-22 13:37:06 11880     [INFO] Net: A16 Simulation #504   Delay and SI, Corner: Slow-Weak Driver: J1.A15   Receivers (10): J4.A15, J5.A15, U14.6, J3.A15, J2.A15, U10.10, U7.16, J6.A15, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:37:07 11880     [INFO] 
+2024-05-22 13:37:07 11880     [INFO] Net: A16 Simulation #505   Delay and SI, Corner: Slow-Weak Driver: J5.A15   Receivers (10): J4.A15, J1.A15, U14.6, J3.A15, J2.A15, U10.10, U7.16, J6.A15, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:37:08 11880     [INFO] 
+2024-05-22 13:37:08 11880     [INFO] Net: A16 Simulation #506   Delay and SI, Corner: Slow-Weak Driver: U14.6   Receivers (10): J4.A15, J1.A15, J5.A15, J3.A15, J2.A15, U10.10, U7.16, J6.A15, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:37:09 11880     [INFO] 
+2024-05-22 13:37:09 11880     [INFO] Net: A16 Simulation #507   Delay and SI, Corner: Slow-Weak Driver: J3.A15   Receivers (10): J4.A15, J1.A15, J5.A15, U14.6, J2.A15, U10.10, U7.16, J6.A15, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:37:10 11880     [INFO] 
+2024-05-22 13:37:10 11880     [INFO] Net: A16 Simulation #508   Delay and SI, Corner: Slow-Weak Driver: J2.A15   Receivers (10): J4.A15, J1.A15, J5.A15, U14.6, J3.A15, U10.10, U7.16, J6.A15, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:37:11 11880     [INFO] 
+2024-05-22 13:37:11 11880     [INFO] Net: A16 Simulation #509   Delay and SI, Corner: Slow-Weak Driver: U10.10   Receivers (10): J4.A15, J1.A15, J5.A15, U14.6, J3.A15, J2.A15, U7.16, J6.A15, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:37:12 11880     [INFO] 
+2024-05-22 13:37:12 11880     [INFO] Net: A16 Simulation #510   Delay and SI, Corner: Slow-Weak Driver: U7.16   Receivers (10): J4.A15, J1.A15, J5.A15, U14.6, J3.A15, J2.A15, U10.10, J6.A15, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:37:13 11880     [INFO] 
+2024-05-22 13:37:13 11880     [INFO] Net: A16 Simulation #511   Delay and SI, Corner: Slow-Weak Driver: J6.A15   Receivers (10): J4.A15, J1.A15, J5.A15, U14.6, J3.A15, J2.A15, U10.10, U7.16, U44.5, J7.A15 Coupled nets (0): 
+2024-05-22 13:37:14 11880     [INFO] 
+2024-05-22 13:37:14 11880     [INFO] Net: A16 Simulation #512   Delay and SI, Corner: Slow-Weak Driver: U44.5   Receivers (10): J4.A15, J1.A15, J5.A15, U14.6, J3.A15, J2.A15, U10.10, U7.16, J6.A15, J7.A15 Coupled nets (0): 
+2024-05-22 13:37:15 11880     [INFO] 
+2024-05-22 13:37:15 11880     [INFO] Net: A16 Simulation #513   Delay and SI, Corner: Slow-Weak Driver: J7.A15   Receivers (10): J4.A15, J1.A15, J5.A15, U14.6, J3.A15, J2.A15, U10.10, U7.16, J6.A15, U44.5 Coupled nets (0): 
+2024-05-22 13:37:15 11880     [INFO] 
+2024-05-22 13:37:15 11880  [WARNING] Net: A16:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:37:17 11880     [INFO] Net: A17 Simulation #514   Delay and SI, Corner: Fast-Strong Driver: J4.A14   Receivers (10): J1.A14, J5.A14, U14.15, J3.A14, J2.A14, U10.9, U7.5, J6.A14, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:18 11880     [INFO] 
+2024-05-22 13:37:18 11880     [INFO] Net: A17 Simulation #515   Delay and SI, Corner: Fast-Strong Driver: J1.A14   Receivers (10): J4.A14, J5.A14, U14.15, J3.A14, J2.A14, U10.9, U7.5, J6.A14, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:19 11880     [INFO] 
+2024-05-22 13:37:19 11880     [INFO] Net: A17 Simulation #516   Delay and SI, Corner: Fast-Strong Driver: J5.A14   Receivers (10): J4.A14, J1.A14, U14.15, J3.A14, J2.A14, U10.9, U7.5, J6.A14, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:20 11880     [INFO] 
+2024-05-22 13:37:20 11880     [INFO] Net: A17 Simulation #517   Delay and SI, Corner: Fast-Strong Driver: U14.15   Receivers (10): J4.A14, J1.A14, J5.A14, J3.A14, J2.A14, U10.9, U7.5, J6.A14, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:22 11880     [INFO] 
+2024-05-22 13:37:22 11880     [INFO] Net: A17 Simulation #518   Delay and SI, Corner: Fast-Strong Driver: J3.A14   Receivers (10): J4.A14, J1.A14, J5.A14, U14.15, J2.A14, U10.9, U7.5, J6.A14, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:23 11880     [INFO] 
+2024-05-22 13:37:23 11880     [INFO] Net: A17 Simulation #519   Delay and SI, Corner: Fast-Strong Driver: J2.A14   Receivers (10): J4.A14, J1.A14, J5.A14, U14.15, J3.A14, U10.9, U7.5, J6.A14, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:24 11880     [INFO] 
+2024-05-22 13:37:24 11880     [INFO] Net: A17 Simulation #520   Delay and SI, Corner: Fast-Strong Driver: U10.9   Receivers (10): J4.A14, J1.A14, J5.A14, U14.15, J3.A14, J2.A14, U7.5, J6.A14, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:25 11880     [INFO] 
+2024-05-22 13:37:25 11880     [INFO] Net: A17 Simulation #521   Delay and SI, Corner: Fast-Strong Driver: U7.5   Receivers (10): J4.A14, J1.A14, J5.A14, U14.15, J3.A14, J2.A14, U10.9, J6.A14, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:26 11880     [INFO] 
+2024-05-22 13:37:26 11880     [INFO] Net: A17 Simulation #522   Delay and SI, Corner: Fast-Strong Driver: J6.A14   Receivers (10): J4.A14, J1.A14, J5.A14, U14.15, J3.A14, J2.A14, U10.9, U7.5, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:27 11880     [INFO] 
+2024-05-22 13:37:27 11880     [INFO] Net: A17 Simulation #523   Delay and SI, Corner: Fast-Strong Driver: U44.6   Receivers (10): J4.A14, J1.A14, J5.A14, U14.15, J3.A14, J2.A14, U10.9, U7.5, J6.A14, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:28 11880     [INFO] 
+2024-05-22 13:37:28 11880     [INFO] Net: A17 Simulation #524   Delay and SI, Corner: Fast-Strong Driver: J7.A14   Receivers (10): J4.A14, J1.A14, J5.A14, U14.15, J3.A14, J2.A14, U10.9, U7.5, J6.A14, U44.6 Coupled nets (0): 
+2024-05-22 13:37:29 11880     [INFO] 
+2024-05-22 13:37:29 11880  [WARNING] Net: A17:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:37:29 11880     [INFO] Net: A17 Simulation #525   Delay and SI, Corner: Typical Driver: J4.A14   Receivers (10): J1.A14, J5.A14, U14.15, J3.A14, J2.A14, U10.9, U7.5, J6.A14, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:31 11880     [INFO] 
+2024-05-22 13:37:31 11880     [INFO] Net: A17 Simulation #526   Delay and SI, Corner: Typical Driver: J1.A14   Receivers (10): J4.A14, J5.A14, U14.15, J3.A14, J2.A14, U10.9, U7.5, J6.A14, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:32 11880     [INFO] 
+2024-05-22 13:37:32 11880     [INFO] Net: A17 Simulation #527   Delay and SI, Corner: Typical Driver: J5.A14   Receivers (10): J4.A14, J1.A14, U14.15, J3.A14, J2.A14, U10.9, U7.5, J6.A14, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:33 11880     [INFO] 
+2024-05-22 13:37:33 11880     [INFO] Net: A17 Simulation #528   Delay and SI, Corner: Typical Driver: U14.15   Receivers (10): J4.A14, J1.A14, J5.A14, J3.A14, J2.A14, U10.9, U7.5, J6.A14, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:34 11880     [INFO] 
+2024-05-22 13:37:34 11880     [INFO] Net: A17 Simulation #529   Delay and SI, Corner: Typical Driver: J3.A14   Receivers (10): J4.A14, J1.A14, J5.A14, U14.15, J2.A14, U10.9, U7.5, J6.A14, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:35 11880     [INFO] 
+2024-05-22 13:37:35 11880     [INFO] Net: A17 Simulation #530   Delay and SI, Corner: Typical Driver: J2.A14   Receivers (10): J4.A14, J1.A14, J5.A14, U14.15, J3.A14, U10.9, U7.5, J6.A14, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:36 11880     [INFO] 
+2024-05-22 13:37:36 11880     [INFO] Net: A17 Simulation #531   Delay and SI, Corner: Typical Driver: U10.9   Receivers (10): J4.A14, J1.A14, J5.A14, U14.15, J3.A14, J2.A14, U7.5, J6.A14, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:37 11880     [INFO] 
+2024-05-22 13:37:37 11880     [INFO] Net: A17 Simulation #532   Delay and SI, Corner: Typical Driver: U7.5   Receivers (10): J4.A14, J1.A14, J5.A14, U14.15, J3.A14, J2.A14, U10.9, J6.A14, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:38 11880     [INFO] 
+2024-05-22 13:37:38 11880     [INFO] Net: A17 Simulation #533   Delay and SI, Corner: Typical Driver: J6.A14   Receivers (10): J4.A14, J1.A14, J5.A14, U14.15, J3.A14, J2.A14, U10.9, U7.5, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:39 11880     [INFO] 
+2024-05-22 13:37:39 11880     [INFO] Net: A17 Simulation #534   Delay and SI, Corner: Typical Driver: U44.6   Receivers (10): J4.A14, J1.A14, J5.A14, U14.15, J3.A14, J2.A14, U10.9, U7.5, J6.A14, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:40 11880     [INFO] 
+2024-05-22 13:37:41 11880     [INFO] Net: A17 Simulation #535   Delay and SI, Corner: Typical Driver: J7.A14   Receivers (10): J4.A14, J1.A14, J5.A14, U14.15, J3.A14, J2.A14, U10.9, U7.5, J6.A14, U44.6 Coupled nets (0): 
+2024-05-22 13:37:42 11880     [INFO] 
+2024-05-22 13:37:42 11880  [WARNING] Net: A17:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:37:42 11880     [INFO] Net: A17 Simulation #536   Delay and SI, Corner: Slow-Weak Driver: J4.A14   Receivers (10): J1.A14, J5.A14, U14.15, J3.A14, J2.A14, U10.9, U7.5, J6.A14, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:43 11880     [INFO] 
+2024-05-22 13:37:43 11880     [INFO] Net: A17 Simulation #537   Delay and SI, Corner: Slow-Weak Driver: J1.A14   Receivers (10): J4.A14, J5.A14, U14.15, J3.A14, J2.A14, U10.9, U7.5, J6.A14, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:44 11880     [INFO] 
+2024-05-22 13:37:44 11880     [INFO] Net: A17 Simulation #538   Delay and SI, Corner: Slow-Weak Driver: J5.A14   Receivers (10): J4.A14, J1.A14, U14.15, J3.A14, J2.A14, U10.9, U7.5, J6.A14, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:45 11880     [INFO] 
+2024-05-22 13:37:45 11880     [INFO] Net: A17 Simulation #539   Delay and SI, Corner: Slow-Weak Driver: U14.15   Receivers (10): J4.A14, J1.A14, J5.A14, J3.A14, J2.A14, U10.9, U7.5, J6.A14, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:46 11880     [INFO] 
+2024-05-22 13:37:46 11880     [INFO] Net: A17 Simulation #540   Delay and SI, Corner: Slow-Weak Driver: J3.A14   Receivers (10): J4.A14, J1.A14, J5.A14, U14.15, J2.A14, U10.9, U7.5, J6.A14, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:48 11880     [INFO] 
+2024-05-22 13:37:48 11880     [INFO] Net: A17 Simulation #541   Delay and SI, Corner: Slow-Weak Driver: J2.A14   Receivers (10): J4.A14, J1.A14, J5.A14, U14.15, J3.A14, U10.9, U7.5, J6.A14, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:49 11880     [INFO] 
+2024-05-22 13:37:49 11880     [INFO] Net: A17 Simulation #542   Delay and SI, Corner: Slow-Weak Driver: U10.9   Receivers (10): J4.A14, J1.A14, J5.A14, U14.15, J3.A14, J2.A14, U7.5, J6.A14, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:50 11880     [INFO] 
+2024-05-22 13:37:50 11880     [INFO] Net: A17 Simulation #543   Delay and SI, Corner: Slow-Weak Driver: U7.5   Receivers (10): J4.A14, J1.A14, J5.A14, U14.15, J3.A14, J2.A14, U10.9, J6.A14, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:51 11880     [INFO] 
+2024-05-22 13:37:51 11880     [INFO] Net: A17 Simulation #544   Delay and SI, Corner: Slow-Weak Driver: J6.A14   Receivers (10): J4.A14, J1.A14, J5.A14, U14.15, J3.A14, J2.A14, U10.9, U7.5, U44.6, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:52 11880     [INFO] 
+2024-05-22 13:37:52 11880     [INFO] Net: A17 Simulation #545   Delay and SI, Corner: Slow-Weak Driver: U44.6   Receivers (10): J4.A14, J1.A14, J5.A14, U14.15, J3.A14, J2.A14, U10.9, U7.5, J6.A14, J7.A14 Coupled nets (0): 
+2024-05-22 13:37:53 11880     [INFO] 
+2024-05-22 13:37:53 11880     [INFO] Net: A17 Simulation #546   Delay and SI, Corner: Slow-Weak Driver: J7.A14   Receivers (10): J4.A14, J1.A14, J5.A14, U14.15, J3.A14, J2.A14, U10.9, U7.5, J6.A14, U44.6 Coupled nets (0): 
+2024-05-22 13:37:54 11880     [INFO] 
+2024-05-22 13:37:54 11880  [WARNING] Net: A17:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:37:56 11880     [INFO] Net: A18 Simulation #547   Delay and SI, Corner: Fast-Strong Driver: J4.A13   Receivers (10): J1.A13, J5.A13, U14.4, J3.A13, J2.A13, U10.7, U7.2, J6.A13, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:37:57 11880     [INFO] 
+2024-05-22 13:37:57 11880     [INFO] Net: A18 Simulation #548   Delay and SI, Corner: Fast-Strong Driver: J1.A13   Receivers (10): J4.A13, J5.A13, U14.4, J3.A13, J2.A13, U10.7, U7.2, J6.A13, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:37:58 11880     [INFO] 
+2024-05-22 13:37:58 11880     [INFO] Net: A18 Simulation #549   Delay and SI, Corner: Fast-Strong Driver: J5.A13   Receivers (10): J4.A13, J1.A13, U14.4, J3.A13, J2.A13, U10.7, U7.2, J6.A13, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:00 11880     [INFO] 
+2024-05-22 13:38:00 11880     [INFO] Net: A18 Simulation #550   Delay and SI, Corner: Fast-Strong Driver: U14.4   Receivers (10): J4.A13, J1.A13, J5.A13, J3.A13, J2.A13, U10.7, U7.2, J6.A13, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:01 11880     [INFO] 
+2024-05-22 13:38:01 11880     [INFO] Net: A18 Simulation #551   Delay and SI, Corner: Fast-Strong Driver: J3.A13   Receivers (10): J4.A13, J1.A13, J5.A13, U14.4, J2.A13, U10.7, U7.2, J6.A13, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:02 11880     [INFO] 
+2024-05-22 13:38:02 11880     [INFO] Net: A18 Simulation #552   Delay and SI, Corner: Fast-Strong Driver: J2.A13   Receivers (10): J4.A13, J1.A13, J5.A13, U14.4, J3.A13, U10.7, U7.2, J6.A13, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:03 11880     [INFO] 
+2024-05-22 13:38:03 11880     [INFO] Net: A18 Simulation #553   Delay and SI, Corner: Fast-Strong Driver: U10.7   Receivers (10): J4.A13, J1.A13, J5.A13, U14.4, J3.A13, J2.A13, U7.2, J6.A13, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:04 11880     [INFO] 
+2024-05-22 13:38:04 11880     [INFO] Net: A18 Simulation #554   Delay and SI, Corner: Fast-Strong Driver: U7.2   Receivers (10): J4.A13, J1.A13, J5.A13, U14.4, J3.A13, J2.A13, U10.7, J6.A13, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:05 11880     [INFO] 
+2024-05-22 13:38:05 11880     [INFO] Net: A18 Simulation #555   Delay and SI, Corner: Fast-Strong Driver: J6.A13   Receivers (10): J4.A13, J1.A13, J5.A13, U14.4, J3.A13, J2.A13, U10.7, U7.2, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:07 11880     [INFO] 
+2024-05-22 13:38:07 11880     [INFO] Net: A18 Simulation #556   Delay and SI, Corner: Fast-Strong Driver: U44.7   Receivers (10): J4.A13, J1.A13, J5.A13, U14.4, J3.A13, J2.A13, U10.7, U7.2, J6.A13, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:08 11880     [INFO] 
+2024-05-22 13:38:08 11880     [INFO] Net: A18 Simulation #557   Delay and SI, Corner: Fast-Strong Driver: J7.A13   Receivers (10): J4.A13, J1.A13, J5.A13, U14.4, J3.A13, J2.A13, U10.7, U7.2, J6.A13, U44.7 Coupled nets (0): 
+2024-05-22 13:38:09 11880     [INFO] 
+2024-05-22 13:38:09 11880  [WARNING] Net: A18:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:38:09 11880     [INFO]  Number of wdb points exceed maximum: 50 M
+2024-05-22 13:38:09 11880     [INFO] Clean ezwave wdb 
+2024-05-22 13:38:09 11880     [INFO] Net: A18 Simulation #558   Delay and SI, Corner: Typical Driver: J4.A13   Receivers (10): J1.A13, J5.A13, U14.4, J3.A13, J2.A13, U10.7, U7.2, J6.A13, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:11 11880     [INFO] 
+2024-05-22 13:38:11 11880     [INFO] Net: A18 Simulation #559   Delay and SI, Corner: Typical Driver: J1.A13   Receivers (10): J4.A13, J5.A13, U14.4, J3.A13, J2.A13, U10.7, U7.2, J6.A13, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:12 11880     [INFO] 
+2024-05-22 13:38:12 11880     [INFO] Net: A18 Simulation #560   Delay and SI, Corner: Typical Driver: J5.A13   Receivers (10): J4.A13, J1.A13, U14.4, J3.A13, J2.A13, U10.7, U7.2, J6.A13, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:13 11880     [INFO] 
+2024-05-22 13:38:13 11880     [INFO] Net: A18 Simulation #561   Delay and SI, Corner: Typical Driver: U14.4   Receivers (10): J4.A13, J1.A13, J5.A13, J3.A13, J2.A13, U10.7, U7.2, J6.A13, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:15 11880     [INFO] 
+2024-05-22 13:38:15 11880     [INFO] Net: A18 Simulation #562   Delay and SI, Corner: Typical Driver: J3.A13   Receivers (10): J4.A13, J1.A13, J5.A13, U14.4, J2.A13, U10.7, U7.2, J6.A13, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:16 11880     [INFO] 
+2024-05-22 13:38:16 11880     [INFO] Net: A18 Simulation #563   Delay and SI, Corner: Typical Driver: J2.A13   Receivers (10): J4.A13, J1.A13, J5.A13, U14.4, J3.A13, U10.7, U7.2, J6.A13, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:17 11880     [INFO] 
+2024-05-22 13:38:17 11880     [INFO] Net: A18 Simulation #564   Delay and SI, Corner: Typical Driver: U10.7   Receivers (10): J4.A13, J1.A13, J5.A13, U14.4, J3.A13, J2.A13, U7.2, J6.A13, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:18 11880     [INFO] 
+2024-05-22 13:38:18 11880     [INFO] Net: A18 Simulation #565   Delay and SI, Corner: Typical Driver: U7.2   Receivers (10): J4.A13, J1.A13, J5.A13, U14.4, J3.A13, J2.A13, U10.7, J6.A13, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:20 11880     [INFO] 
+2024-05-22 13:38:20 11880     [INFO] Net: A18 Simulation #566   Delay and SI, Corner: Typical Driver: J6.A13   Receivers (10): J4.A13, J1.A13, J5.A13, U14.4, J3.A13, J2.A13, U10.7, U7.2, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:21 11880     [INFO] 
+2024-05-22 13:38:21 11880     [INFO] Net: A18 Simulation #567   Delay and SI, Corner: Typical Driver: U44.7   Receivers (10): J4.A13, J1.A13, J5.A13, U14.4, J3.A13, J2.A13, U10.7, U7.2, J6.A13, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:22 11880     [INFO] 
+2024-05-22 13:38:22 11880     [INFO] Net: A18 Simulation #568   Delay and SI, Corner: Typical Driver: J7.A13   Receivers (10): J4.A13, J1.A13, J5.A13, U14.4, J3.A13, J2.A13, U10.7, U7.2, J6.A13, U44.7 Coupled nets (0): 
+2024-05-22 13:38:23 11880     [INFO] 
+2024-05-22 13:38:23 11880  [WARNING] Net: A18:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:38:23 11880     [INFO] Net: A18 Simulation #569   Delay and SI, Corner: Slow-Weak Driver: J4.A13   Receivers (10): J1.A13, J5.A13, U14.4, J3.A13, J2.A13, U10.7, U7.2, J6.A13, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:24 11880     [INFO] 
+2024-05-22 13:38:24 11880     [INFO] Net: A18 Simulation #570   Delay and SI, Corner: Slow-Weak Driver: J1.A13   Receivers (10): J4.A13, J5.A13, U14.4, J3.A13, J2.A13, U10.7, U7.2, J6.A13, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:26 11880     [INFO] 
+2024-05-22 13:38:26 11880     [INFO] Net: A18 Simulation #571   Delay and SI, Corner: Slow-Weak Driver: J5.A13   Receivers (10): J4.A13, J1.A13, U14.4, J3.A13, J2.A13, U10.7, U7.2, J6.A13, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:27 11880     [INFO] 
+2024-05-22 13:38:27 11880     [INFO] Net: A18 Simulation #572   Delay and SI, Corner: Slow-Weak Driver: U14.4   Receivers (10): J4.A13, J1.A13, J5.A13, J3.A13, J2.A13, U10.7, U7.2, J6.A13, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:28 11880     [INFO] 
+2024-05-22 13:38:28 11880     [INFO] Net: A18 Simulation #573   Delay and SI, Corner: Slow-Weak Driver: J3.A13   Receivers (10): J4.A13, J1.A13, J5.A13, U14.4, J2.A13, U10.7, U7.2, J6.A13, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:29 11880     [INFO] 
+2024-05-22 13:38:29 11880     [INFO] Net: A18 Simulation #574   Delay and SI, Corner: Slow-Weak Driver: J2.A13   Receivers (10): J4.A13, J1.A13, J5.A13, U14.4, J3.A13, U10.7, U7.2, J6.A13, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:30 11880     [INFO] 
+2024-05-22 13:38:30 11880     [INFO] Net: A18 Simulation #575   Delay and SI, Corner: Slow-Weak Driver: U10.7   Receivers (10): J4.A13, J1.A13, J5.A13, U14.4, J3.A13, J2.A13, U7.2, J6.A13, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:32 11880     [INFO] 
+2024-05-22 13:38:32 11880     [INFO] Net: A18 Simulation #576   Delay and SI, Corner: Slow-Weak Driver: U7.2   Receivers (10): J4.A13, J1.A13, J5.A13, U14.4, J3.A13, J2.A13, U10.7, J6.A13, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:33 11880     [INFO] 
+2024-05-22 13:38:33 11880     [INFO] Net: A18 Simulation #577   Delay and SI, Corner: Slow-Weak Driver: J6.A13   Receivers (10): J4.A13, J1.A13, J5.A13, U14.4, J3.A13, J2.A13, U10.7, U7.2, U44.7, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:34 11880     [INFO] 
+2024-05-22 13:38:34 11880     [INFO] Net: A18 Simulation #578   Delay and SI, Corner: Slow-Weak Driver: U44.7   Receivers (10): J4.A13, J1.A13, J5.A13, U14.4, J3.A13, J2.A13, U10.7, U7.2, J6.A13, J7.A13 Coupled nets (0): 
+2024-05-22 13:38:35 11880     [INFO] 
+2024-05-22 13:38:35 11880     [INFO] Net: A18 Simulation #579   Delay and SI, Corner: Slow-Weak Driver: J7.A13   Receivers (10): J4.A13, J1.A13, J5.A13, U14.4, J3.A13, J2.A13, U10.7, U7.2, J6.A13, U44.7 Coupled nets (0): 
+2024-05-22 13:38:36 11880     [INFO] 
+2024-05-22 13:38:36 11880  [WARNING] Net: A18:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:38:38 11880     [INFO] Net: A19 Simulation #580   Delay and SI, Corner: Fast-Strong Driver: J4.A12   Receivers (10): J1.A12, J5.A12, U14.17, J3.A12, J2.A12, U10.6, U7.19, J6.A12, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:38:39 11880     [INFO] 
+2024-05-22 13:38:39 11880     [INFO] Net: A19 Simulation #581   Delay and SI, Corner: Fast-Strong Driver: J1.A12   Receivers (10): J4.A12, J5.A12, U14.17, J3.A12, J2.A12, U10.6, U7.19, J6.A12, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:38:40 11880     [INFO] 
+2024-05-22 13:38:40 11880     [INFO] Net: A19 Simulation #582   Delay and SI, Corner: Fast-Strong Driver: J5.A12   Receivers (10): J4.A12, J1.A12, U14.17, J3.A12, J2.A12, U10.6, U7.19, J6.A12, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:38:41 11880     [INFO] 
+2024-05-22 13:38:41 11880     [INFO] Net: A19 Simulation #583   Delay and SI, Corner: Fast-Strong Driver: U14.17   Receivers (10): J4.A12, J1.A12, J5.A12, J3.A12, J2.A12, U10.6, U7.19, J6.A12, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:38:43 11880     [INFO] 
+2024-05-22 13:38:43 11880     [INFO] Net: A19 Simulation #584   Delay and SI, Corner: Fast-Strong Driver: J3.A12   Receivers (10): J4.A12, J1.A12, J5.A12, U14.17, J2.A12, U10.6, U7.19, J6.A12, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:38:44 11880     [INFO] 
+2024-05-22 13:38:44 11880     [INFO] Net: A19 Simulation #585   Delay and SI, Corner: Fast-Strong Driver: J2.A12   Receivers (10): J4.A12, J1.A12, J5.A12, U14.17, J3.A12, U10.6, U7.19, J6.A12, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:38:45 11880     [INFO] 
+2024-05-22 13:38:45 11880     [INFO] Net: A19 Simulation #586   Delay and SI, Corner: Fast-Strong Driver: U10.6   Receivers (10): J4.A12, J1.A12, J5.A12, U14.17, J3.A12, J2.A12, U7.19, J6.A12, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:38:46 11880     [INFO] 
+2024-05-22 13:38:46 11880     [INFO] Net: A19 Simulation #587   Delay and SI, Corner: Fast-Strong Driver: U7.19   Receivers (10): J4.A12, J1.A12, J5.A12, U14.17, J3.A12, J2.A12, U10.6, J6.A12, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:38:48 11880     [INFO] 
+2024-05-22 13:38:48 11880     [INFO] Net: A19 Simulation #588   Delay and SI, Corner: Fast-Strong Driver: J6.A12   Receivers (10): J4.A12, J1.A12, J5.A12, U14.17, J3.A12, J2.A12, U10.6, U7.19, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:38:49 11880     [INFO] 
+2024-05-22 13:38:49 11880     [INFO] Net: A19 Simulation #589   Delay and SI, Corner: Fast-Strong Driver: U44.4   Receivers (10): J4.A12, J1.A12, J5.A12, U14.17, J3.A12, J2.A12, U10.6, U7.19, J6.A12, J7.A12 Coupled nets (0): 
+2024-05-22 13:38:50 11880     [INFO] 
+2024-05-22 13:38:50 11880     [INFO] Net: A19 Simulation #590   Delay and SI, Corner: Fast-Strong Driver: J7.A12   Receivers (10): J4.A12, J1.A12, J5.A12, U14.17, J3.A12, J2.A12, U10.6, U7.19, J6.A12, U44.4 Coupled nets (0): 
+2024-05-22 13:38:52 11880     [INFO] 
+2024-05-22 13:38:52 11880  [WARNING] Net: A19:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:38:52 11880     [INFO] Net: A19 Simulation #591   Delay and SI, Corner: Typical Driver: J4.A12   Receivers (10): J1.A12, J5.A12, U14.17, J3.A12, J2.A12, U10.6, U7.19, J6.A12, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:38:53 11880     [INFO] 
+2024-05-22 13:38:53 11880     [INFO] Net: A19 Simulation #592   Delay and SI, Corner: Typical Driver: J1.A12   Receivers (10): J4.A12, J5.A12, U14.17, J3.A12, J2.A12, U10.6, U7.19, J6.A12, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:38:54 11880     [INFO] 
+2024-05-22 13:38:54 11880     [INFO] Net: A19 Simulation #593   Delay and SI, Corner: Typical Driver: J5.A12   Receivers (10): J4.A12, J1.A12, U14.17, J3.A12, J2.A12, U10.6, U7.19, J6.A12, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:38:56 11880     [INFO] 
+2024-05-22 13:38:56 11880     [INFO] Net: A19 Simulation #594   Delay and SI, Corner: Typical Driver: U14.17   Receivers (10): J4.A12, J1.A12, J5.A12, J3.A12, J2.A12, U10.6, U7.19, J6.A12, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:38:57 11880     [INFO] 
+2024-05-22 13:38:57 11880     [INFO] Net: A19 Simulation #595   Delay and SI, Corner: Typical Driver: J3.A12   Receivers (10): J4.A12, J1.A12, J5.A12, U14.17, J2.A12, U10.6, U7.19, J6.A12, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:38:58 11880     [INFO] 
+2024-05-22 13:38:58 11880     [INFO] Net: A19 Simulation #596   Delay and SI, Corner: Typical Driver: J2.A12   Receivers (10): J4.A12, J1.A12, J5.A12, U14.17, J3.A12, U10.6, U7.19, J6.A12, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:39:00 11880     [INFO] 
+2024-05-22 13:39:00 11880     [INFO] Net: A19 Simulation #597   Delay and SI, Corner: Typical Driver: U10.6   Receivers (10): J4.A12, J1.A12, J5.A12, U14.17, J3.A12, J2.A12, U7.19, J6.A12, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:39:01 11880     [INFO] 
+2024-05-22 13:39:01 11880     [INFO] Net: A19 Simulation #598   Delay and SI, Corner: Typical Driver: U7.19   Receivers (10): J4.A12, J1.A12, J5.A12, U14.17, J3.A12, J2.A12, U10.6, J6.A12, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:39:02 11880     [INFO] 
+2024-05-22 13:39:02 11880     [INFO] Net: A19 Simulation #599   Delay and SI, Corner: Typical Driver: J6.A12   Receivers (10): J4.A12, J1.A12, J5.A12, U14.17, J3.A12, J2.A12, U10.6, U7.19, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:39:04 11880     [INFO] 
+2024-05-22 13:39:04 11880     [INFO] Net: A19 Simulation #600   Delay and SI, Corner: Typical Driver: U44.4   Receivers (10): J4.A12, J1.A12, J5.A12, U14.17, J3.A12, J2.A12, U10.6, U7.19, J6.A12, J7.A12 Coupled nets (0): 
+2024-05-22 13:39:05 11880     [INFO] 
+2024-05-22 13:39:05 11880     [INFO] Net: A19 Simulation #601   Delay and SI, Corner: Typical Driver: J7.A12   Receivers (10): J4.A12, J1.A12, J5.A12, U14.17, J3.A12, J2.A12, U10.6, U7.19, J6.A12, U44.4 Coupled nets (0): 
+2024-05-22 13:39:07 11880     [INFO] 
+2024-05-22 13:39:07 11880  [WARNING] Net: A19:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:39:07 11880     [INFO] Net: A19 Simulation #602   Delay and SI, Corner: Slow-Weak Driver: J4.A12   Receivers (10): J1.A12, J5.A12, U14.17, J3.A12, J2.A12, U10.6, U7.19, J6.A12, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:39:08 11880     [INFO] 
+2024-05-22 13:39:08 11880     [INFO] Net: A19 Simulation #603   Delay and SI, Corner: Slow-Weak Driver: J1.A12   Receivers (10): J4.A12, J5.A12, U14.17, J3.A12, J2.A12, U10.6, U7.19, J6.A12, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:39:09 11880     [INFO] 
+2024-05-22 13:39:09 11880     [INFO] Net: A19 Simulation #604   Delay and SI, Corner: Slow-Weak Driver: J5.A12   Receivers (10): J4.A12, J1.A12, U14.17, J3.A12, J2.A12, U10.6, U7.19, J6.A12, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:39:10 11880     [INFO] 
+2024-05-22 13:39:10 11880     [INFO] Net: A19 Simulation #605   Delay and SI, Corner: Slow-Weak Driver: U14.17   Receivers (10): J4.A12, J1.A12, J5.A12, J3.A12, J2.A12, U10.6, U7.19, J6.A12, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:39:12 11880     [INFO] 
+2024-05-22 13:39:12 11880     [INFO] Net: A19 Simulation #606   Delay and SI, Corner: Slow-Weak Driver: J3.A12   Receivers (10): J4.A12, J1.A12, J5.A12, U14.17, J2.A12, U10.6, U7.19, J6.A12, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:39:13 11880     [INFO] 
+2024-05-22 13:39:13 11880     [INFO] Net: A19 Simulation #607   Delay and SI, Corner: Slow-Weak Driver: J2.A12   Receivers (10): J4.A12, J1.A12, J5.A12, U14.17, J3.A12, U10.6, U7.19, J6.A12, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:39:14 11880     [INFO] 
+2024-05-22 13:39:14 11880     [INFO] Net: A19 Simulation #608   Delay and SI, Corner: Slow-Weak Driver: U10.6   Receivers (10): J4.A12, J1.A12, J5.A12, U14.17, J3.A12, J2.A12, U7.19, J6.A12, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:39:16 11880     [INFO] 
+2024-05-22 13:39:16 11880     [INFO] Net: A19 Simulation #609   Delay and SI, Corner: Slow-Weak Driver: U7.19   Receivers (10): J4.A12, J1.A12, J5.A12, U14.17, J3.A12, J2.A12, U10.6, J6.A12, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:39:17 11880     [INFO] 
+2024-05-22 13:39:17 11880     [INFO] Net: A19 Simulation #610   Delay and SI, Corner: Slow-Weak Driver: J6.A12   Receivers (10): J4.A12, J1.A12, J5.A12, U14.17, J3.A12, J2.A12, U10.6, U7.19, U44.4, J7.A12 Coupled nets (0): 
+2024-05-22 13:39:18 11880     [INFO] 
+2024-05-22 13:39:18 11880     [INFO] Net: A19 Simulation #611   Delay and SI, Corner: Slow-Weak Driver: U44.4   Receivers (10): J4.A12, J1.A12, J5.A12, U14.17, J3.A12, J2.A12, U10.6, U7.19, J6.A12, J7.A12 Coupled nets (0): 
+2024-05-22 13:39:19 11880     [INFO] 
+2024-05-22 13:39:19 11880     [INFO] Net: A19 Simulation #612   Delay and SI, Corner: Slow-Weak Driver: J7.A12   Receivers (10): J4.A12, J1.A12, J5.A12, U14.17, J3.A12, J2.A12, U10.6, U7.19, J6.A12, U44.4 Coupled nets (0): 
+2024-05-22 13:39:20 11880     [INFO] 
+2024-05-22 13:39:20 11880  [WARNING] Net: A19:  ** Warning ** Could not analyze crosstalk;  No coupled nets 
+2024-05-22 13:39:21 11880     [INFO] SI Batch analysis finished.   Check report: C:\Users\MadCat\Documents\GitHub\mad5160\Batch_Results_May-22-2024_13h-30m\Batch.RPT
+2024-05-22 13:39:32 11880     [INFO] Generating HTML report...
+2024-05-22 13:39:32 11880     [INFO] WARNING: Some of the tabs in the HTML report might not load because of the size of the result tables.  Please use the CSV files from results directory instead.
+2024-05-22 13:39:32 11880     [INFO] Opening report...
+2024-05-22 13:39:32 11880     [INFO] C:\Users\MadCat\Documents\GitHub\mad5160\Batch_Results_May-22-2024_13h-30m>start "" C:\MentorGraphics\HLVX.2.6\SDD_HOME\hyperlynx64\EM\nWaveHL\nwjs/nw --nwapp="C:\Users\MadCat\Documents\GitHub\mad5160\Batch_Results_May-22-2024_13h-30m\Batch_Report" --user-data-dir="C:\Users\MadCat\Documents\GitHub\mad5160\Batch_Results_May-22-2024_13h-30m\Batch_Report/nw_data" 
+2024-05-22 13:43:18 11880  [WARNING] There are no coupling regions to walk.
+2024-05-22 13:47:44 11880  [WARNING] There are no coupling regions to walk.
+2024-05-22 13:48:57 11880     [INFO] Close HyperLynx Session: Design file: Mad5160.hyp Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "Yes" button was selected
+2024-05-22 13:48:58 11880     [INFO] Closing Design: Mad5160.hyp
+2024-05-22 13:48:58 11880     [INFO] ****** Closing HyperLynx 

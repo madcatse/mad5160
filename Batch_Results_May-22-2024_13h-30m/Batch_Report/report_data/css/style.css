@@ -1,0 +1,14 @@
+/* Hyperlynx theme */
+body {
+    background-color: #FFFFFF;
+    font-family: Arial, sans;
+    font-size: 130%;
+}
+.page-header h1 {
+    background: url(logo.jpg) no-repeat top left;
+    text-align: center;
+    padding-top: 60px;
+}
+.pyr-component h3 {
+    font-weight: bold;
+}

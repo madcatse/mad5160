@@ -1,0 +1,1 @@
+start "" C:\MentorGraphics\HLVX.2.6\SDD_HOME\hyperlynx64\EM\nWaveHL\nwjs/nw --nwapp="C:\Users\MadCat\Documents\GitHub\mad5160\Batch_Results_May-22-2024_13h-30m\Batch_Report" --user-data-dir="C:\Users\MadCat\Documents\GitHub\mad5160\Batch_Results_May-22-2024_13h-30m\Batch_Report/nw_data"
