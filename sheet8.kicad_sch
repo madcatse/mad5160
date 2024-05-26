@@ -2475,7 +2475,7 @@
     (property "Reference" "U73" (at 143.7991 22.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "S74_U70" (at 143.7991 25.4 0)
+    (property "Value" "74LS74AN" (at 143.7991 25.4 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "mad5150:DIP-14_W7.62mm" (at 141.605 31.115 0)

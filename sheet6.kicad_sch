@@ -9999,7 +9999,7 @@
     (property "Reference" "U86" (at 127.2891 194.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "S74_U70" (at 127.2891 196.85 0)
+    (property "Value" "74LS74AN" (at 127.2891 196.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "mad5150:DIP-14_W7.62mm" (at 125.095 203.2 0)
