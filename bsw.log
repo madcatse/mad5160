@@ -1318,3 +1318,27 @@
 2024-05-22 13:48:57 11880     [INFO] Close HyperLynx Session: Design file: Mad5160.hyp Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "Yes" button was selected
 2024-05-22 13:48:58 11880     [INFO] Closing Design: Mad5160.hyp
 2024-05-22 13:48:58 11880     [INFO] ****** Closing HyperLynx 
+2024-06-07 14:08:11 13048     [INFO] ****** HyperLynx v2.6 build 14488140 
+2024-06-07 14:08:11 13048     [INFO]        C:\MentorGraphics\HLVX.2.6\SDD_HOME\hyperlynx64\bsw.exe 
+2024-06-07 14:08:20 13048     [INFO] Creating New Schematic
+2024-06-07 14:11:14 13048     [INFO] Stackup Editor: All changes in Stackup will be lost! Do you really want to close Stackup Editor? - The "Yes" button was selected
+2024-06-07 14:19:54 13048     [INFO] HyperLynx: Сохранить изменения в Untitled.ffs? - The "No" button was selected
+2024-06-07 14:19:56 13048     [INFO] Closing Schematic: Untitled.ffs
+2024-06-07 14:19:56 13048     [INFO] ****** Closing HyperLynx 
+2024-06-10 13:52:46 13408     [INFO] ****** HyperLynx v2.6 build 14488140 
+2024-06-10 13:52:46 13408     [INFO]        C:\MentorGraphics\HLVX.2.6\SDD_HOME\hyperlynx64\bsw.exe 
+2024-06-10 13:52:50 13408     [INFO] Opening Project C:\Users\MadCat\Documents\GitHub\mad5160\Mad5160.hyp
+2024-06-10 13:52:53 13408  [WARNING] Warning: In file C:\Users\MadCat\Documents\GitHub\mad5160\Mad5160.bud Syntax error: NET_SIM_PARAMS subrecord missing P keyword at line 298 
+2024-06-10 13:52:54 13408     [INFO] Opened Board: Mad5160.hyp <C:\Users\MadCat\Documents\GitHub\mad5160\>
+2024-06-10 14:00:06 13408     [INFO] Stackup Editor: All changes in Stackup will be lost! Do you really want to close Stackup Editor? - The "Yes" button was selected
+2024-06-10 14:05:42 13408  [WARNING] Warning: No probes are enabled. Please enable at least one before simulating.
+2024-06-10 14:05:46 13408  [WARNING] Warning: No probes are enabled. Please enable at least one before simulating.
+2024-06-10 14:19:49 13408    [ERROR] No waveform is selected. Select waveform before attempting this command.
+2024-06-10 14:24:22 13408  [WARNING] No matching areas found.
+2024-06-10 14:25:01 13408  [WARNING] HyperLynx: No supply net(s) defined. 3D simulator requires at least one supply net to create ports. Proceed anyway? - The "No" button was selected
+2024-06-10 14:25:24 13408  [WARNING] HyperLynx: No supply net(s) defined. 3D simulator requires at least one supply net to create ports. Proceed anyway? - The "No" button was selected
+2024-06-10 14:25:46 13408  [WARNING] Warning: Power / ground nets are not included in selection. To analyze a power / ground net, use the power-integrity features on the Simulate PI or Export > Model menus.
+2024-06-10 14:26:48 13408     [INFO] This design's .HYP file was created by a PCB translator that did not record whether the physical information is sufficiently detailed for power-integrity analysis (especially metal areas and via clearances).  Most likely, the translator was an older version not upgraded for PI usage.  PI simulation may therefore produce less-accurate results.
+2024-06-10 15:56:13 13408     [INFO] Close HyperLynx Session: Design file: Mad5160.hyp Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "No" button was selected
+2024-06-10 15:56:15 13408     [INFO] Closing Design: Mad5160.hyp
+2024-06-10 15:56:16 13408     [INFO] ****** Closing HyperLynx 

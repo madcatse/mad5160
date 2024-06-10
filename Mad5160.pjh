@@ -45,7 +45,7 @@ UseDefModel=1
 DefModel_Library=modvsez.ibs
 DefModel_Device=MODvsEZIBIS
 DefModel_Pin=27
-SelNets=A0 A1 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A2 A3 A4 A5 A6 A7 A8 A9   
+SelNets=A0 A1 A10 A11 A12 A13 A14 A15 A16 A17 A18 A19 A2 A3 A4 A5 A6 A7 A8 A9    
 EMC=0
 EmcFC=1
 EmcCC=1
@@ -234,7 +234,7 @@ AllowSingleNets=1
 StitchViaSearchDist=3.048000e-03
 ReqObjClrance=2.540000e-04
 CouplingDistance=2.540000e-04
-MaxFreq=2.000000e+10
+MaxFreq=1.000000e+09
 MatchPortMismatch=7.620000e-05
 SigViaMismatch=7.620000e-05
 StitchViaMismatch=7.620000e-05
@@ -252,3 +252,5 @@ Version=2
 [POPUPS]
 RestoreSessionPrompt=1
 RestoreSessionChoices=31
+[DATA_MODE]
+PROMPTED=1
