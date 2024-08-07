@@ -1,1 +1,0 @@
-start "" C:\MentorGraphics\HLVX.2.6\SDD_HOME\hyperlynx64\EM\nWaveHL\nwjs/nw --nwapp="C:\Users\MadCat\Documents\GitHub\mad5160\ReportManager_Mad5160_hyp" --user-data-dir="C:\Users\MadCat\Documents\GitHub\mad5160\ReportManager_Mad5160_hyp/nw_data"
