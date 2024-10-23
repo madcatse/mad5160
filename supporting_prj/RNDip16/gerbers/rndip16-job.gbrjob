@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "7.0.11"
     },
-    "CreationDate": "2024-05-13T15:30:06+03:00"
+    "CreationDate": "2024-10-23T23:44:55+03:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,7 +14,7 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 24.5,
+      "X": 65.6,
       "Y": 21.1
     },
     "LayerNumber": 2,
@@ -80,6 +80,7 @@
   "MaterialStackup": [
     {
       "Type": "Legend",
+      "Color": "Black",
       "Name": "Top Silk Screen"
     },
     {
@@ -88,24 +89,32 @@
     },
     {
       "Type": "SolderMask",
+      "Color": "White",
+      "Thickness": 0.01,
       "Name": "Top Solder Mask"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "F.Cu"
     },
     {
       "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 1.51,
       "Material": "FR4",
       "Name": "F.Cu/B.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to B.Cu)"
     },
     {
       "Type": "Copper",
+      "Thickness": 0.035,
       "Name": "B.Cu"
     },
     {
       "Type": "SolderMask",
+      "Color": "White",
+      "Thickness": 0.01,
       "Name": "Bottom Solder Mask"
     },
     {
@@ -114,6 +123,7 @@
     },
     {
       "Type": "Legend",
+      "Color": "Black",
       "Name": "Bottom Silk Screen"
     }
   ]
