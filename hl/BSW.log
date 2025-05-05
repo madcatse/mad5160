@@ -14,3 +14,9 @@
 2024-11-30 13:29:49 11616     [INFO] Close HyperLynx Session: Design file: Mad5160.hyp Save session edits (Yes/No)?  YES -> save, then close NO  -> close - The "Yes" button was selected
 2024-11-30 13:29:52 11616     [INFO] Closing Design: Mad5160.hyp
 2024-11-30 13:29:54 11616     [INFO] ****** Closing HyperLynx 
+2025-03-11 22:26:04 5984     [INFO] ****** HyperLynx v2.6 build 14488140 
+2025-03-11 22:26:04 5984     [INFO]        C:\MentorGraphics\HLVX.2.6\SDD_HOME\hyperlynx64\bsw.exe 
+2025-03-11 22:26:07 5984     [INFO] Creating New Schematic
+2025-03-11 22:26:09 5984     [INFO] HyperLynx: Сохранить изменения в Untitled.ffs? - The "No" button was selected
+2025-03-11 22:26:35 5984     [INFO] Closing Schematic: Untitled.ffs
+2025-03-11 22:26:38 5984     [INFO] ****** Closing HyperLynx 
