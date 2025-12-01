@@ -1,0 +1,12 @@
+2025-10-28 12:10:24 3700     [INFO] ****** HyperLynx v2.6 build 14488140 
+2025-10-28 12:10:24 3700     [INFO]        C:\MentorGraphics\HLVX.2.6\SDD_HOME\hyperlynx64\bsw.exe 
+2025-10-28 12:10:26 3700     [INFO] Opening Project E:\test_proj\test1.hyp
+2025-10-28 12:10:26 3700    [ERROR] Error: Error opening input file E:\test_proj\test1.hyp : The system cannot find the path specified.
+2025-10-28 12:10:28 3700     [INFO] Opened Board: test1.hyp <E:\test_proj\>
+2025-10-28 12:10:31 3700     [INFO] Opening Project C:\Users\MadCat\Documents\GitHub\mad5160\AA17.ffs
+2025-10-28 12:10:32 3700  [WARNING] HyperLynx: Unable to open file "C:\Users\MadCat\Documents\GitHub\mad5160\AA17.ffs" for the following reason: No such file or directory
+2025-10-28 12:10:34 3700     [INFO] Closing Schematic: AA17.ffs
+2025-10-28 12:10:39 3700     [INFO] Opening Project C:\Users\MadCat\Documents\GitHub\mad5160\Mad5160.hyp
+2025-10-28 12:10:39 3700    [ERROR] Error: Error opening input file C:\Users\MadCat\Documents\GitHub\mad5160\Mad5160.hyp : The system cannot find the file specified.
+2025-10-28 12:10:41 3700     [INFO] Opened Board: Mad5160.hyp <C:\Users\MadCat\Documents\GitHub\mad5160\>
+2025-10-28 12:10:43 3700     [INFO] Opening Project C:\KICAD\projects\zx_convertor_board\Ver2.1.hyp
