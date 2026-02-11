@@ -580,7 +580,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "../../../AppData/Local/freerouting/Mad5160_cl2.dsn",
-      "step": "Mad5160.step",
+      "step": "../../../Desktop/motherboard.step",
       "svg": "",
       "vrml": ""
     },
